@@ -1,54 +1,59 @@
 # Make Your Work Visible
+## GitHub and portfolios · SDS Career Services
 
-A scaffolded GitHub and portfolio workshop by **Reggie Leonard, SDS Career Services, UVA School of Data Science**.
+A practical workshop for data science students, led by Reggie Leonard at the UVA School of Data Science. Students explore what to include in a portfolio, how to explain a project, where to put it, and how to introduce it to other people. The session provides examples and then makes room for individual work and questions.
 
-The learner chooses one assignment, project, question, or job task and keeps developing it through **fluency, legibility, and reach**. Shared examples model a move; learners try it together, apply it to their own work, then explain a decision without a template. The core session takes 40 minutes after a 15–20 minute faculty opening. A 45-minute setting extends practice and peer review rather than lecture.
+## Open the workshop
 
-## Use the release
+Open `index.html` in a full browser. It is self-contained and also includes the Artifact collection and writing kit. `artifact.html` opens directly into that collection. Both are generated from the same content, not maintained separately.
 
-Open `index.html` in a full browser, or publish only the `public/` folder through a static host. Open `artifact.html` to begin with the collection instead of the workshop. Both HTML entry points are self-contained: no package installation, server, remote font, or runtime network connection is needed. GitHub's file preview displays source; it is not the running application.
+The public app has four views: The session, In practice, Field guide, and Artifact. It has no model API, backend, student accounts, telemetry, or automatic external requests. It does not store student work. External resources open only when selected.
 
-Printable materials are in `public/downloads/`: a nine-page facilitator guide, one-page run sheet, and two-page student worksheet. The complete student guide and one-line speaker notes are in `docs/` as Markdown.
+## Release 2.0.0
 
-No hosting service is enabled by this repository. A public repository and a deployed website are different things.
+This revision replaces the earlier scaffolded curriculum with a simpler career workshop. The 11-screen session has no timings, clocks, speaker notes, diagnostic, required work card, or instructional-stage labels. Ways to get started offers 12 activities without a required intake. Artifact retains all 12 original portfolio selections, all five writing guides, and all nine reading selections.
 
-## What is included
+Fluency, legibility, and reach remain introductory concepts. The Figma internship is an example of reading a task and designing an appropriate practice project. There is no custom SQL lab or technical grading by Career Services.
 
-- Fourteen screens following the approved scaffolded sequence, five starting conditions, seven selectable help panels, and eight independent timers.
-- A small optional work card, with opt-in browser storage and JSON export/import. It stores a title, starting condition, and status, not project answers or repository data.
-- Ten work options narrowed to three relevant suggestions before showing the complete menu.
-- Artifact's 12 original portfolio selections, all five six-part writing guides, and nine original reading selections, with reviewed annotations and visible evidence limits.
-- A coherent music-recommendation measurement brief used across the employer-task model, README comparison, and sharing examples.
-- GitHub guidance, writing models, student resources, AI coaching prompts, and a dated source register.
+## Presenter materials
 
-Student work stays in the learner's own repository, notebook, document, or paper notes. This application is not a technical grader, an employability score, or another project editor.
+- `docs/print/facilitator-guide.pdf`: seven-page facilitator guide.
+- `docs/print/run-sheet.pdf`: one-page running order.
+- `docs/FACILITATOR.md` and `docs/SPEAKER-NOTES.md`: editable/generated text counterparts.
+- `public/downloads/student-worksheet.pdf`: optional student notes sheet, also embedded in the app.
 
-## Build and check
+Presenter timings and instructions are not embedded in the student HTML. The source repository is public, so files under `docs/` are not confidential. Keeping them outside `public/` separates delivery, not access permission.
 
-Requires Python 3.10 or newer for the build. The generated HTML needs only a browser.
+## Build
 
 ```sh
-python3 -m venv .venv
-. .venv/bin/activate
 python3 -m pip install -r requirements-build.txt
 python3 build.py
 python3 tests/test_build.py
 ```
 
-On Windows, use `py` and the environment's `Scripts` activation path as appropriate.
+`build.py` builds the PDFs, both HTML entry points, and synchronized Markdown exports. The generated HTML is committed; students need neither Python nor Node.
 
-The browser-test scripts use Playwright. `tests/test_ui.py` records the original document-injection suite and its storage-test-double limitations. `tests/test_native.py` is for environments that permit ordinary local HTTP navigation. See `docs/QA.md` for the exact results and scope, not just a test count.
+For browser checks:
 
-## Edit the right source
+```sh
+python3 -m pip install -r requirements-test.txt
+python3 -m playwright install --with-deps chromium
+python3 tests/test_native.py
+```
 
-`content/session.json` defines timing, speaker notes, actions, and transitions. The numbered files in `content/slides/` contain the visible slide copy. `content/resources.json` holds the starting conditions, help, activity routes, Artifact data, prompts, and templates. `content/guide-*.md` and `content/sources.json` hold reference content. `src/` contains the interface implementation.
+See `docs/QA.md` for the test scope and actual results. The suite uses a temporary local HTTP server where allowed. Environments that block local navigation are explicitly labeled as document-injection tests.
 
-Run the build after editing. Generated files, including the public HTML, Markdown exports, and PDFs, should not become a competing content source.
+## Source layout
 
-## Privacy and attribution
+- `content/session.json`: sequence and private-to-the-presentation facilitation cues.
+- `content/slides/*.md`: visible slide copy.
+- `content/guide-*.md`: field guide chapters.
+- `content/resources.json`: activities, prompts, examples, and Artifact data.
+- `content/sources.json`: dated source register.
+- `src/`: markup, styles, and JavaScript.
+- `public/`: intended static website output only.
+- `docs/`: guides, handoff, release notes, and QA.
+- `tests/`: checks for source, rendered interactions, and downloads.
 
-There are no model API calls, API keys, analytics, student-account connections, or backend services. External links open only when selected. The content security policy explicitly denies API/network connections from the app. Optional browser storage belongs to that browser and can be unavailable or cleared. Use a brief, nonsensitive work title.
-
-The original Artifact source was used with the owner's approval. The reviewed public release preserves its selections and guide structures, while replacing unsupported outcome claims and fictional template metrics with bounded annotations and placeholders. The untouched source is retained in the owner's separate provenance archive, not executed by this release. See `docs/ARTIFACT-MIGRATION.md`.
-
-Public portfolio and article authors retain rights to their work. Links and editorial annotations are not claims of endorsement or technical validation. An opportunity being visible on the review date does not guarantee that it remains open.
+No paid hosting, domain, API, or public visibility setting is enabled by the build. Read `docs/DEPLOYMENT.md` before hosting.

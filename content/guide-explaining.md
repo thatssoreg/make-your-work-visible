@@ -1,4 +1,4 @@
-## Use the same three questions throughout.
+## Explain your work clearly.
 
 Whether you are revising a README, drafting a project description, or preparing an interview answer, start with the same questions. A reader should not need to infer your contribution from a list of software.
 
@@ -11,7 +11,7 @@ Describe what you did technically and explain one consequential choice. Identify
 ### 3. What happened, and what does it mean?
 Describe the result or current progress. Link to something a reader can inspect. Explain a limitation or an unanswered question. An unfinished project can have a clear account of what you tried and what remains unresolved.
 
-The same questions apply to the workshop’s before-and-after example. The revised version does not pass because it uses a different rubric; it supplies information the first version left out. It is an illustrative writing example, not a claim about a real student or an independently evaluated analysis.
+An unfinished project can still have a useful explanation. Distinguish what you plan to do from what you have already attempted or observed.
 
 ### Another model: connect a decision to an analysis.
 

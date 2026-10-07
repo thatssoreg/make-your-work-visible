@@ -1,35 +1,37 @@
-## Share a project in a context that makes sense.
+## Introduce your work with enough context to invite a response.
 
-A portfolio link does not tell someone why they should open it. Add the context: what you are investigating, why it relates to the person or audience, and what kind of conversation you hope to have. You can share one project rather than your entire body of work.
+You do not have to send someone your whole portfolio. Choose a project, question, or finding related to the conversation and explain why you thought it might interest them.
 
-### Before an informational interview that is already scheduled
-Thank the person, connect the project to your interests, and make the link optional. A short note can help them understand you, but it should not assign advance homework.
+### Before a confirmed informational interview
 
-### When reaching out to someone new
-Name something genuine about the person’s work, explain your related interest, and ask for a reasonable conversation. Do not imply that you met, received a referral, or share an affiliation unless that is true.
+“Thank you for making time to speak with me. I have been working on a project about how people start using a new product, and I thought it might provide context for my questions about product analytics. There is no need to read it beforehand, but here is a short project description: [link].”
 
-### In a short project post
-Explain what interested you, what you tried, and what you learned or still wonder about. A relevant chart and a caption may be more useful than a long tool list. Ask a question you actually want to discuss, not a generic request for engagement.
+Include the real meeting context, a brief description, and an optional link. Do not assign the other person homework.
 
-### In a technical write-up
-Choose a question, decision, or difficulty that is worth explaining. Describe the context, show the evidence, explain a choice, and identify the limits. You do not need to document every line of code. Give credit to datasets, collaborators, tutorials, and tools you relied on.
+### Reaching out because of a shared interest
 
-### Use Artifact’s five perspectives to choose what to emphasize.
+“I noticed that you work in sports analytics. I am a data science student exploring questions about player performance, and I was excited to find someone doing related work professionally. Would you be open to a brief conversation about what your work looks like day to day?”
 
-These perspectives are writing options, not personality types or permanent career lanes. One project may support several of them.
+Name a genuine connection, describe your work accurately, and make a considerate request. Add a project link when it supplies useful context rather than a demand to review your whole portfolio.
 
-| Perspective | Useful questions for a write-up |
-| --- | --- |
-| Builder | What had to work reliably? Which design decision or failure did you investigate? How can someone explore what you made? |
-| Analyst | What decision or question did the analysis address? What did you measure or compare? What changed your interpretation? |
-| Storyteller | What does the reader need to understand? Which visual or example helps? What context might they otherwise miss? |
-| Expert / domain specialist | How does knowledge of this field change the question, definitions, or interpretation? What would a generalist overlook? |
-| Researcher | Which assumption, method, or claim did you examine? What was reproducible, uncertain, or still unresolved? |
+### A short project post
 
-### Keep a version where people can find it later.
+Explain what prompted the question, one decision or finding, and what you learned or would investigate next. Include a useful visual or link. Be clear about whether the work is planned, in progress, or complete.
 
-A post can introduce a project. A README, article, report, or permitted demonstration can hold the fuller explanation. LinkedIn’s [Featured section](https://www.linkedin.com/help/linkedin/answer/a550399/manage-featured-samples-of-your-work-on-your-linkedin-profile) is one possible place to highlight a link or sample; it is not a substitute for permission to share the content.
+For example: “After a class project, I realized that my chart needed more context for someone who had not worked with the data. I revised the title and caption, then asked a classmate to explain what they took from it. The comparison helped me see where my original explanation relied on assumptions. Here are the two versions and what I changed: [link].”
 
-Writing can give another person something specific to respond to. It does not guarantee views, replies, interviews, or a way around an employer’s selection process.
+These are writing examples. Change the details to match work and conversations that actually happened.
 
-<button class="button secondary" data-artifact="writing">Open Artifact’s writing kit</button>
+### A technical write-up
+
+The Artifact writing kit offers structures for explaining a system, presenting an analysis, teaching a concept, reporting a research attempt, or building a visual narrative. Choose a structure that fits your reader and evidence; it is not necessary to use every section.
+
+<button class="button secondary" data-artifact="writing">Open the writing kit</button>
+
+### LinkedIn and other places to share
+
+A project post, a permitted project link in an application, or a link before an interview can each serve a different purpose. LinkedIn's [Featured section](https://www.linkedin.com/help/linkedin/answer/a550399) is another place to make selected work easier to find. Check how the link appears to another person, including when they are signed out.
+
+### An optional partner check
+
+Show someone your draft without explaining it first. Ask what they understand about the project and what is still unclear. Revise one sentence. A private draft can be enough; you do not need to send or publish it in the workshop.

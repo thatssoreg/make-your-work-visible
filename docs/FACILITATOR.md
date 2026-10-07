@@ -1,208 +1,127 @@
-# Make Your Work Visible
-## Facilitator guide
+# Facilitator guide: GitHub and portfolios
 
-Reggie Leonard · SDS Career Services · UVA School of Data Science
+SDS Career Services · Reggie Leonard
 
-The faculty opening takes 15-20 minutes. These times begin at Reggie’s handoff. The core is 40 minutes; the longer version adds four minutes to work and one minute to peer review.
+Private facilitation reference. The student interface contains no timing, mode labels, or speaker notes.
 
-## Before the room opens
+## 01. GitHub and portfolios
+Introduce · 0-1 minutes
 
-Give each learner three Post-it notes and a pen. A private note or typed equivalent works. Test Next, a timer, a help reveal, and an export on the actual teaching laptop. Keep a local copy for Wi-Fi trouble. Distribute an actual HTML file or a verified hosted URL, not a local path. Use Present to hide personal context.
+**Say:** Your portfolio gives people a way to understand your work beyond the skills listed on your résumé.
 
-## 01. Make your work visible
-**Orient · 0-1 minutes · The idea**
+- [ ] Introduce the purpose, then move on. Do not tour the whole interface.
 
-**Say:** Today you will choose one piece of work and practice developing it, explaining it, and introducing it to someone else.
+**Transition:** We will use three ideas to keep the advice connected.
 
-- [ ] Introduce the purpose after the faculty handoff.
-- [ ] Tell students that an assignment, question, or unfinished project is enough to begin.
+## 02. Fluency, legibility, and reach
+Discuss · 1-3 minutes
 
-**Output:** Shared orientation or a model to inspect.
+**Say:** Doing the work builds your understanding; explaining it helps other people recognize what you can contribute.
 
-**Transition:** First, here is how projects and a portfolio fit together.
+- [ ] Define the three terms briefly.
+- [ ] Ask what students hope someone will understand about them after visiting their portfolio.
 
-## 02. What a project and a portfolio can help you do
-**Orient · 1-2 minutes · The idea**
+**Transition:** Start with something you have already done or want to explore.
 
-**Say:** The work builds fluency; explaining what you did helps other people recognize your capability.
+## 03. What could you work on?
+Exercise · 3-6 minutes
 
-- [ ] Explain the three concepts using the definitions on screen.
-- [ ] Distinguish GitHub, which can hold work, from a portfolio, which selects and explains it.
+**Say:** Write a few possibilities, compare them at your table, and choose something you would like to explore today.
 
-**Output:** Shared orientation or a model to inspect.
+- [ ] Offer three Post-it notes and pens, with a typed alternative.
+- [ ] Ask for an assignment, a curiosity, and something they want to learn.
+- [ ] Invite one or two examples. Do not require a permanent project choice.
 
-**Transition:** Choose something of your own to keep beside you as we work through these ideas.
+**Transition:** A job description can give you another place to find ideas.
 
-## 03. Choose one project or question to keep working on
-**Exercise · 2-5 minutes · The idea**
+## 04. A job description can suggest your next project
+Discuss · 6-8 minutes
 
-**Say:** Write three possibilities, then circle one that you will keep using throughout the session.
+**Say:** Look for tasks in a posting, then consider a smaller way to practice one of them.
 
-- [ ] Ask everyone to identify a starting condition; using the on-screen selector is optional.
-- [ ] Start the 90-second timer for three notes. A typed or private equivalent works.
-- [ ] Have students place notes in the middle, compare briefly, and circle one.
-- [ ] Ask one table for a selected example. By minute five, everyone should have something to use.
+- [ ] Open the Figma task tab, then the practice tab.
+- [ ] Ask the room what experience the smaller example would help someone gain.
+- [ ] Point to the SDS board for students who want to use another posting.
 
-**Output:** One selected assignment, project, question, or job task.
+**Transition:** Now think about the different capabilities a collection of projects could show.
 
-**Transition:** Keep your chosen note. Watch how an employer task can suggest a manageable learning project.
+## 05. Choose projects that show different strengths
+Discuss · 8-9 minutes
 
-## 04. Turn an employer task into a project you can practice
-**Watch · 5-9 minutes · Fluency**
+**Say:** Choose projects that add relevant evidence rather than repeating the same exercise with different data.
 
-**Say:** Look for a task in a job description, then reduce its scale until you can practice part of it with the access and experience you already have.
+- [ ] Give two or three examples from the cards, not all six.
+- [ ] Avoid saying SQL, cloud, or a pull request guarantees differentiation.
+- [ ] Explain that a faculty member, practitioner, or established reference can help calibrate the work.
 
-- [ ] Show the Figma task and the dated employer link. Do not review eligibility or every skill requirement.
-- [ ] Reveal the example stages in order. Explain why this is a measurement brief, not a claim to have improved a product.
-- [ ] Ask what a student could learn by choosing measures before asking a model to write code.
-- [ ] Show that the same brief will become our README and sharing example.
+**Transition:** The project is only useful to a reader when its purpose and your contribution are understandable.
 
-**Output:** Shared orientation or a model to inspect.
+## 06. Explain the question, your approach, and the result
+Demonstrate · 9-11 minutes
 
-**Transition:** Now your table will try the same move with a different employer task.
+**Say:** A useful README explains the question, your contribution, and what the work actually establishes.
 
-## 05. Try scoping a project together
-**Try with us · 9-12 minutes · Fluency**
+- [ ] Ask what a reader can tell from the Before version.
+- [ ] Reveal After and use the same three questions.
+- [ ] Note that this is a planning example inspired by the Figma task, not work performed for Figma.
 
-**Say:** Choose one small part of this task that a student could practice, and explain why your version is manageable.
+**Transition:** Next, decide how someone will find this project and learn about you.
 
-- [ ] Read the CSIS task, then ask pairs or tables to choose an approach.
-- [ ] Start two minutes for discussion and a shared sentence.
-- [ ] Ask one pair to explain its scope; use the nudge or example only when needed.
-- [ ] Ask students what they can borrow from that reasoning for their own project.
+## 07. Build a presence that helps someone understand you
+Demonstrate · 11-13 minutes
 
-**Output:** A shared practice idea and the reason for its scope.
+**Say:** Your profile introduces you, a project README explains a project, and a separate website is one optional way to bring them together.
 
-**Transition:** Reopen your own note and use the same reasoning on your selected work.
+- [ ] Show the About, selected work, and contact structure.
+- [ ] Use the GitHub and website tabs only as needed.
+- [ ] Compare Reggie and Ckalib as different approaches, not portfolio grades.
 
-## 06. Choose the next learning move for your own work
-**Try on yours · 12-15 minutes · Fluency**
+**Transition:** Before any of these materials become public, check what you are allowed to share.
 
-**Say:** Revisit the work you selected and identify the gap between what you can do now and what you would like to understand or practice.
+## 08. Decide what you can share
+Discuss · 13-14 minutes
 
-- [ ] Point students back to their circled note rather than asking everyone to choose a new job description.
-- [ ] Start the three-minute timer. Students work in their own document or notebook.
-- [ ] Offer a nudge before a full example when someone is stuck.
-- [ ] Invite a brief comparison with a neighbor before continuing.
+**Say:** Choose a form of evidence that respects the permissions attached to the work.
 
-**Output:** A current starting point, learning goal, and first action.
+- [ ] Distinguish your own shareable work, material that needs permission, and work you cannot publish.
+- [ ] Explain that a permitted case note or a different example can still be useful.
 
-**Transition:** You now have a direction. Next we will make the work understandable to someone who was not there.
+**Transition:** Once the work is ready to share, give the person some context for opening it.
 
-## 07. Explain the project with the same three questions
-**Watch · 15-18 minutes · Legibility**
+## 09. Introduce a project, not just a link
+Demonstrate · 14-16 minutes
 
-**Say:** A useful project explanation tells us the problem, your approach and contribution, and what happened without turning a plan into a result.
+**Say:** Choose one relevant project and explain why you are sharing it with this person or audience.
 
-- [ ] Show the vague description and ask what a reader cannot tell.
-- [ ] Reveal the revised description, keeping the same three questions on the right.
-- [ ] Open the measurement brief only if needed; it is the evidence behind the revised description.
-- [ ] Point out the distinction between producing a plan and completing a study.
+- [ ] Show one message tab, not every example.
+- [ ] Optional: ask students to draft two opening sentences, but let them choose this during work time instead.
+- [ ] Invite an outreach question from the room.
 
-**Output:** Shared orientation or a model to inspect.
+**Transition:** The remaining time is for starting, improving, and getting feedback on your own work.
 
-**Transition:** Try asking these three questions of a different explanation before you revise your own.
+## 10. What would you like to work on?
+Work and questions · 16-38 minutes
 
-## 08. Ask a writer for the information you need
-**Try with us · 18-21 minutes · Legibility**
+**Say:** Choose the activity that would help you most, work in your own file or tool, and ask questions as they come up.
 
-**Say:** Before rewriting an explanation, ask for the information that would let a reader understand the work.
+- [ ] Leave this screen or In practice visible. There is no required route or tracking form.
+- [ ] Allow roughly 17 minutes for work and individual questions, then 5 for shared questions.
+- [ ] Offer an optional neighbor review: What do you understand? What is still unclear?
+- [ ] For technical evaluation, refer to course staff, a technical peer, or provider documentation.
 
-- [ ] Read the shared description, which continues the chart task from the CSIS example.
-- [ ] Give pairs two minutes to choose the most useful clarifying questions.
-- [ ] Hear one question for each part of the framework.
-- [ ] Do not invent missing results or award points for a polished guess.
+**Transition:** Save what you have changed and identify what you want to do next.
 
-**Output:** Two clarifying questions grounded in the three-part framework.
+## 11. What would help you move forward?
+Questions and close · 38-40 minutes
 
-**Transition:** Keep those reader questions in mind as you describe your own work.
+**Say:** Before you leave, save the work and make sure you know where to return when you need examples or help.
 
-## 09. Write an explanation of your own project or plan
-**Try on yours · 21-24 minutes · Legibility**
+- [ ] Invite any remaining questions about their actual profiles and projects.
+- [ ] Point to the field guide, In practice, and Artifact as take-away resources.
+- [ ] A draft, decision, or revision is a valid outcome; publishing is not required.
 
-**Say:** Explain the same work you selected, using completed work where it exists and clear future tense where it does not.
+**Transition:** 
 
-- [ ] Start the three-minute timer. Ask students to write in their own notes or README.
-- [ ] Remind students with plans to describe intended work and unanswered questions, not fabricated outcomes.
-- [ ] Offer the task-only, nudge, and example controls.
-- [ ] Ask each student to identify one specific piece of evidence or a next step.
+## Pacing
 
-**Output:** A three-to-five-sentence project explanation with accurate work status.
-
-**Transition:** Now decide where this explanation and any supporting work belong.
-
-## 10. Decide where to put the work and its explanation
-**Orient · 24-26 minutes · Legibility**
-
-**Say:** A project README explains one piece of work; your profile can introduce you and point toward a selection of projects.
-
-- [ ] Distinguish the three surfaces without opening a long setup tutorial.
-- [ ] Offer Ckalib’s and Reggie’s profiles as contrasting interpretations.
-- [ ] Point to the browser instructions and sharing-permissions guide.
-
-**Output:** Shared orientation or a model to inspect.
-
-**Transition:** A place to put the work is useful. Next, consider how someone might encounter it.
-
-## 11. Introduce your work in a situation that makes sense
-**Model + apply · 26-29 minutes · Reach**
-
-**Say:** Give a person enough context to understand why you are sharing this project, rather than sending an unexplained portfolio link.
-
-- [ ] Show one of the two messages using the same measurement brief.
-- [ ] Ask students to choose a real or plausible situation for their own work.
-- [ ] Start 90 seconds to write two opening sentences; compare briefly with a neighbor.
-- [ ] Do not require anyone to send the message or publish the work.
-
-**Output:** Two opening sentences or a plausible sharing plan.
-
-**Transition:** Use the remaining work time to improve the part that would be most useful to you.
-
-## 12. Work on the part that would help you most
-**Independent work · 29-36 minutes · In practice**
-
-**Say:** Choose a step connected to your existing work and use this time to make a concrete improvement you can explain.
-
-- [ ] Ask students to keep using the same work rather than selecting a new project from the activity menu.
-- [ ] Start seven minutes in the core session or eleven minutes in the extended session.
-- [ ] Walk the room and ask what they are trying to learn or show. Offer a nudge before an example.
-- [ ] Keep the final reader test and close. Refer technical evaluation to course resources or a technical colleague.
-
-**Output:** One concrete improvement or first action, saved in the student’s own tool.
-
-**Transition:** Stop with enough time for someone else to read what you have and give useful feedback.
-
-## 13. Let another person read before you explain
-**Peer test · 36-39 minutes · In practice**
-
-**Say:** Let the work speak first, then explain one decision without reading the workshop’s template.
-
-- [ ] Hide the prompt or template. Start the three-minute reader test, or four minutes in the extended session.
-- [ ] Partner A reads silently, gives specific feedback, and hears one decision explained. Switch roles.
-- [ ] Use the final minute to revise one thing. A solo or written version is valid.
-- [ ] Ask whether the explanation makes the work and its current status clearer, not whether it looks impressive.
-
-**Output:** Specific feedback, an independent explanation, and one revision.
-
-**Transition:** Save that revision and name the next action you know how to take.
-
-## 14. Save your work and decide what comes next
-**Reflect · 39-40 minutes · In practice**
-
-**Say:** Before you leave, save what changed and name one next action you know how to take.
-
-- [ ] Ask students to save their own file or commit an appropriate change.
-- [ ] Invite a brief response: what changed, and what comes next?
-- [ ] Point to the field guide and Artifact for later use.
-
-**Output:** Shared orientation or a model to inspect.
-
-**Transition:** The workshop is complete; the same questions can help you with the next piece of work.
-
-## Technical boundary
-
-Help students scope, explain, and reflect on work. Do not certify the correctness of a technical approach. Refer implementation questions to course staff, a technical peer, official documentation, or a provider-authored resource.
-
-## Contingencies
-
-No idea: borrow the music question or a concrete table example. No account or Wi-Fi: use a local note. No finished project: explain status and planned learning honestly. Not comfortable sharing: choose a permitted or private example and complete the reader task in writing. Over time: shorten a debrief or work period, not the closing reader test and save.
+Use 22 minutes for work and questions in the 40-minute version; use 27 in the 45-minute version. A neighbor review is optional. Invite questions throughout. There is no timed technical lab or required public post.

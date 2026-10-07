@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "built_from": "src + content",
   "files": {
-    "public/index.html": "48c31e05ee7e8e09fe49ddb2f3aed72ac66941a836ee5fbc6a4af97a3349ae27",
-    "public/artifact.html": "30bab3b9f2443ca33578d1958e687cf0fe8e9c9b3f2fa5d37ce911be68cba967",
-    "docs/STUDENT-FIELD-GUIDE.md": "c39ac57612ee25deb77759b2f687b9deb7bf6fa8d4c03ad2f7cd615c697b6d90",
-    "docs/SPEAKER-NOTES.md": "3b8b342b4c8c23c6fec2453b3151e0ff2c4fb6fa87a9e049553accbb1438744f"
+    "public/index.html": "791c268b489aa543c347dac69114afc8a489a284d492416f79def971f190e25f",
+    "public/artifact.html": "845d0ed53484692b1a42b00230285e02742db08234751f26d41b565c03e6d942",
+    "docs/STUDENT-FIELD-GUIDE.md": "b677f4aacc2434ec9e8e91e925177fd115248e6305c547b472b5f5a0f786518d",
+    "docs/SPEAKER-NOTES.md": "5933866f615f9dff523a7923223711cf885b6a34552847ca1bd5275f5862100c"
   }
 }

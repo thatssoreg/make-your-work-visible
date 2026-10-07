@@ -1,248 +1,164 @@
 [
   {
     "number": 1,
-    "title": "Make your work visible",
+    "title": "GitHub and portfolios",
     "theme": "The idea",
-    "kind": "Orient",
     "minutes": 1,
-    "say": "Today you will choose one piece of work and practice developing it, explaining it, and introducing it to someone else.",
+    "kind": "Introduce",
+    "say": "Your portfolio gives people a way to understand your work beyond the skills listed on your résumé.",
     "actions": [
-      "Introduce the purpose after the faculty handoff.",
-      "Tell students that an assignment, question, or unfinished project is enough to begin."
+      "Introduce the purpose, then move on. Do not tour the whole interface."
     ],
-    "transition": "First, here is how projects and a portfolio fit together.",
-    "output": "",
-    "help": null,
+    "transition": "We will use three ideas to keep the advice connected.",
     "file": "slides/01.md"
   },
   {
     "number": 2,
-    "title": "What a project and a portfolio can help you do",
+    "title": "Fluency, legibility, and reach",
     "theme": "The idea",
-    "kind": "Orient",
-    "minutes": 1,
-    "say": "The work builds fluency; explaining what you did helps other people recognize your capability.",
+    "minutes": 2,
+    "kind": "Discuss",
+    "say": "Doing the work builds your understanding; explaining it helps other people recognize what you can contribute.",
     "actions": [
-      "Explain the three concepts using the definitions on screen.",
-      "Distinguish GitHub, which can hold work, from a portfolio, which selects and explains it."
+      "Define the three terms briefly.",
+      "Ask what students hope someone will understand about them after visiting their portfolio."
     ],
-    "transition": "Choose something of your own to keep beside you as we work through these ideas.",
-    "output": "",
-    "help": null,
+    "transition": "Start with something you have already done or want to explore.",
     "file": "slides/02.md"
   },
   {
     "number": 3,
-    "title": "Choose one project or question to keep working on",
-    "theme": "The idea",
-    "kind": "Exercise",
+    "title": "What could you work on?",
+    "theme": "Fluency",
     "minutes": 3,
-    "say": "Write three possibilities, then circle one that you will keep using throughout the session.",
+    "kind": "Exercise",
+    "say": "Write a few possibilities, compare them at your table, and choose something you would like to explore today.",
     "actions": [
-      "Ask everyone to identify a starting condition; using the on-screen selector is optional.",
-      "Start the 90-second timer for three notes. A typed or private equivalent works.",
-      "Have students place notes in the middle, compare briefly, and circle one.",
-      "Ask one table for a selected example. By minute five, everyone should have something to use."
+      "Offer three Post-it notes and pens, with a typed alternative.",
+      "Ask for an assignment, a curiosity, and something they want to learn.",
+      "Invite one or two examples. Do not require a permanent project choice."
     ],
-    "transition": "Keep your chosen note. Watch how an employer task can suggest a manageable learning project.",
-    "output": "One selected assignment, project, question, or job task.",
-    "help": "object",
+    "transition": "A job description can give you another place to find ideas.",
     "file": "slides/03.md"
   },
   {
     "number": 4,
-    "title": "Turn an employer task into a project you can practice",
+    "title": "A job description can suggest your next project",
     "theme": "Fluency",
-    "kind": "Watch",
-    "minutes": 4,
-    "say": "Look for a task in a job description, then reduce its scale until you can practice part of it with the access and experience you already have.",
+    "minutes": 2,
+    "kind": "Discuss",
+    "say": "Look for tasks in a posting, then consider a smaller way to practice one of them.",
     "actions": [
-      "Show the Figma task and the dated employer link. Do not review eligibility or every skill requirement.",
-      "Reveal the example stages in order. Explain why this is a measurement brief, not a claim to have improved a product.",
-      "Ask what a student could learn by choosing measures before asking a model to write code.",
-      "Show that the same brief will become our README and sharing example."
+      "Open the Figma task tab, then the practice tab.",
+      "Ask the room what experience the smaller example would help someone gain.",
+      "Point to the SDS board for students who want to use another posting."
     ],
-    "transition": "Now your table will try the same move with a different employer task.",
-    "output": "",
-    "help": null,
+    "transition": "Now think about the different capabilities a collection of projects could show.",
     "file": "slides/04.md"
   },
   {
     "number": 5,
-    "title": "Try scoping a project together",
+    "title": "Choose projects that show different strengths",
     "theme": "Fluency",
-    "kind": "Try with us",
-    "minutes": 3,
-    "say": "Choose one small part of this task that a student could practice, and explain why your version is manageable.",
+    "minutes": 1,
+    "kind": "Discuss",
+    "say": "Choose projects that add relevant evidence rather than repeating the same exercise with different data.",
     "actions": [
-      "Read the CSIS task, then ask pairs or tables to choose an approach.",
-      "Start two minutes for discussion and a shared sentence.",
-      "Ask one pair to explain its scope; use the nudge or example only when needed.",
-      "Ask students what they can borrow from that reasoning for their own project."
+      "Give two or three examples from the cards, not all six.",
+      "Avoid saying SQL, cloud, or a pull request guarantees differentiation.",
+      "Explain that a faculty member, practitioner, or established reference can help calibrate the work."
     ],
-    "transition": "Reopen your own note and use the same reasoning on your selected work.",
-    "output": "A shared practice idea and the reason for its scope.",
-    "help": "shared-fluency",
+    "transition": "The project is only useful to a reader when its purpose and your contribution are understandable.",
     "file": "slides/05.md"
   },
   {
     "number": 6,
-    "title": "Choose the next learning move for your own work",
-    "theme": "Fluency",
-    "kind": "Try on yours",
-    "minutes": 3,
-    "say": "Revisit the work you selected and identify the gap between what you can do now and what you would like to understand or practice.",
+    "title": "Explain the question, your approach, and the result",
+    "theme": "Legibility",
+    "minutes": 2,
+    "kind": "Demonstrate",
+    "say": "A useful README explains the question, your contribution, and what the work actually establishes.",
     "actions": [
-      "Point students back to their circled note rather than asking everyone to choose a new job description.",
-      "Start the three-minute timer. Students work in their own document or notebook.",
-      "Offer a nudge before a full example when someone is stuck.",
-      "Invite a brief comparison with a neighbor before continuing."
+      "Ask what a reader can tell from the Before version.",
+      "Reveal After and use the same three questions.",
+      "Note that this is a planning example inspired by the Figma task, not work performed for Figma."
     ],
-    "transition": "You now have a direction. Next we will make the work understandable to someone who was not there.",
-    "output": "A current starting point, learning goal, and first action.",
-    "help": "own-fluency",
+    "transition": "Next, decide how someone will find this project and learn about you.",
     "file": "slides/06.md"
   },
   {
     "number": 7,
-    "title": "Explain the project with the same three questions",
+    "title": "Build a presence that helps someone understand you",
     "theme": "Legibility",
-    "kind": "Watch",
-    "minutes": 3,
-    "say": "A useful project explanation tells us the problem, your approach and contribution, and what happened without turning a plan into a result.",
+    "minutes": 2,
+    "kind": "Demonstrate",
+    "say": "Your profile introduces you, a project README explains a project, and a separate website is one optional way to bring them together.",
     "actions": [
-      "Show the vague description and ask what a reader cannot tell.",
-      "Reveal the revised description, keeping the same three questions on the right.",
-      "Open the measurement brief only if needed; it is the evidence behind the revised description.",
-      "Point out the distinction between producing a plan and completing a study."
+      "Show the About, selected work, and contact structure.",
+      "Use the GitHub and website tabs only as needed.",
+      "Compare Reggie and Ckalib as different approaches, not portfolio grades."
     ],
-    "transition": "Try asking these three questions of a different explanation before you revise your own.",
-    "output": "",
-    "help": null,
+    "transition": "Before any of these materials become public, check what you are allowed to share.",
     "file": "slides/07.md"
   },
   {
     "number": 8,
-    "title": "Ask a writer for the information you need",
+    "title": "Decide what you can share",
     "theme": "Legibility",
-    "kind": "Try with us",
-    "minutes": 3,
-    "say": "Before rewriting an explanation, ask for the information that would let a reader understand the work.",
+    "minutes": 1,
+    "kind": "Discuss",
+    "say": "Choose a form of evidence that respects the permissions attached to the work.",
     "actions": [
-      "Read the shared description, which continues the chart task from the CSIS example.",
-      "Give pairs two minutes to choose the most useful clarifying questions.",
-      "Hear one question for each part of the framework.",
-      "Do not invent missing results or award points for a polished guess."
+      "Distinguish your own shareable work, material that needs permission, and work you cannot publish.",
+      "Explain that a permitted case note or a different example can still be useful."
     ],
-    "transition": "Keep those reader questions in mind as you describe your own work.",
-    "output": "Two clarifying questions grounded in the three-part framework.",
-    "help": "shared-legibility",
+    "transition": "Once the work is ready to share, give the person some context for opening it.",
     "file": "slides/08.md"
   },
   {
     "number": 9,
-    "title": "Write an explanation of your own project or plan",
-    "theme": "Legibility",
-    "kind": "Try on yours",
-    "minutes": 3,
-    "say": "Explain the same work you selected, using completed work where it exists and clear future tense where it does not.",
+    "title": "Introduce a project, not just a link",
+    "theme": "Reach",
+    "minutes": 2,
+    "kind": "Demonstrate",
+    "say": "Choose one relevant project and explain why you are sharing it with this person or audience.",
     "actions": [
-      "Start the three-minute timer. Ask students to write in their own notes or README.",
-      "Remind students with plans to describe intended work and unanswered questions, not fabricated outcomes.",
-      "Offer the task-only, nudge, and example controls.",
-      "Ask each student to identify one specific piece of evidence or a next step."
+      "Show one message tab, not every example.",
+      "Optional: ask students to draft two opening sentences, but let them choose this during work time instead.",
+      "Invite an outreach question from the room."
     ],
-    "transition": "Now decide where this explanation and any supporting work belong.",
-    "output": "A three-to-five-sentence project explanation with accurate work status.",
-    "help": "own-legibility",
+    "transition": "The remaining time is for starting, improving, and getting feedback on your own work.",
     "file": "slides/09.md"
   },
   {
     "number": 10,
-    "title": "Decide where to put the work and its explanation",
-    "theme": "Legibility",
-    "kind": "Orient",
-    "minutes": 2,
-    "say": "A project README explains one piece of work; your profile can introduce you and point toward a selection of projects.",
+    "title": "What would you like to work on?",
+    "theme": "In practice",
+    "minutes": 22,
+    "kind": "Work and questions",
+    "say": "Choose the activity that would help you most, work in your own file or tool, and ask questions as they come up.",
     "actions": [
-      "Distinguish the three surfaces without opening a long setup tutorial.",
-      "Offer Ckalib’s and Reggie’s profiles as contrasting interpretations.",
-      "Point to the browser instructions and sharing-permissions guide."
+      "Leave this screen or In practice visible. There is no required route or tracking form.",
+      "Allow roughly 17 minutes for work and individual questions, then 5 for shared questions.",
+      "Offer an optional neighbor review: What do you understand? What is still unclear?",
+      "For technical evaluation, refer to course staff, a technical peer, or provider documentation."
     ],
-    "transition": "A place to put the work is useful. Next, consider how someone might encounter it.",
-    "output": "",
-    "help": null,
+    "transition": "Save what you have changed and identify what you want to do next.",
     "file": "slides/10.md"
   },
   {
     "number": 11,
-    "title": "Introduce your work in a situation that makes sense",
-    "theme": "Reach",
-    "kind": "Model + apply",
-    "minutes": 3,
-    "say": "Give a person enough context to understand why you are sharing this project, rather than sending an unexplained portfolio link.",
+    "title": "What would help you move forward?",
+    "theme": "In practice",
+    "minutes": 2,
+    "kind": "Questions and close",
+    "say": "Before you leave, save the work and make sure you know where to return when you need examples or help.",
     "actions": [
-      "Show one of the two messages using the same measurement brief.",
-      "Ask students to choose a real or plausible situation for their own work.",
-      "Start 90 seconds to write two opening sentences; compare briefly with a neighbor.",
-      "Do not require anyone to send the message or publish the work."
+      "Invite any remaining questions about their actual profiles and projects.",
+      "Point to the field guide, In practice, and Artifact as take-away resources.",
+      "A draft, decision, or revision is a valid outcome; publishing is not required."
     ],
-    "transition": "Use the remaining work time to improve the part that would be most useful to you.",
-    "output": "Two opening sentences or a plausible sharing plan.",
-    "help": "reach",
+    "transition": "",
     "file": "slides/11.md"
-  },
-  {
-    "number": 12,
-    "title": "Work on the part that would help you most",
-    "theme": "In practice",
-    "kind": "Independent work",
-    "minutes": 7,
-    "say": "Choose a step connected to your existing work and use this time to make a concrete improvement you can explain.",
-    "actions": [
-      "Ask students to keep using the same work rather than selecting a new project from the activity menu.",
-      "Start seven minutes in the core session or eleven minutes in the extended session.",
-      "Walk the room and ask what they are trying to learn or show. Offer a nudge before an example.",
-      "Keep the final reader test and close. Refer technical evaluation to course resources or a technical colleague."
-    ],
-    "transition": "Stop with enough time for someone else to read what you have and give useful feedback.",
-    "output": "One concrete improvement or first action, saved in the student’s own tool.",
-    "help": "work",
-    "file": "slides/12.md"
-  },
-  {
-    "number": 13,
-    "title": "Let another person read before you explain",
-    "theme": "In practice",
-    "kind": "Peer test",
-    "minutes": 3,
-    "say": "Let the work speak first, then explain one decision without reading the workshop’s template.",
-    "actions": [
-      "Hide the prompt or template. Start the three-minute reader test, or four minutes in the extended session.",
-      "Partner A reads silently, gives specific feedback, and hears one decision explained. Switch roles.",
-      "Use the final minute to revise one thing. A solo or written version is valid.",
-      "Ask whether the explanation makes the work and its current status clearer, not whether it looks impressive."
-    ],
-    "transition": "Save that revision and name the next action you know how to take.",
-    "output": "Specific feedback, an independent explanation, and one revision.",
-    "help": null,
-    "file": "slides/13.md"
-  },
-  {
-    "number": 14,
-    "title": "Save your work and decide what comes next",
-    "theme": "In practice",
-    "kind": "Reflect",
-    "minutes": 1,
-    "say": "Before you leave, save what changed and name one next action you know how to take.",
-    "actions": [
-      "Ask students to save their own file or commit an appropriate change.",
-      "Invite a brief response: what changed, and what comes next?",
-      "Point to the field guide and Artifact for later use."
-    ],
-    "transition": "The workshop is complete; the same questions can help you with the next piece of work.",
-    "output": "",
-    "help": null,
-    "file": "slides/14.md"
   }
 ]

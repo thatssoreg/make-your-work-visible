@@ -1,16 +1,17 @@
 # [Project title]
 
-## Problem or question
-[What were you trying to understand or improve, and for whom?]
+## The question
+What problem or question did you address, and why did it matter?
 
-## Technical approach and my contribution
-[What did you do? Explain an important choice and distinguish your contribution from collaborators' work.]
+## My approach and contribution
+What data, methods, or tools did you use? Which parts did you do? Explain a decision rather than only listing tools. Credit collaborators and starter materials.
 
-## Results and what they mean
-[What happened? Link to evidence. If unfinished, describe current progress and the next question rather than inventing a result.]
+## Results or current progress
+What did you find, produce, or learn? What is still planned? Link to a chart, notebook, report, demo, or other evidence you may share.
 
-## How to explore the work
-[Link to a chart, report, notebook, code, or demonstration. Add dependencies and run instructions when needed.]
+## Limitations and next steps
+What should a reader not conclude? What would you investigate next?
 
-## Limitations and credits
-[What does the work not establish? Name collaborators, data sources, and any starter material.]
+## Explore the work
+[Relevant files, demo, or documentation]
+Include dependencies and run instructions when a reader needs them.

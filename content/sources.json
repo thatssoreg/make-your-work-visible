@@ -6,7 +6,7 @@
     "url": "https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume",
     "note": "Practical guidance on curation and project documentation. Not evidence that every employer reviews repositories.",
     "kind": "practice",
-    "checked": "2026-10-06"
+    "checked": "2026-10-07"
   },
   {
     "id": "gh-readme",
@@ -24,7 +24,7 @@
     "url": "https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme",
     "note": "A public repository matching your username can supply your profile README.",
     "kind": "technical",
-    "checked": "2026-10-06"
+    "checked": "2026-10-07"
   },
   {
     "id": "gh-hello",
@@ -42,7 +42,7 @@
     "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
     "note": "Static site hosting is separate from a profile README. A website is optional for this workshop.",
     "kind": "technical",
-    "checked": "2026-10-05"
+    "checked": "2026-10-07"
   },
   {
     "id": "gh-secrets",
@@ -60,7 +60,7 @@
     "url": "https://education.github.com/pack",
     "note": "Verified student benefits include GitHub Pro. Individual partner offers and activation conditions differ.",
     "kind": "access",
-    "checked": "2026-10-06"
+    "checked": "2026-10-07"
   },
   {
     "id": "gh-plans",
@@ -141,7 +141,7 @@
     "url": "https://joinhandshake.com/learn/create-your-first-website-and-share-it-on-github-b03d6708/",
     "note": "Public listing for a 25-minute mission using v0 and a public GitHub repository. Begin one objective in the sprint; use shareable material and verify account access.",
     "kind": "learning",
-    "checked": "2026-10-06"
+    "checked": "2026-10-07"
   },
   {
     "id": "linkedin",
@@ -373,9 +373,9 @@
     "publisher": "Figma",
     "title": "Data Science Intern (2027)",
     "url": "https://job-boards.greenhouse.io/figma/jobs/6178857004",
-    "note": "Application form visible on October 6, 2026. Listed on the supplied SDS board. Suggested student projects are workshop adaptations, not employer assignments.",
+    "note": "The public internship page displayed an application form on the checked date. The workshop paraphrases a task and proposes a smaller student practice activity; it is not an employer assignment.",
     "kind": "opportunity",
-    "checked": "2026-10-06"
+    "checked": "2026-10-07"
   },
   {
     "id": "job-csis",
@@ -402,7 +402,7 @@
     "url": "https://datalemur.com/questions",
     "note": "An external practice option with difficulty and category filters. Some content requires an account or paid access. This workshop does not provide or assess a technical solution.",
     "kind": "practice",
-    "checked": "2026-10-06"
+    "checked": "2026-10-07"
   },
   {
     "id": "ckalib-profile",
@@ -637,5 +637,41 @@
     "note": "A personal account of portfolio projects and interviews. The title reports the author’s experience; it is not a promised outcome. Reviewed October 6, 2026",
     "kind": "example",
     "checked": "2026-10-06"
+  },
+  {
+    "id": "wix",
+    "title": "Wix portfolio website builder",
+    "publisher": "Wix",
+    "url": "https://www.wix.com/portfolio-website",
+    "note": "Free publishing is available; custom domains and removing Wix branding require an upgrade. Compare current plans before paying.",
+    "checked": "2026-10-07",
+    "kind": "Official guidance"
+  },
+  {
+    "id": "sq-portfolio",
+    "title": "Portfolio pages",
+    "publisher": "Squarespace",
+    "url": "https://support.squarespace.com/hc/en-us/articles/360035611791-Portfolio-pages",
+    "note": "Portfolio pages organize projects into a landing page and project subpages.",
+    "checked": "2026-10-07",
+    "kind": "Official guidance"
+  },
+  {
+    "id": "sq-visibility",
+    "title": "Is my site live?",
+    "publisher": "Squarespace",
+    "url": "https://support.squarespace.com/hc/en-us/articles/206536837-Is-my-site-live",
+    "note": "Trial sites are private by default; a paid site can be made fully public. A trial can be shared with a site-wide password.",
+    "checked": "2026-10-07",
+    "kind": "Official guidance"
+  },
+  {
+    "id": "open-source",
+    "title": "How to contribute to open source",
+    "publisher": "GitHub Open Source Guides",
+    "url": "https://opensource.guide/how-to-contribute/",
+    "note": "Read the project guidelines first. Documentation and other non-code contributions count; acceptance is not guaranteed.",
+    "checked": "2026-10-07",
+    "kind": "Official guidance"
   }
 ]

@@ -1,27 +1,11 @@
-# Running and publishing the static release
+# Static publication
 
-## Use it immediately as a file
+Publish only `public/` as the website output directory. This directory contains the workshop, the Artifact entry point, and the optional student worksheet. Presenter PDFs and handoff notes are outside it.
 
-Open the generated `index.html` in a full browser. `artifact.html` starts directly in the integrated collection. Each file includes its own CSS, JavaScript, data, and reference text. There is no installation step for a participant. Send the actual file, not a path on your own machine.
+A static host or GitHub Pages can serve the generated HTML. A custom domain is unnecessary for classroom use. Open the self-contained HTML locally when a hosted URL is unavailable. Do not invent a website URL before deployment is confirmed.
 
-## Publish only the reviewed output
+The repository is already public. Publishing `public/` creates a browsable site; it is a distinct action from committing the source. No deployment is included in this revision. Do not enable a paid plan, purchase a domain, or change repository visibility without permission.
 
-A static host should publish `public/`. This directory contains the two self-contained HTML entry points and printable PDFs. It excludes the owner's untouched Artifact provenance, the job-board workbook, and any learner content. The PDF facilitator guide is included intentionally; remove it from that folder before publishing when only student materials should be public.
+Check the host's current plan, educational/organizational terms, public access controls, and billing before publication. Static hosting costs and model API costs are separate. This app makes no model calls.
 
-The repository being public does not itself enable a running site. GitHub Pages must be configured separately. A Vercel project must likewise be intentionally created and pointed at the output. No such hosting configuration is performed by this release.
-
-Use a hosting plan that fits university work. Vercel's Hobby policy restricts its use to noncommercial personal projects; verify the current terms rather than assuming eligibility. GitHub Pages availability and source/site visibility depend on plan and configuration. These are hosting questions, not model-credit questions.
-
-Official references:
-- https://vercel.com/docs/limits/fair-use-guidelines
-- https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
-
-## Runtime costs and data
-
-The app does not call a model or use an API key. Opening it cannot run the optional prompts against the owner's account. Choosing an external link opens another service, whose account, privacy, and pricing terms apply independently. Hosting bandwidth or build services can have separate limits or costs.
-
-The card's optional browser storage is local to that browser/origin. Moving from a local file to a hosted URL will not automatically migrate it. Export/import is available for that purpose. Do not clear or relocate a student's actual project files as part of publishing this site.
-
-## Verify after deployment
-
-Check both entry points, relative PDF downloads, the content security policy, one route, a help reveal, card save/reload on that origin, and the browser Back button. Open a source link and confirm it is the expected external page. Confirm the intended people can open the site while signed out. Record the actual tested URL and commit; do not invent a live URL from the repository name.
+After publication, test the root, Artifact entry point, deep slide link, internal return navigation, worksheet download, and external links while signed out. Verify that presenter materials are not linked or embedded in the student site. Files in the public source repository remain accessible even when not served on the website.

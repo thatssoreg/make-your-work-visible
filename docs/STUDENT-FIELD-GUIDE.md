@@ -3,7 +3,7 @@
 
 Reggie Leonard · SDS Career Services · UVA School of Data Science
 
-Edition 1.0.0 · October 6, 2026
+Edition 2.0.0 · October 7, 2026
 
 ## You have several ways to begin.
 
@@ -15,7 +15,7 @@ Perhaps you finished the required analysis but never investigated a surprising r
 ### Look for tasks in a job description.
 Open the [SDS Job & Internship Opportunities Board](https://docs.google.com/spreadsheets/d/1ZvqS41CV-JMLrdSUb2KL5kzCaB09tv_dinSuUwv6WX4/edit?gid=0#gid=0) and look for verbs: investigate, compare, explain, define, evaluate, collaborate. A task can suggest what to practice even when you are not yet ready for the whole role.
 
-The two workshop examples are [Figma’s Data Science Intern (2027)](https://job-boards.greenhouse.io/figma/jobs/6178857004) and [CSIS’s Data Visualization Design Intern](https://job-boards.greenhouse.io/centerforstrategicandinternationalstudiesinc/jobs/4390739009). Their application forms were visible on October 6, 2026. The workshop’s suggested student activities are adaptations, not employer assignments. A posting can close; its task can still help you think about work you would like to learn.
+Two possible examples are [Figma’s Data Science Intern (2027)](https://job-boards.greenhouse.io/figma/jobs/6178857004) and [CSIS’s Data Visualization Design Intern](https://job-boards.greenhouse.io/centerforstrategicandinternationalstudiesinc/jobs/4390739009). Figma’s application form was visible on October 7, 2026; CSIS was last checked October 6, 2026. The workshop’s suggested student activities are adaptations, not employer assignments. A posting can close; its task can still help you think about work you would like to learn.
 
 Try one of these sentences:
 
@@ -33,13 +33,13 @@ For a first attempt, write one question and make a small comparison. You do not 
 ### Get experience with data tools through a guided resource.
 [DataLemur](https://datalemur.com/questions) organizes SQL and data interview questions by topic and difficulty; some material requires paid access. [SQLBolt](https://sqlbolt.com/) provides browser-based SQL lessons and exercises. Choose one exercise, work through the provider’s explanation, and record what you understand differently afterward. Do not repost restricted questions or solutions.
 
-These are optional resources, not exercises written or graded by this workshop’s facilitator. Use course materials, provider explanations, or a technical colleague when you need help evaluating a solution.
+Use course materials, the provider’s explanation, or a technical colleague when you need help evaluating a solution.
 
 ### Practice GitHub with official instructions.
 [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) gives you a guided way to work with a branch, commit, and pull request. [GitHub’s Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world) is another browser-first introduction. A small documentation change can give you a reason to practice collaboration without inventing a large coding project.
 
 ### Begin a Handshake mission.
-The [Create Your First Website and Share It on GitHub mission](https://joinhandshake.com/learn/create-your-first-website-and-share-it-on-github-b03d6708/) is listed at 25 minutes and uses v0 with a public GitHub repository. Your account may have additional access or setup requirements. Use only material you can publish. In a shorter workshop work period, one saved step is a reasonable outcome; finishing the mission and earning a badge may take longer.
+The [Create Your First Website and Share It on GitHub mission](https://joinhandshake.com/learn/create-your-first-website-and-share-it-on-github-b03d6708/) is listed at 25 minutes and uses v0 with a public GitHub repository. Your account may have additional access or setup requirements. Use only material you can publish. In your available work time, one saved step is a reasonable outcome; finishing the mission and earning a badge may take longer.
 
 Find the current mission in your Handshake account. Follow its own instructions rather than treating the workshop as a substitute for them. [Handshake explains the mission workflow here](https://support.joinhandshake.com/hc/en-us/articles/43389166936599-How-do-I-complete-a-mission-in-AI-Skills-Studio).
 
@@ -47,7 +47,37 @@ Find the current mission in your Handshake account. Follow its own instructions 
 Sometimes nothing resonates because you have not encountered enough of the work yet. Read a project write-up, attend a talk, visit a meetup, or ask someone about a problem they are working on. Record one problem, one unfamiliar concept, and one question. Those notes can become a starting point later.
 
 
-## Use the same three questions throughout.
+## Choose projects that show relevant variety.
+
+Start with what you want a reader to learn about you. Two analyses of different subjects may still demonstrate the same narrow set of skills. A thoughtful extension to one project can reveal more than another nearly identical notebook.
+
+### Look beyond the tool list.
+
+| Kind of work | What a reader might inspect | A way to begin |
+| --- | --- | --- |
+| Analysis and recommendations | A chart, a decision memo, and an explanation of uncertainty | Revisit a class analysis and explain what someone could do with the finding. |
+| Relational databases or APIs | How sources relate, what you combined, and the question the result supports | Work through a provider-authored SQL exercise, then explore an original question with permitted data. |
+| Cloud or deployed tools | A usable demo, an explanation of what you built, and its limits | Put a small existing project somewhere another person can use it. Check costs and access settings first. |
+| Collaboration or open source | Your contribution, a discussion, a review, or a pull request | Improve documentation or contribute a change the project welcomes. |
+| Research or evaluation | A comparison, replication attempt, or explanation of an unexpected result | Return to a question that the assignment did not require you to resolve. |
+| Domain knowledge | A precise question grounded in a field and an explanation of context | Use something you care about, such as sport, public policy, education, or the environment. |
+
+These are options, not a checklist. Relational data, cloud work, and collaboration can add relevant evidence, but no tool or project category guarantees that a candidate will stand out. A project should show choices you understand, not only a service you activated.
+
+### How do you know the work is good?
+
+Compare it with your course rubric, an established example, or the expectations in the work you want to do. Ask a faculty member, technical peer, or practitioner to examine a specific part. Ask whether the evidence supports the conclusion and whether someone else can follow your process. Then record the feedback and what you changed.
+
+Reading other people's work, attending talks, and watching a project discussion also build a frame of reference. Ask what made an approach appropriate in its particular context rather than copying the tools it used.
+
+[GitHub's profile guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume) recommends selecting relevant projects that show varied skills, including contributions as well as work you own. The examples above are workshop suggestions, not a hiring formula.
+
+### Contribute without making extra work for a maintainer.
+
+Read the project's README, contribution guide, and open issues first. A useful documentation correction can be a contribution. For a substantial change, discuss it before doing the work, follow the project's conventions, and review any AI assistance carefully. A submitted pull request is not the same as an accepted contribution. See [GitHub's Open Source Guide](https://opensource.guide/how-to-contribute/).
+
+
+## Explain your work clearly.
 
 Whether you are revising a README, drafting a project description, or preparing an interview answer, start with the same questions. A reader should not need to infer your contribution from a list of software.
 
@@ -60,7 +90,7 @@ Describe what you did technically and explain one consequential choice. Identify
 ### 3. What happened, and what does it mean?
 Describe the result or current progress. Link to something a reader can inspect. Explain a limitation or an unanswered question. An unfinished project can have a clear account of what you tried and what remains unresolved.
 
-The same questions apply to the workshop’s before-and-after example. The revised version does not pass because it uses a different rubric; it supplies information the first version left out. It is an illustrative writing example, not a claim about a real student or an independently evaluated analysis.
+An unfinished project can still have a useful explanation. Distinguish what you plan to do from what you have already attempted or observed.
 
 ### Another model: connect a decision to an analysis.
 
@@ -106,7 +136,7 @@ GitHub’s [README guidance](https://docs.github.com/en/repositories/managing-yo
 
 ### Use enough structure to help a reader find the work.
 
-The compact example below is **adapted** from [Cookiecutter Data Science’s directory conventions](https://cookiecutter-data-science.drivendata.org/) and [GitHub’s project-presentation guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume). It is not a prescribed scaffold or a technical requirement. Use only the folders your project needs, and follow any course or team conventions that apply.
+The compact example below is **adapted** from [Cookiecutter Data Science’s directory conventions](https://cookiecutter-data-science.drivendata.org/) and [GitHub’s project-presentation guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume). It is one example, not a required structure. Use only the folders your project needs, and follow any course or team conventions that apply.
 
 ```text
 my-project/
@@ -127,6 +157,44 @@ For a repository you own or may contribute to, follow [GitHub’s browser-based 
 A website gives you more control over how selected work is presented. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) is a static hosting option, separate from a profile README. The availability of private-source publishing depends on your GitHub plan. The published website can be public even when the source repository is private. Check its visibility before adding information.
 
 
+### A quick profile review
+
+Can a visitor find a short introduction, selected projects, and a way to contact you? Do project titles and descriptions say what the work is about? Have you credited team contributions and made the next click obvious?
+
+The short profile bio and optional longer profile README do different jobs. The README can link to LinkedIn and a public-safe résumé as well as to project repositories. GitHub's official [profile guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume) is a useful starting point, not a requirement to make your page look one particular way.
+
+
+## Choose a place that suits the work.
+
+You do not need a separate website to begin. First decide what you want someone to find: a short introduction, selected projects, and a way to reach you. The platform should make those things easy to update and explore.
+
+| Option | What it is useful for | What to consider |
+| --- | --- | --- |
+| GitHub profile README | A flexible introduction and links to selected work, displayed on your GitHub profile | It is a public README in a repository matching your username. It is not the same feature as GitHub Pages. |
+| GitHub Pages | A separate static website built from files in a repository | Public-repository hosting is available with GitHub Free. Private-source options depend on your plan. You maintain the site files and links. |
+| Wix | A visual site builder with portfolio templates and hosting | Free publishing is available; a custom domain or removal of Wix ads needs an upgrade. |
+| Squarespace | A visual website with project pages and an organized portfolio landing page | Full public publication requires a paid site. A trial is private by default, with password-sharing options. |
+| A site you build yourself | A custom experience that can itself demonstrate your design and development decisions | Decide where it will be hosted and how you will maintain it. Check provider pricing, security, and any paid APIs before publishing. |
+
+Official references: [GitHub profile README](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme), [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [Wix portfolios](https://www.wix.com/portfolio-website), [Squarespace portfolio pages](https://support.squarespace.com/hc/en-us/articles/360035611791-Portfolio-pages), and [Squarespace site visibility](https://support.squarespace.com/hc/en-us/articles/206536837-Is-my-site-live). These platform details were checked October 7, 2026; review current terms before paying or publishing.
+
+### Content to plan before choosing a template
+
+**About you.** Write a short introduction to your studies, interests, and the work you are exploring. You can include selected experience or relevant skills, but give the reader examples rather than an unconnected list.
+
+**Selected projects.** Give each project a clear title, a short explanation, and a link to the work. A chart, report, screenshot, demonstration, or permitted case description may be more useful than sending everyone to a repository root.
+
+**Contact and background.** Link to LinkedIn, a professional contact channel, and a résumé when it helps. Prepare a public-safe résumé without a home address or other details you do not want broadly available.
+
+**Additional sections.** Writing, collaboration, research, talks, and work in progress can be useful when you have material for them. You do not need empty sections waiting for future accomplishments.
+
+### Before publishing
+
+Open the page while signed out. Check that project links work, text is readable on a phone, and public material does not expose private course, employer, or collaborator content. A private repository link will not become visible just because you put it on a public page.
+
+Selling software or services is a separate decision from using a website as a portfolio. You can publish a learning project without turning it into a business.
+
+
 ## Decide what you are allowed to share.
 
 
@@ -141,39 +209,42 @@ A website gives you more control over how selected work is presented. [GitHub Pa
 A private explanation is a useful workshop output. Publishing can happen after the permission question has been resolved.
 
 
-## Share a project in a context that makes sense.
+## Introduce your work with enough context to invite a response.
 
-A portfolio link does not tell someone why they should open it. Add the context: what you are investigating, why it relates to the person or audience, and what kind of conversation you hope to have. You can share one project rather than your entire body of work.
+You do not have to send someone your whole portfolio. Choose a project, question, or finding related to the conversation and explain why you thought it might interest them.
 
-### Before an informational interview that is already scheduled
-Thank the person, connect the project to your interests, and make the link optional. A short note can help them understand you, but it should not assign advance homework.
+### Before a confirmed informational interview
 
-### When reaching out to someone new
-Name something genuine about the person’s work, explain your related interest, and ask for a reasonable conversation. Do not imply that you met, received a referral, or share an affiliation unless that is true.
+“Thank you for making time to speak with me. I have been working on a project about how people start using a new product, and I thought it might provide context for my questions about product analytics. There is no need to read it beforehand, but here is a short project description: [link].”
 
-### In a short project post
-Explain what interested you, what you tried, and what you learned or still wonder about. A relevant chart and a caption may be more useful than a long tool list. Ask a question you actually want to discuss, not a generic request for engagement.
+Include the real meeting context, a brief description, and an optional link. Do not assign the other person homework.
 
-### In a technical write-up
-Choose a question, decision, or difficulty that is worth explaining. Describe the context, show the evidence, explain a choice, and identify the limits. You do not need to document every line of code. Give credit to datasets, collaborators, tutorials, and tools you relied on.
+### Reaching out because of a shared interest
 
-### Use Artifact’s five perspectives to choose what to emphasize.
+“I noticed that you work in sports analytics. I am a data science student exploring questions about player performance, and I was excited to find someone doing related work professionally. Would you be open to a brief conversation about what your work looks like day to day?”
 
-These perspectives are writing options, not personality types or permanent career lanes. One project may support several of them.
+Name a genuine connection, describe your work accurately, and make a considerate request. Add a project link when it supplies useful context rather than a demand to review your whole portfolio.
 
-| Perspective | Useful questions for a write-up |
-| --- | --- |
-| Builder | What had to work reliably? Which design decision or failure did you investigate? How can someone explore what you made? |
-| Analyst | What decision or question did the analysis address? What did you measure or compare? What changed your interpretation? |
-| Storyteller | What does the reader need to understand? Which visual or example helps? What context might they otherwise miss? |
-| Expert / domain specialist | How does knowledge of this field change the question, definitions, or interpretation? What would a generalist overlook? |
-| Researcher | Which assumption, method, or claim did you examine? What was reproducible, uncertain, or still unresolved? |
+### A short project post
 
-### Keep a version where people can find it later.
+Explain what prompted the question, one decision or finding, and what you learned or would investigate next. Include a useful visual or link. Be clear about whether the work is planned, in progress, or complete.
 
-A post can introduce a project. A README, article, report, or permitted demonstration can hold the fuller explanation. LinkedIn’s [Featured section](https://www.linkedin.com/help/linkedin/answer/a550399/manage-featured-samples-of-your-work-on-your-linkedin-profile) is one possible place to highlight a link or sample; it is not a substitute for permission to share the content.
+For example: “After a class project, I realized that my chart needed more context for someone who had not worked with the data. I revised the title and caption, then asked a classmate to explain what they took from it. The comparison helped me see where my original explanation relied on assumptions. Here are the two versions and what I changed: [link].”
 
-Writing can give another person something specific to respond to. It does not guarantee views, replies, interviews, or a way around an employer’s selection process.
+These are writing examples. Change the details to match work and conversations that actually happened.
+
+### A technical write-up
+
+The Artifact writing kit offers structures for explaining a system, presenting an analysis, teaching a concept, reporting a research attempt, or building a visual narrative. Choose a structure that fits your reader and evidence; it is not necessary to use every section.
+
+
+### LinkedIn and other places to share
+
+A project post, a permitted project link in an application, or a link before an interview can each serve a different purpose. LinkedIn's [Featured section](https://www.linkedin.com/help/linkedin/answer/a550399) is another place to make selected work easier to find. Check how the link appears to another person, including when they are signed out.
+
+### An optional partner check
+
+Show someone your draft without explaining it first. Ask what they understand about the project and what is still unclear. Revise one sentence. A private draft can be enough; you do not need to send or publish it in the workshop.
 
 
 ## Use AI to make progress while checking your understanding.
@@ -209,48 +280,55 @@ The references combine official product documentation, primary portfolio pages, 
 Newly reviewed links are dated October 6, 2026. Earlier dates identify material retained from the prior edition. An application page being visible is not a promise that a role will remain open. One original Artifact reading link could not be rechecked; it remains labeled as unverified.
 
 
-## About this edition
+## About this resource
 
-Make Your Work Visible is a career-learning workshop by Reggie Leonard, **SDS Career Services, UVA School of Data Science**. It helps students develop and explain one personally relevant assignment, project, question, or job task. The live sequence follows the approved Scaffolding Architecture PRD: watch an example, try a move together, apply it to your own work, and explain a decision without reading a template.
+Make Your Work Visible was developed by Reggie Leonard in SDS Career Services at the University of Virginia School of Data Science. It offers career guidance about choosing projects, explaining work, and presenting it through GitHub or a portfolio.
 
-### How Artifact fits
+The session provides an introduction and room to get started. In practice provides optional activities. The field guide holds instructions and references. Artifact contains a collection of portfolio examples and writing guidance drawn from Reggie's original app.
 
-Artifact is the portfolio collection and writing kit within this edition. It retains all **12 portfolio selections, five writing perspectives, and nine reading selections** from Reggie’s supplied `artifact_v2_html.html`. It is available here without a Gemini embed, an API connection, or a separate account.
+The collection includes student-era projects and established practitioners. An example's inclusion does not verify every project result or mean the portfolio caused a hiring outcome. The annotations identify what to examine and note uncertainty where applicable.
 
-The original selections and guide structures were the starting material, not independently established claims. This edition reviewed the linked pages, qualified career-stage descriptions, and replaced fictional numerical results and incomplete template code with questions and placeholders. The six-part structure of each original writing guide is preserved. Two original project descriptions could not be confirmed on the reviewed landing pages; the associated cards explain the limitation rather than presenting them as facts. One writing-example link could not be rechecked and is labeled accordingly. The source package records these editorial changes.
+### How this file works
 
-### What is saved, and what is not
+The workshop, examples, and text prompts run in your browser without signing in. No model is called, no API key is requested, and no student work is collected. Your actual work remains in your own document, repository, or chosen tool. External links take you to services with their own terms and permissions.
 
-By default, the optional work card lives only in the open page. It contains a title, a starting condition, and a status. You can explicitly choose to remember it in this browser, export it as JSON, or clear it. It does not store your assignment, repository contents, worksheet answers, or work in another application. Do not put sensitive details in its title.
+Use the Field guide to save a Markdown reference or download the student worksheet. You can also use your own notes; neither is required.
 
-The exported worksheet is a place for you to write. It cannot retrieve work from GitHub, Handshake, or your own notes. Browser storage can be cleared or unavailable. Exporting a card or saving your actual document is separate from selecting “Remember.”
 
-### What this site does not do
+### Sources
 
-The site has no model API calls, API keys, backend, advertising, analytics, external runtime libraries, remote fonts, or student-account connection. Its prompts are text, not actions. The core navigation, examples, timers, and downloads work offline. Opening an external resource intentionally leaves this local experience and is subject to that site’s access, privacy, and pricing.
-
-Publishing the static site can have hosting requirements or costs. That is separate from model API usage: using this build does not call a paid model. The original Artifact source is archived for the owner, but its external CDN scripts are not used by this edition.
-
-### Sources and teaching boundaries
-
-The source register gives a date and context for each reference. Product offers and job postings can change. Portfolio annotations are editorial observations, not audits of project code, independent validation of results, or evidence that a portfolio caused a hiring outcome.
-
-The workshop uses instructional scaffolding, worked examples, guided practice, and self-explanation as design principles. It has not been experimentally shown to improve employment outcomes. Reggie facilitates scoping, explanation, reflection, and peer feedback; he does not grade technical implementations. Course staff, official documentation, and externally authored practice resources remain the appropriate sources for that work.
-
-### Printable materials
-
-The worksheet is an optional alternative to your own document or Post-it notes. Presenter materials follow the same screen numbers and timing as this edition.
-
-</div>
-
-### Controls
-
-Use the chapter strip or Contents to navigate. Arrow keys change slides when you are not typing or in a dialog. Home and End move to the opening and close. “Read all” makes the presentation a scrolling reference. “Present” hides personal work titles and starting-condition selections from the projected display. It does not start a second screen or synchronize other browsers.
-
-Timers start only when you press Start. They can be paused, reset, or assigned a preset. They pause when you leave their slide or switch away from the page. The 45-minute setting resets independent work to 11 minutes and peer review to four minutes. Nothing automatically advances a student or scores their work.
+Official documentation supports platform instructions. Employer pages illustrate tasks, and the project suggestions are adaptations made for this workshop. References retain individual checked dates rather than implying that every external page was reviewed today.
 
 
 ## Work options
+
+### Write or improve your About section
+
+Introduce your interests and the kind of work you are learning to do, then make relevant projects easy to find.
+
+**Where:** Your GitHub bio, profile README, LinkedIn About section, or a document.
+
+1. Write two or three sentences about what you study, the questions you care about, and the work you are exploring.
+2. Choose one or two projects that make those interests concrete. Add direct links when you can share them.
+3. Add a professional way to contact you, your LinkedIn profile, and a public-safe résumé if useful. Ask a neighbor what they now understand about you.
+
+**Finish line:** You have an introduction and a short list of links that support it.
+
+**Fallback:** Use the profile outline and leave space for project links you will add later.
+
+### Create or revise your profile README
+
+Introduce your interests and selected work in a way that reflects you. A plain-text introduction is a valid starting point.
+
+**Where:** Your username-matching repository, following GitHub’s official steps.
+
+1. Compare Reggie’s and Ckalib’s profiles. Choose one organizational idea you would use differently.
+2. Follow the official profile README instructions. If the repository already exists, edit it rather than creating another.
+3. Write a short introduction and explain one project you may share. Check that the project link works for the intended reader.
+
+**Finish line:** Your profile has a clearer introduction or one more useful project description.
+
+**Fallback:** Draft the introduction locally while you resolve account access later.
 
 ### Explain a project in your README
 
@@ -258,7 +336,7 @@ Use the three-question framework to help someone understand work you have alread
 
 **Where:** Your existing project README, or a document you can paste into it later.
 
-1. Use the work you selected and write the problem or question in language a classmate outside the course could understand.
+1. Choose a project and write the problem or question in language a classmate outside the course could understand.
 2. Describe your technical approach and your contribution. Explain one decision instead of listing every tool.
 3. Add the result or current progress, a link to evidence, and one limitation. Ask a partner what is still unclear.
 
@@ -279,34 +357,6 @@ Return to a part you rushed or a question the assignment did not require you to 
 **Finish line:** You have a small revision or a well-defined next step, with a reason for it.
 
 **Fallback:** Write the question and the first thing you need to inspect rather than starting a large rebuild.
-
-### Create or revise your profile README
-
-Introduce your interests and selected work in a way that reflects you. A plain-text introduction is a valid starting point.
-
-**Where:** Your username-matching repository, following GitHub’s official steps.
-
-1. Compare Reggie’s and Ckalib’s profiles. Choose one organizational idea you would use differently.
-2. Follow the official profile README instructions. If the repository already exists, edit it rather than creating another.
-3. Write a short introduction and explain one project you may share. Check that the project link works for the intended reader.
-
-**Finish line:** Your profile has a clearer introduction or one more useful project description.
-
-**Fallback:** Draft the introduction locally while you resolve account access later.
-
-### Practice collaboration with a small change
-
-Use official GitHub guidance to propose and review a change, such as improving a README.
-
-**Where:** A repository you own or may contribute to; alternatively GitHub Skills.
-
-1. Agree on a small change with a classmate. Describe what needs improving before editing.
-2. Follow GitHub’s browser-based branch, commit, and pull-request instructions.
-3. Ask the reviewer a specific question about the change, then respond to their feedback.
-
-**Finish line:** You have a documented proposal or a pull request with a meaningful review question.
-
-**Fallback:** Use the official introductory exercise rather than experimenting in someone else’s repository.
 
 ### Explain work you cannot publish in full
 
@@ -378,6 +428,20 @@ Follow Handshake’s guided activity using access that is already available to y
 
 **Fallback:** After two minutes of access trouble, choose a local README or project-bridge activity.
 
+### Practice collaboration with a small change
+
+Use official GitHub guidance to propose and review a change, such as improving a README.
+
+**Where:** A repository you own or may contribute to; alternatively GitHub Skills.
+
+1. Agree on a small change with a classmate. Describe what needs improving before editing.
+2. Follow GitHub’s browser-based branch, commit, and pull-request instructions.
+3. Ask the reviewer a specific question about the change, then respond to their feedback.
+
+**Finish line:** You have a documented proposal or a pull request with a meaningful review question.
+
+**Fallback:** Use the official introductory exercise rather than experimenting in someone else’s repository.
+
 ### Showcase one piece of your work
 
 Give a particular reader enough context to understand why you are sharing the project.
@@ -391,6 +455,20 @@ Give a particular reader enough context to understand why you are sharing the pr
 **Finish line:** You have a draft written for a real situation, not a generic request to review your whole portfolio.
 
 **Fallback:** Share a question you are exploring rather than describing a finished project you do not have.
+
+### Choose a home for your portfolio
+
+Compare a GitHub profile, GitHub Pages, a website builder, or a site you build yourself.
+
+**Where:** A document for planning, or the platform you already use.
+
+1. List the content you want to show: an introduction, selected projects, and ways to contact you.
+2. Compare the website options in the field guide. Consider cost, upkeep, and whether you actually need a separate site.
+3. Sketch a homepage or revise one section. Link each project to the most useful evidence, not only to a repository root.
+
+**Finish line:** You have a platform choice and a simple page outline, or an improved section on an existing site.
+
+**Fallback:** Draft the introduction and project links in a document. You do not need to sign up for a service.
 
 ## Full coaching prompts
 
@@ -653,7 +731,7 @@ Guide the reader through a real question and the evidence that informs it.
 ## Source register
 
 ### Using your GitHub profile to enhance your resume
-GitHub Docs · 2026-10-06
+GitHub Docs · 2026-10-07
 
 https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume
 
@@ -667,7 +745,7 @@ https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-f
 README purpose, navigation, and helping another person understand and use a project.
 
 ### Managing your profile README
-GitHub Docs · 2026-10-06
+GitHub Docs · 2026-10-07
 
 https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
 
@@ -681,7 +759,7 @@ https://docs.github.com/en/get-started/start-your-journey/hello-world
 Browser-based introduction to repositories, branches, commits, and pull requests.
 
 ### What is GitHub Pages?
-GitHub Docs · 2026-10-05
+GitHub Docs · 2026-10-07
 
 https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
 
@@ -695,7 +773,7 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/r
 Deleting a file is not sufficient to remove historical exposure. Exposed credentials need revocation or rotation.
 
 ### Student Developer Pack
-GitHub Education · 2026-10-06
+GitHub Education · 2026-10-07
 
 https://education.github.com/pack
 
@@ -758,7 +836,7 @@ https://support.joinhandshake.com/hc/en-us/articles/43488979012503-Partner-Offer
 Offers depend on mission and eligibility. Some require payment-card verification; inspect terms rather than promise universal free subscriptions.
 
 ### Create Your First Website and Share It on GitHub
-Handshake · 2026-10-06
+Handshake · 2026-10-07
 
 https://joinhandshake.com/learn/create-your-first-website-and-share-it-on-github-b03d6708/
 
@@ -940,11 +1018,11 @@ https://support.joinhandshake.com/hc/en-us/articles/43389121455255-What-is-AI-Sk
 Free missions with beta/account availability. Third-party tools can have separate access conditions.
 
 ### Data Science Intern (2027)
-Figma · 2026-10-06
+Figma · 2026-10-07
 
 https://job-boards.greenhouse.io/figma/jobs/6178857004
 
-Application form visible on October 6, 2026. Listed on the supplied SDS board. Suggested student projects are workshop adaptations, not employer assignments.
+The public internship page displayed an application form on the checked date. The workshop paraphrases a task and proposes a smaller student practice activity; it is not an employer assignment.
 
 ### Data Visualization Design Intern
 CSIS · 2026-10-06
@@ -961,7 +1039,7 @@ https://docs.google.com/spreadsheets/d/1ZvqS41CV-JMLrdSUb2KL5kzCaB09tv_dinSuUwv6
 The uploaded workbook supplied the Figma and CSIS links. The online board may require authorized access. No copy of the full workbook is included in this site.
 
 ### SQL & Data Interview Questions
-DataLemur · 2026-10-06
+DataLemur · 2026-10-07
 
 https://datalemur.com/questions
 
@@ -1148,4 +1226,32 @@ Original Artifact reading selection · 2026-10-06
 https://medium.com/pipeline-a-data-engineering-resource/3-data-science-projects-that-got-me-12-interviews-and-1-that-got-me-in-trouble-f376682b4e21
 
 A personal account of portfolio projects and interviews. The title reports the author’s experience; it is not a promised outcome. Reviewed October 6, 2026
+
+### Wix portfolio website builder
+Wix · 2026-10-07
+
+https://www.wix.com/portfolio-website
+
+Free publishing is available; custom domains and removing Wix branding require an upgrade. Compare current plans before paying.
+
+### Portfolio pages
+Squarespace · 2026-10-07
+
+https://support.squarespace.com/hc/en-us/articles/360035611791-Portfolio-pages
+
+Portfolio pages organize projects into a landing page and project subpages.
+
+### Is my site live?
+Squarespace · 2026-10-07
+
+https://support.squarespace.com/hc/en-us/articles/206536837-Is-my-site-live
+
+Trial sites are private by default; a paid site can be made fully public. A trial can be shared with a site-wide password.
+
+### How to contribute to open source
+GitHub Open Source Guides · 2026-10-07
+
+https://opensource.guide/how-to-contribute/
+
+Read the project guidelines first. Documentation and other non-code contributions count; acceptance is not guaranteed.
 

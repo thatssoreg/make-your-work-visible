@@ -1,220 +1,7 @@
 {
-  "version": "1.0.0",
-  "date": "2026-10-06",
+  "version": "2.0.0",
+  "date": "2026-10-07",
   "office": "SDS Career Services",
-  "starts": [
-    {
-      "id": "project",
-      "label": "I have a project or repository.",
-      "first": "Choose one explanation, result, or decision that you could improve.",
-      "routes": [
-        "readme",
-        "extension",
-        "share"
-      ]
-    },
-    {
-      "id": "assignment",
-      "label": "I have an assignment I could extend.",
-      "first": "Identify something you rushed, omitted, or would like to investigate further.",
-      "routes": [
-        "extension",
-        "readme",
-        "case"
-      ]
-    },
-    {
-      "id": "job",
-      "label": "I found a job task I want to practice.",
-      "first": "Keep the task beside you and reduce its scope until you have a manageable first step.",
-      "routes": [
-        "bridge",
-        "question",
-        "practice"
-      ]
-    },
-    {
-      "id": "curiosity",
-      "label": "I have a question, but no project yet.",
-      "first": "Choose one part of the question and identify evidence you could reasonably access.",
-      "routes": [
-        "question",
-        "bridge",
-        "practice"
-      ]
-    },
-    {
-      "id": "new",
-      "label": "I would like help finding a starting point.",
-      "first": "Borrow one of the example questions below. You can change it as you learn.",
-      "routes": [
-        "question",
-        "practice",
-        "mission"
-      ]
-    }
-  ],
-  "help": {
-    "object": {
-      "task": "Choose one assignment, project, question, or job task and keep it beside you.",
-      "nudge": [
-        "Which assignment did you submit before you had time to explain it well?",
-        "What is one question you have asked recently about an app, an activity, or something you noticed?",
-        "You may adapt an example rather than start from a blank page."
-      ],
-      "example": "A student interested in music chooses: “How could I tell whether an app’s recommendations are useful?” That question can become a small planning document before any coding begins."
-    },
-    "shared-fluency": {
-      "task": "As a table, propose a small way to practice the employer task and explain the scope.",
-      "nudge": [
-        "What do students already have access to?",
-        "What could someone else look at when the first attempt is finished?",
-        "Which part requires technical feedback from a course resource or colleague?"
-      ],
-      "example": "We would revise one chart from a permitted class assignment. A new reader would tell us what question the chart answers. This is manageable because the analysis already exists; we are practicing communication, not rebuilding the whole study."
-    },
-    "own-fluency": {
-      "task": "Use your chosen work to describe your current experience, what you want to understand next, and a first action.",
-      "nudge": [
-        "What have you already done that gives you a place to start?",
-        "What is one question or decision you do not yet understand?",
-        "What could you investigate, compare, revise, or try with the time and access you have?"
-      ],
-      "example": "I have made charts for class, but I have not asked a reader outside the course to interpret one. I want to learn how my labels affect the conclusion someone draws. I will revise the title and caption of one permitted chart, then ask a classmate what they understand."
-    },
-    "shared-legibility": {
-      "task": "Ask the writer for missing information. Do not invent a better result.",
-      "nudge": [
-        "What question was the chart supposed to answer?",
-        "Which parts did this student contribute, and why did the group choose that approach?",
-        "What did the chart show, and what could it not establish?"
-      ],
-      "example": "“What question were you trying to answer?” and “Which part did you contribute?” are useful questions. “You discovered a strong trend and improved decisions” is an invented answer, not feedback."
-    },
-    "own-legibility": {
-      "task": "Explain your selected work using the problem, approach and contribution, and result or current progress.",
-      "nudge": [
-        "Start with the question, not a list of tools.",
-        "Describe what you personally did or plan to do. Give collaborators credit.",
-        "Connect the explanation to something inspectable, and say whether it is planned, attempted, or observed."
-      ],
-      "example": "I am investigating whether the labels on a class-project chart make its conclusion clear to someone new to the topic. I have written two alternative captions and will compare them with a classmate. I have not collected that feedback yet, so the document currently contains a plan rather than a finding."
-    },
-    "reach": {
-      "task": "Write two sentences introducing your work to a plausible person or situation.",
-      "nudge": [
-        "Why are you contacting this person, rather than anyone with a similar job title?",
-        "Which single question, document, or result is relevant to that connection?",
-        "Are you asking for a conversation, one piece of feedback, or simply providing context for an agreed meeting?"
-      ],
-      "example": "Thank you for agreeing to speak with me on Thursday. I have been working on a short brief about how to evaluate music recommendations, and I thought it might provide useful context for my questions about your product-analytics work."
-    },
-    "work": {
-      "task": "Continue with the same work in your own file or tool. Choose a finish line that fits the time.",
-      "nudge": [
-        "What would make this explanation, plan, or project more useful right now?",
-        "Can you complete that change in the remaining time?",
-        "What should you ask a technical resource or another person to check afterward?"
-      ],
-      "example": "Rather than starting an entire application, I will improve the opening of my existing README and add a link to the figure it explains. I will bring that paragraph to the reader test."
-    }
-  },
-  "state_nudges": {
-    "project": [
-      "Find one claim that needs clearer evidence or explanation.",
-      "Name one decision you would like to understand or justify better.",
-      "Choose a revision or investigation small enough to begin now."
-    ],
-    "assignment": [
-      "What did you simplify or omit to meet the deadline?",
-      "Which part was your contribution, and which part belonged to collaborators?",
-      "Choose one extension that permission and time allow."
-    ],
-    "job": [
-      "Underline a verb and its object in the task, such as “communicate findings.”",
-      "What part could you practice without the employer’s private data?",
-      "Describe an investigation, comparison, or small document you could begin."
-    ],
-    "curiosity": [
-      "Narrow the question to one place, period, comparison, or decision.",
-      "Which evidence could you access without exposing sensitive information?",
-      "What would help you decide whether to investigate further?"
-    ],
-    "new": [
-      "Try the music-recommendation question from our example or a question from your table.",
-      "Choose whether you would prefer to compare, explain, or investigate something.",
-      "For today, a question and a first action are enough to start."
-    ]
-  },
-  "model": [
-    {
-      "title": "Read the task",
-      "heading": "Notice what the work asks someone to do.",
-      "body": "Figma’s posting connects product-use analysis with defining success and making recommendations. The learning opportunity is not simply “learn Python.” It is deciding what evidence would help someone judge a product feature.",
-      "detail": "Employer task → Choose measures that relate to a product decision."
-    },
-    {
-      "title": "Reduce the scope",
-      "heading": "Use a product you already know.",
-      "body": "Our example asks how a music app could evaluate its recommendation feature. Instead of rebuilding a recommendation system, a student can compare possible measures in a short brief.",
-      "detail": "Current experience: using music apps and class analysis. Desired experience: choosing and explaining product measures."
-    },
-    {
-      "title": "Identify the learning",
-      "heading": "Ask what the measures would actually tell you.",
-      "body": "A play might indicate interest, habit, or autoplay. Saving a recommended song might mean something different. Choosing measures creates questions about definitions, data access, and interpretation.",
-      "detail": "First action: propose three measures and describe what each would and would not establish."
-    },
-    {
-      "title": "Make it inspectable",
-      "heading": "A planning document is a real piece of work.",
-      "body": "The example brief contains a question, three candidate measures, their limitations, and the data that would be needed. It does not claim that an experiment ran or that a product improved.",
-      "detail": "We will use this same brief when we write the README and introduce the project to someone else."
-    }
-  ],
-  "criteria": [
-    "Problem or question",
-    "Approach + contribution",
-    "Result + meaning"
-  ],
-  "readme": {
-    "before": {
-      "title": "Music recommendation project",
-      "paragraphs": [
-        "I researched music recommendations and looked at some metrics. This project helped me learn product analytics. It was successful."
-      ],
-      "checks": [
-        "What decision is the project supposed to help someone make?",
-        "What did the author actually produce or decide?",
-        "What does “successful” mean, and what can I inspect?"
-      ]
-    },
-    "after": {
-      "title": "How could a music app evaluate its recommendations?",
-      "paragraphs": [
-        "This planning brief asks how a music app could judge whether its recommendations are useful, beyond counting plays.",
-        "I proposed three candidate measures, described the data each would require, and recorded limitations that could change their interpretation. The brief explains why a play, a save, and a later return are not interchangeable.",
-        "The output is a measurement plan, not a completed user study. I have not collected usage data or run an experiment. My next step would be to ask a product-analytics practitioner which assumptions need revision."
-      ],
-      "checks": [
-        "The question is evaluating recommendation usefulness, not “using analytics.”",
-        "The author wrote a brief, selected measures, and explained data needs and limitations.",
-        "The document exists; its claims stop at planning. No usage result is invented."
-      ]
-    }
-  },
-  "messages": {
-    "confirmed": {
-      "title": "Before a confirmed informational interview",
-      "text": "Thank you for agreeing to speak with me on Thursday. I have been working on a short brief about how a music app could evaluate its recommendations, and I thought it might provide context for my questions about product analytics.\n\nThe brief compares three possible measures and the assumptions behind them. There is no need to read it beforehand, but here is the link in case it is useful: [project link].",
-      "framework": "Include the real meeting context, one sentence about the project, and an optional link. Use this version only after the conversation has been agreed."
-    },
-    "outreach": {
-      "title": "When you notice a genuine connection",
-      "text": "I noticed that you work in product analytics for music, and I have been exploring how an app could tell whether its recommendations are useful. I am a data science student, and I recently wrote a brief comparing possible measures.\n\nI would value hearing how someone doing this work approaches those choices. Would you be open to a short conversation about what that looks like in practice?",
-      "framework": "State the genuine connection, describe the work accurately, and make a specific, considerate request. The person’s role and your project must be real."
-    }
-  },
   "portfolios": [
     {
       "id": "aleksandr-nikitin",
@@ -678,13 +465,54 @@
   ],
   "routes": [
     {
+      "id": "about",
+      "group": "existing",
+      "title": "Write or improve your About section",
+      "why": "Introduce your interests and the kind of work you are learning to do, then make relevant projects easy to find.",
+      "where": "Your GitHub bio, profile README, LinkedIn About section, or a document.",
+      "steps": [
+        "Write two or three sentences about what you study, the questions you care about, and the work you are exploring.",
+        "Choose one or two projects that make those interests concrete. Add direct links when you can share them.",
+        "Add a professional way to contact you, your LinkedIn profile, and a public-safe résumé if useful. Ask a neighbor what they now understand about you."
+      ],
+      "done": "You have an introduction and a short list of links that support it.",
+      "fallback": "Use the profile outline and leave space for project links you will add later.",
+      "refs": [
+        "gh-profile",
+        "gh-front"
+      ],
+      "prompt": "legibility",
+      "template": "profile"
+    },
+    {
+      "id": "profile",
+      "group": "existing",
+      "title": "Create or revise your profile README",
+      "why": "Introduce your interests and selected work in a way that reflects you. A plain-text introduction is a valid starting point.",
+      "where": "Your username-matching repository, following GitHub’s official steps.",
+      "steps": [
+        "Compare Reggie’s and Ckalib’s profiles. Choose one organizational idea you would use differently.",
+        "Follow the official profile README instructions. If the repository already exists, edit it rather than creating another.",
+        "Write a short introduction and explain one project you may share. Check that the project link works for the intended reader."
+      ],
+      "done": "Your profile has a clearer introduction or one more useful project description.",
+      "fallback": "Draft the introduction locally while you resolve account access later.",
+      "refs": [
+        "gh-front",
+        "ckalib-profile",
+        "reggie-profile"
+      ],
+      "prompt": "legibility",
+      "template": "profile"
+    },
+    {
       "id": "readme",
       "group": "existing",
       "title": "Explain a project in your README",
       "why": "Use the three-question framework to help someone understand work you have already done.",
       "where": "Your existing project README, or a document you can paste into it later.",
       "steps": [
-        "Use the work you selected and write the problem or question in language a classmate outside the course could understand.",
+        "Choose a project and write the problem or question in language a classmate outside the course could understand.",
         "Describe your technical approach and your contribution. Explain one decision instead of listing every tool.",
         "Add the result or current progress, a link to evidence, and one limitation. Ask a partner what is still unclear."
       ],
@@ -716,47 +544,6 @@
       ],
       "prompt": "fluency",
       "template": "extension"
-    },
-    {
-      "id": "profile",
-      "group": "existing",
-      "title": "Create or revise your profile README",
-      "why": "Introduce your interests and selected work in a way that reflects you. A plain-text introduction is a valid starting point.",
-      "where": "Your username-matching repository, following GitHub’s official steps.",
-      "steps": [
-        "Compare Reggie’s and Ckalib’s profiles. Choose one organizational idea you would use differently.",
-        "Follow the official profile README instructions. If the repository already exists, edit it rather than creating another.",
-        "Write a short introduction and explain one project you may share. Check that the project link works for the intended reader."
-      ],
-      "done": "Your profile has a clearer introduction or one more useful project description.",
-      "fallback": "Draft the introduction locally while you resolve account access later.",
-      "refs": [
-        "gh-front",
-        "ckalib-profile",
-        "reggie-profile"
-      ],
-      "prompt": "legibility",
-      "template": "profile"
-    },
-    {
-      "id": "pr",
-      "group": "existing",
-      "title": "Practice collaboration with a small change",
-      "why": "Use official GitHub guidance to propose and review a change, such as improving a README.",
-      "where": "A repository you own or may contribute to; alternatively GitHub Skills.",
-      "steps": [
-        "Agree on a small change with a classmate. Describe what needs improving before editing.",
-        "Follow GitHub’s browser-based branch, commit, and pull-request instructions.",
-        "Ask the reviewer a specific question about the change, then respond to their feedback."
-      ],
-      "done": "You have a documented proposal or a pull request with a meaningful review question.",
-      "fallback": "Use the official introductory exercise rather than experimenting in someone else’s repository.",
-      "refs": [
-        "gh-hello",
-        "gh-skills"
-      ],
-      "prompt": "legibility",
-      "template": "pr"
     },
     {
       "id": "case",
@@ -863,6 +650,26 @@
       "template": "mission"
     },
     {
+      "id": "pr",
+      "group": "existing",
+      "title": "Practice collaboration with a small change",
+      "why": "Use official GitHub guidance to propose and review a change, such as improving a README.",
+      "where": "A repository you own or may contribute to; alternatively GitHub Skills.",
+      "steps": [
+        "Agree on a small change with a classmate. Describe what needs improving before editing.",
+        "Follow GitHub’s browser-based branch, commit, and pull-request instructions.",
+        "Ask the reviewer a specific question about the change, then respond to their feedback."
+      ],
+      "done": "You have a documented proposal or a pull request with a meaningful review question.",
+      "fallback": "Use the official introductory exercise rather than experimenting in someone else’s repository.",
+      "refs": [
+        "gh-hello",
+        "gh-skills"
+      ],
+      "prompt": "legibility",
+      "template": "pr"
+    },
+    {
       "id": "share",
       "group": "showcase",
       "title": "Showcase one piece of your work",
@@ -881,6 +688,28 @@
       ],
       "prompt": "reach",
       "template": "share"
+    },
+    {
+      "id": "website",
+      "group": "showcase",
+      "title": "Choose a home for your portfolio",
+      "why": "Compare a GitHub profile, GitHub Pages, a website builder, or a site you build yourself.",
+      "where": "A document for planning, or the platform you already use.",
+      "steps": [
+        "List the content you want to show: an introduction, selected projects, and ways to contact you.",
+        "Compare the website options in the field guide. Consider cost, upkeep, and whether you actually need a separate site.",
+        "Sketch a homepage or revise one section. Link each project to the most useful evidence, not only to a repository root."
+      ],
+      "done": "You have a platform choice and a simple page outline, or an improved section on an existing site.",
+      "fallback": "Draft the introduction and project links in a document. You do not need to sign up for a service.",
+      "refs": [
+        "gh-front",
+        "gh-pages",
+        "wix",
+        "sq-portfolio"
+      ],
+      "prompt": "legibility",
+      "template": "profile"
     }
   ],
   "prompts": {
@@ -894,7 +723,7 @@
     "coding": "I am trying to [bounded task] in my own project. Here is the relevant code, error, and what I expected: [only material I am allowed to share]. Help me investigate before replacing the code. Ask what I tried and explain unfamiliar concepts. Propose the smallest relevant change and a way to check it using the applicable documentation. State assumptions and do not claim a test ran unless it did. Then ask me to explain: What changed? Why? What should I try next? Pause for my answer."
   },
   "templates": {
-    "readme": "# [Project title]\n\n## Problem or question\n[What were you trying to understand or improve, and for whom?]\n\n## Technical approach and my contribution\n[What did you do? Explain an important choice and distinguish your contribution from collaborators' work.]\n\n## Results and what they mean\n[What happened? Link to evidence. If unfinished, describe current progress and the next question rather than inventing a result.]\n\n## How to explore the work\n[Link to a chart, report, notebook, code, or demonstration. Add dependencies and run instructions when needed.]\n\n## Limitations and credits\n[What does the work not establish? Name collaborators, data sources, and any starter material.]\n",
+    "readme": "# [Project title]\n\n## The question\nWhat problem or question did you address, and why did it matter?\n\n## My approach and contribution\nWhat data, methods, or tools did you use? Which parts did you do? Explain a decision rather than only listing tools. Credit collaborators and starter materials.\n\n## Results or current progress\nWhat did you find, produce, or learn? What is still planned? Link to a chart, notebook, report, demo, or other evidence you may share.\n\n## Limitations and next steps\nWhat should a reader not conclude? What would you investigate next?\n\n## Explore the work\n[Relevant files, demo, or documentation]\nInclude dependencies and run instructions when a reader needs them.\n",
     "bridge": "# A project bridge\n\nPosting title, organization, URL, and date checked:\n\nThe task I noticed:\n\nWhat I can already demonstrate:\n\nWhat I would like to practice or understand:\n\nA small next experience (an extension, comparison, analysis, explanation, or conversation):\n\nData or materials I can actually access:\n\nMy first action today:\n\nWhat I hope to learn, produce, or be able to explain:\n\nQuestions for an instructor, classmate, or practitioner:\n\nThis is a proposed learning activity, not an employer assignment or a completed accomplishment.\n",
     "extension": "# Revisiting an assignment\n\nOriginal assignment and my contribution:\n\nWhat I rushed, left unexplored, or would like to explain better:\n\nOne change I will make today:\n\nWhere I will make the change:\n\nWhat changed, and why:\n\nWhat I still want to explore:\n\nCourse sharing rules and collaborators to credit:\n",
     "profile": "# Hi, I'm [name]\n\n[Introduce yourself in a few sentences. What kinds of questions or work interest you?]\n\n## A few projects\n\n### [Project title]\n[What was the question, what did you contribute, and what can someone inspect?]\n[Link to the permitted project or explanation]\n\n## What I am learning\n[Name something you are currently investigating or practicing.]\n\n## Contact\n[Include only contact details you want to make public.]\n",

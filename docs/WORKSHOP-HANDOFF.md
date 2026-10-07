@@ -1,63 +1,57 @@
-# Make Your Work Visible: release handoff
+# Make Your Work Visible: practical workshop handoff
 
 **Owner:** Reggie Leonard, SDS Career Services, UVA School of Data Science.  
-**Release:** 1.0.0, based on the approved Scaffolding Architecture PRD.  
-**Session:** 40 minutes after a 15–20 minute faculty opening. The 45-minute option adds four minutes to independent work and one to peer review.
+**Release:** 2.0.0 · October 7, 2026.  
+**Latest direction:** The practical career workshop supersedes the earlier scaffolding PRD for the live experience.
 
-## Governing design
+## Governing purpose
 
-A student keeps one personally chosen assignment, project, question, or job task throughout the session. It is not a collection of unrelated exercises. The sequence moves from a worked example to shared practice, individual application, and an independent explanation. Extra support is selectable and fades; it is not an automatically generated “adaptive” score.
+Orient students enough to begin, show relevant examples, and give them time to work and ask questions. This should feel like a GitHub and portfolio counterpart to a career-services résumé workshop, made specific to a school of data science. It is not a technical lab, adaptive lesson sequence, or compulsory project-development curriculum.
 
-The organizing concepts are fluency, legibility, and reach. Preserve Reggie's sentence: **The work builds fluency. The explanation builds legibility.** Fluency is grounded understanding of work, not jargon, accent, charisma, or an insider identity. Legibility is recognizable capability and contribution, not only polished writing. Reach provides honest context for a relevant person to engage with a project or question.
+## What remains
 
-The facilitator is a career professional, not the technical grader. Do not reintroduce the bookstore SQL lab, custom implementation exercises, technical correctness claims, a mastery score, or mandatory public posting.
+Fluency, legibility, and reach are the introductory concepts. Keep the sentence “The work builds fluency. The explanation builds legibility.” Students should see how work creates understanding, how evidence makes contribution recognizable, and how an introduction can bring a specific project into a relevant conversation.
 
-## What the build actualizes
+Keep a concrete Post-it exercise, the Figma internship-task example, a related README before/after, project diversity, About/profile options, permissions, sharing examples, In practice, the field guide, and the complete integrated Artifact collection.
 
-Five starting conditions narrow a ten-option activity collection. Seven exercises have task-only, nudge, and worked-example states. A context card can preserve the selected work's title and status, but the student's substantive answers stay in their own file or tool. Eight timers are independently started, paused, reset, and preset. Leaving an activity pauses its timer. The final reader exercise removes help controls and asks for an explanation without a sentence stem.
+## What must not return
 
-The Figma task becomes a small music-recommendation measurement brief, not a simulated employment accomplishment. The actual brief is included and reused for the README and outreach models. The CSIS task provides a second shared-practice example. Before/after project explanations use identical questions: problem; approach and contribution; result or current progress and meaning. Plans and untested assumptions remain visible.
+No student-facing times, countdowns, pacing ranges, speaker cues, or Watch/Model/Apply labels. No diagnostic, persistent work-card, required same-object flow, help-level selector, or mandatory reader test. No music-recommendation measurement brief or bespoke SQL lab. Do not simply hide these behind another mode; the current app does not contain them.
 
-The 14-screen sequence, timings, cue lines, actions, and transitions are canonical in `content/session.json`. Numbered Markdown files hold visible copy. The build synchronizes session text exports, one-line speaker notes, and facilitator materials. Do not independently rewrite PDF speaker notes without changing their source.
+Students may use an existing assignment, start with a question, write an About section, select an external guided practice resource, or work privately. There is no assumption that a finished project exists on arrival.
 
-## Artifact integration
+## Sequence and pacing
 
-The supplied `artifact_v2_html.html` is now the source basis for the collection and writing kit, not just screenshots. All 12 portfolio selections, five six-part writing guides, and nine reading selections are retained. Their annotations have been reviewed; career-stage limits and unverified original claims are documented. One original reading page could not be rechecked and remains visibly labeled.
+Eleven screens: opening; concepts; Post-its; Figma task/bridge; project diversity; README; presence and platform choices; permissions; project introductions; work and questions; close.
 
-The original's CDN, icon, remote-font, and Prism dependencies are not used at runtime. The new gallery uses semantic buttons, keyboard-accessible dialogs, explicit close/focus behavior, working filters, search, and clipboard fallbacks. The untouched source and extracted originals are retained only in the owner's provenance archive. The public edition uses reviewed content. See `ARTIFACT-MIGRATION.md` for the differences.
+The 40-minute presenter plan uses 16 minutes for the opening, examples, and table discussion, 22 for work/questions including a short shared Q&A, and two for closing. The 45-minute version adds five to the work/question block. These timings belong only in presenter source and print materials.
 
-Both HTML entry points use the same `src` and `content` inputs. `artifact.html` simply starts in the collection. Do not fork the collection into two manually maintained versions. No Gemini link or embedded Gemini app is required.
+Each screen has one canonical speaker sentence in `content/session.json`. Keep the session flexible: questions and individual work are the purpose, not an interruption to a long scripted sequence.
 
-## Voice and appearance
+## Figma example and factual boundaries
 
-The office name is **SDS Career Services** everywhere in the current release. Keep the cream/navy/orange editorial style, readable hierarchy, and complete, literal sentences. Avoid slogan piles, “one useful move,” “not a gate,” “work travels,” and “a link is a location; a story is an invitation.” Do not make scaffolding visible as a large framework diagram the student has to decode.
+The Data Science Intern (2027) page was rechecked October 7, 2026 and displayed an application form. It describes product use, meaningful metrics, and product recommendations. Our practice suggestion is an illustrative feature-adoption measurement brief. It is neither Figma's assignment nor a completed Figma project. The stronger README explicitly labels the plan as complete and the analysis as not yet performed.
 
-The live deck is paced around what students do. The field guide and Artifact hold the depth. Preserve the distinction between “planned instructional time” and observed learning. A peer can report what they understand; the workshop cannot certify technical competence.
+Database, cloud, collaboration, and open-source examples broaden the evidence students might show. Do not claim any one tool or project guarantees distinction, interviews, or employment. Technical peers, faculty, documentation, and externally authored practice resources are appropriate places to evaluate technical choices.
 
-## File architecture
+## Student experience
 
-- `src/index.template.html`, `src/style.css`, and `src/app.js`: UI source.
-- `content/session.json`, `content/slides/*.md`: canonical session and slide copy.
-- `content/resources.json`: routing, scaffolds, models, original Artifact selections, reviewed guides, prompts, and templates.
-- `content/guide-*.md`, `content/sources.json`, `content/measurement-brief.md`: reference and example sources.
-- `build.py`: creates self-contained main/Artifact HTML and synchronized text exports.
-- `build_print.py`: creates a nine-page facilitator guide, one-page run sheet, and two-page worksheet.
-- `public/`: publishable static output. It does not contain the job-board workbook or learner work.
-- `docs/`: Markdown guides, QA, acceptance mapping, migration notes, privacy, and deployment instructions.
-- `tests/`: content checks, the document-injection UI suite, and a separate native-browser smoke suite where available.
+The session is linear and light. In practice offers 12 activities with simple category filters. These are convenience filters, not learner diagnoses. The field guide has ten topics, including new project-selection and platform-comparison chapters. The Artifact entry point uses the same collection and writing data as the workshop.
 
-The authoring helper scripts used during initial creation are not canonical build dependencies. Edit the content files directly and run the two build scripts. The untouched approved PRD remains a separate design artifact; it is not rewritten to claim new evidence.
+No student editor or autosave exists. No model is called. Prompts and templates can be copied or downloaded. Browser navigation remembers the current view via its URL fragment, not a learner profile.
 
-## State, privacy, and dependencies
+## Writing and design
 
-The default work card is in memory. Persistence requires an explicit checkbox and is limited to a title, one of five starting conditions, and one of three work-status labels. JSON imports have a size limit, schema checks, and escaped rendering. Exports do not retrieve work from another app. Context should be nonsensitive. Present mode hides personal work titles and selection controls.
+Use literal, complete explanations instead of stacked slogans. Keep UVA navy/orange, cream backgrounds, generous type, and the Artifact editorial style. The office name is SDS Career Services. Avoid em dashes, “one useful move,” work that “travels,” “not a gate,” and internal design terminology in student copy.
 
-No backend, model API call, key, telemetry, external runtime library, remote font, or student-account connection exists. The content security policy blocks connections, forms, objects, and base-URL changes, and hashes the executable script. Links to external services are intentional user actions; their terms and costs are separate. Do not advertise this as an independent security audit.
+## Artifacts and build
 
-## Release and future changes
+`build.py` builds print documents, both HTML files, student guide, and speaker notes. It explicitly whitelists number/title/theme when serializing session metadata to the public app. Timings/actions/transitions are excluded. Only the student worksheet is embedded; facilitator PDFs are generated under `docs/print`.
 
-Read `QA.md` and the machine-readable reports for the actual test scope. The original environment blocked file and HTTP navigation, so its broad UI suite used document injection and a clearly labeled storage test double. Native browser smoke tests, when run elsewhere, are recorded separately rather than retroactively changing that description. Neither suite certifies the real projector, actual students, or every assistive technology.
+The previous approved PRD remains a historical artifact, not a requirement to restore complexity. Original Artifact selections and reviewed annotations are preserved. See ARTIFACT-MIGRATION.md for original-source provenance.
 
-Run all relevant checks after changing copy or timing, because longer text can affect projected layouts. Update sources before using this material in a later recruiting season. Product offers, job status, and portfolio content are date-sensitive.
+## Publication and validation
 
-The intended GitHub destination is `thatssoreg/make-your-work-visible`. It was accessible and already public when this build began; its visibility was not changed. The private Artifact repository is not a substitute destination. No hosting service, paid plan, or custom domain should be silently enabled.
+The intended repository remains `thatssoreg/make-your-work-visible`. Do not use the separate private Artifact repository as a substitute. Do not change visibility or enable paid hosting without instruction.
+
+Read QA.md and machine-readable test results for actual results and environment. Automated checks cannot certify classroom pacing, student outcomes, the projector, or assistive-technology use on real devices.

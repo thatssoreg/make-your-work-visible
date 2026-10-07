@@ -1,244 +1,118 @@
 {
   "checks": [
     {
-      "name": "Office name is current",
+      "name": "Eleven slides, all accounted for",
       "passed": true
     },
     {
-      "name": "Exactly fourteen sequential screens",
+      "name": "Student session data excludes facilitator fields",
       "passed": true
     },
     {
-      "name": "Core timing equals forty minutes",
+      "name": "No clock widgets or routing controls",
       "passed": true
     },
     {
-      "name": "Extended timing equals forty-five minutes",
+      "name": "No elapsed times in any slide",
       "passed": true
     },
     {
-      "name": "No planned teaching burst exceeds four minutes",
+      "name": "No facilitator printables in student payload",
       "passed": true
     },
     {
-      "name": "Planned active blocks exceed forty percent",
+      "name": "No facilitator PDFs in public downloads",
       "passed": true
     },
     {
-      "name": "Same object reused at four application screens",
+      "name": "No forced starting states in resources",
       "passed": true
     },
     {
-      "name": "Five starting conditions",
+      "name": "SDS Career Services branding",
       "passed": true
     },
     {
-      "name": "Initial routing narrows to three choices",
+      "name": "No music-brief dependency",
       "passed": true
     },
     {
-      "name": "All ten work options retained",
+      "name": "All 12 original Artifact selections retained",
       "passed": true
     },
     {
-      "name": "Every router reference resolves",
+      "name": "All 5 writing guides retained",
       "passed": true
     },
     {
-      "name": "Seven scaffolded exercises",
+      "name": "All 9 reading selections retained",
       "passed": true
     },
     {
-      "name": "Scaffold object has task, nudge, and example",
+      "name": "Original 6-part writing structures retained",
       "passed": true
     },
     {
-      "name": "Scaffold shared-fluency has task, nudge, and example",
+      "name": "New project-selection and website guides present",
       "passed": true
     },
     {
-      "name": "Scaffold own-fluency has task, nudge, and example",
+      "name": "All activity reference IDs resolve",
       "passed": true
     },
     {
-      "name": "Scaffold shared-legibility has task, nudge, and example",
+      "name": "All activity prompts and outlines resolve",
       "passed": true
     },
     {
-      "name": "Scaffold own-legibility has task, nudge, and example",
+      "name": "All static source links resolve",
       "passed": true
     },
     {
-      "name": "Scaffold reach has task, nudge, and example",
+      "name": "No automatic external runtime dependencies",
       "passed": true
     },
     {
-      "name": "Scaffold work has task, nudge, and example",
+      "name": "No network or storage API usage",
       "passed": true
     },
     {
-      "name": "Peer test is unscaffolded",
+      "name": "No script execution from external data",
       "passed": true
     },
     {
-      "name": "Eight timer controls",
+      "name": "CSP blocks external connections",
       "passed": true
     },
     {
-      "name": "Twelve original Artifact selections",
+      "name": "Student paths separate from facilitator notes",
       "passed": true
     },
     {
-      "name": "Five original writing guides",
+      "name": "Core facilitation plan is 40 minutes",
       "passed": true
     },
     {
-      "name": "All five guides have six parts",
+      "name": "Work and questions retain 22 minutes",
       "passed": true
     },
     {
-      "name": "Nine original reading examples",
+      "name": "No em dash in slide copy",
       "passed": true
     },
     {
-      "name": "Unverified reading stays labeled",
+      "name": "GitHub and website options remain distinct",
       "passed": true
     },
     {
-      "name": "Template claims use placeholders",
+      "name": "Templates do not promise hiring outcomes",
       "passed": true
     },
     {
-      "name": "No Gemini embed",
-      "passed": true
-    },
-    {
-      "name": "No external runtime scripts",
-      "passed": true
-    },
-    {
-      "name": "No remote stylesheets or fonts",
-      "passed": true
-    },
-    {
-      "name": "No runtime model/API connection",
-      "passed": true
-    },
-    {
-      "name": "No analytics or tracking bootstrap",
-      "passed": true
-    },
-    {
-      "name": "CSP denies network connections",
-      "passed": true
-    },
-    {
-      "name": "CSP denies forms, objects, and base URL changes",
-      "passed": true
-    },
-    {
-      "name": "CSP permits only the actual executable script",
-      "passed": true
-    },
-    {
-      "name": "All source IDs unique",
-      "passed": true
-    },
-    {
-      "name": "Contextual source job-figma resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source job-csis resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source gh-readme resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source ckalib-profile resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source reggie-profile resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source gh-front resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source gh-profile resolves",
-      "passed": true
-    },
-    {
-      "name": "Contextual source cookiecutter resolves",
-      "passed": true
-    },
-    {
-      "name": "All route source references resolve",
-      "passed": true
-    },
-    {
-      "name": "Source links use HTTPS",
-      "passed": true
-    },
-    {
-      "name": "Guide includes no API credentials",
-      "passed": true
-    },
-    {
-      "name": "No job-board workbook published",
-      "passed": true
-    },
-    {
-      "name": "No font files distributed",
-      "passed": true
-    },
-    {
-      "name": "No project editor was reintroduced",
-      "passed": true
-    },
-    {
-      "name": "Work-card import validates size and schema",
-      "passed": true
-    },
-    {
-      "name": "Student-controlled input is escaped in markup",
-      "passed": true
-    },
-    {
-      "name": "README comparison keeps identical criteria",
-      "passed": true
-    },
-    {
-      "name": "Example brief explicitly distinguishes plans from results",
-      "passed": true
-    },
-    {
-      "name": "Printable PDFs exist",
-      "passed": true
-    },
-    {
-      "name": "Standalone Artifact is built from shared sources",
-      "passed": true
-    },
-    {
-      "name": "Source includes reduced-motion handling",
-      "passed": true
-    },
-    {
-      "name": "Source includes print styles",
-      "passed": true
-    },
-    {
-      "name": "No forbidden motivational slogans in live copy",
+      "name": "Public artifacts have manifest checksums",
       "passed": true
     }
   ],
-  "passed": 59,
-  "total": 59,
-  "planned_active_minutes": 28,
-  "note": "Instructional contract checks are not observed participant-learning outcomes."
+  "passed": 28,
+  "total": 28
 }

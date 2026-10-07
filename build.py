@@ -15,9 +15,9 @@ md=MarkdownIt('commonmark',{'html':True}).enable('table')
 session=json.loads((CONTENT/'session.json').read_text())
 resources=json.loads((CONTENT/'resources.json').read_text())
 sources=json.loads((CONTENT/'sources.json').read_text())
-guide_keys=['start','explaining','github','permissions','writing','tools','sources','about']
+guide_keys=['start','projects','explaining','github','platforms','permissions','writing','tools','sources','about']
 guides={k:{'markdown':(CONTENT/f'guide-{k}.md').read_text(),'html':md.render((CONTENT/f'guide-{k}.md').read_text())} for k in guide_keys}
-field='# Make Your Work Visible\n## Student field guide\n\nReggie Leonard · SDS Career Services · UVA School of Data Science\n\nEdition 1.0.0 · October 6, 2026\n\n'
+field='# Make Your Work Visible\n## Student field guide\n\nReggie Leonard · SDS Career Services · UVA School of Data Science\n\nEdition 2.0.0 · October 7, 2026\n\n'
 for k,g in guides.items():field+=g['markdown']+'\n\n'
 field+='## Work options\n\n'
 for r in resources['routes']:
@@ -34,19 +34,20 @@ for s in sources:field+=f"### {s['title']}\n{s['publisher']} · {s['checked']}\n
 field=re.sub(r'<(?:button|label|div)\b[^>]*>.*?</(?:button|label|div)>','',field,flags=re.S)
 field=re.sub(r'\n{4,}','\n\n\n',field)
 (DOCS/'STUDENT-FIELD-GUIDE.md').write_text(field)
-slides=[]; outline='# Make Your Work Visible\n## Canonical live sequence\n\nSDS Career Services · 40-minute core; 45-minute option adds four minutes to work and one to peer review.\n\n';notes='# One-line speaker notes\n\nSDS Career Services · Reggie Leonard\n\n';elapsed=0
+slides=[]; outline='# Make Your Work Visible\n## Canonical live sequence\n\nSDS Career Services · Facilitator planning source; not displayed to students.\n\n';notes='# One-line speaker notes\n\nSDS Career Services · Reggie Leonard\n\n';elapsed=0
 for s in session:
  text=(CONTENT/s['file']).read_text();rendered=md.render(text)
- slides.append(f'<section class="slide" data-scene="{s["number"]}" aria-label="{html.escape(s["title"],quote=True)}"'+(' hidden' if s['number']!=1 else '')+f'><div class="scene-context"></div>{rendered}</section>')
+ slides.append(f'<section class="slide" data-scene="{s["number"]}" aria-label="{html.escape(s["title"],quote=True)}"'+(' hidden' if s['number']!=1 else '')+f'>{rendered}</section>')
  timing=f'{elapsed}:00–{elapsed+s["minutes"]}:00';elapsed+=s['minutes']
- outline+=f"## {s['number']:02d}. {s['title']}\n**{s['theme']} · {s['kind']} · {timing}**\n\n**Say:** {s['say']}\n\n"+'\n'.join('- '+x for x in s['actions'])+f"\n\n**Output:** {s['output'] or 'Shared orientation or a modeled example.'}\n\n**Transition:** {s['transition']}\n\n"+text+'\n\n'
+ outline+=f"## {s['number']:02d}. {s['title']}\n**{s['theme']} · {s['kind']} · {timing}**\n\n**Say:** {s['say']}\n\n"+'\n'.join('- '+x for x in s['actions'])+f"\n\n**Output:** {'Refer to the activity instructions.'}\n\n**Transition:** {s['transition']}\n\n"+text+'\n\n'
  notes+=f"**{s['number']:02d} · {timing} · {s['kind']}**  \n{s['say']}\n\n"
 (CONTENT/'SESSION.md').write_text(outline);(DOCS/'SPEAKER-NOTES.md').write_text(notes)
 for name,text in resources['templates'].items():(CONTENT/f'{name}-template.md').write_text(text)
 for name,text in resources['prompts'].items():(CONTENT/f'{name}-prompt.md').write_text(text)
 (CONTENT/'ARTIFACT-COLLECTION.md').write_text('# Artifact collection\n\n'+ '\n\n'.join(f"## {p['name']} · {p['lens']}\n\n{p['stage']}\n\n{p['summary']}\n\n{p['pattern']}\n\n{p['url']}\n\n{p['note']}" for p in resources['portfolios']))
 printables={f.stem:{'name':f.name,'base64':base64.b64encode(f.read_bytes()).decode()} for f in sorted((PUBLIC/'downloads').glob('*.pdf'))}
-data=dict(printables=printables,session=session,resources=resources,sources=sources,guides=guides,fieldMarkdown=field,measurement=(CONTENT/'measurement-brief.md').read_text())
+public_session=[{k:s[k] for k in ['number','title','theme']} for s in session]
+data=dict(printables=printables,session=public_session,resources=resources,sources=sources,guides=guides,fieldMarkdown=field)
 serialized=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
 script=(ROOT/'src/app.js').read_text();style=(ROOT/'src/style.css').read_text();template=(ROOT/'src/index.template.html').read_text()
 sha=base64.b64encode(hashlib.sha256(script.encode()).digest()).decode()

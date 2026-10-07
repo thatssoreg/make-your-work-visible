@@ -1,137 +1,589 @@
 {
-  "environment": "Native Chromium over a temporary local HTTP server; real browser storage and reload, not a storage mock",
+  "environment": "Native HTTP",
   "checks": [
     {
-      "name": "Real HTTP document loads",
+      "name": "Main entry point loads one slide",
       "passed": true
     },
     {
-      "name": "Opt-in card survives real reload",
+      "name": "No clocks or presenter controls are rendered",
       "passed": true
     },
     {
-      "name": "Real help reveal works",
+      "name": "Screen 1: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Real clock counts down",
+      "name": "Screen 1: fits desktop width",
       "passed": true
     },
     {
-      "name": "Real Markdown download contains chosen title",
+      "name": "Screen 2: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "student-worksheet: embedded PDF downloads as PDF",
+      "name": "Screen 2: fits desktop width",
       "passed": true
     },
     {
-      "name": "facilitator-guide: embedded PDF downloads as PDF",
+      "name": "Screen 3: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "run-sheet: embedded PDF downloads as PDF",
+      "name": "Screen 3: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native return preserves prior slide",
+      "name": "Screen 4: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Native clear removes stored context",
+      "name": "Screen 4: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native Artifact entry point loads twelve selections",
+      "name": "Screen 5: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Native collection filter works",
+      "name": "Screen 5: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native writing kit retains six sections",
+      "name": "Screen 6: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Direct slide hash works",
+      "name": "Screen 6: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native keyboard navigation works",
+      "name": "Screen 7: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Narrow native viewport has no horizontal overflow",
+      "name": "Screen 7: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native screen 1 has no horizontal overflow",
+      "name": "Screen 8: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Native screen 2 has no horizontal overflow",
+      "name": "Screen 8: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native screen 3 has no horizontal overflow",
+      "name": "Screen 9: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Native screen 4 has no horizontal overflow",
+      "name": "Screen 9: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native screen 5 has no horizontal overflow",
+      "name": "Screen 10: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Native screen 6 has no horizontal overflow",
+      "name": "Screen 10: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native screen 7 has no horizontal overflow",
+      "name": "Screen 11: no elapsed timing text",
       "passed": true
     },
     {
-      "name": "Native screen 8 has no horizontal overflow",
+      "name": "Screen 11: fits desktop width",
       "passed": true
     },
     {
-      "name": "Native screen 9 has no horizontal overflow",
+      "name": "job tab task reveals content",
       "passed": true
     },
     {
-      "name": "Native screen 10 has no horizontal overflow",
+      "name": "job tab task active state",
       "passed": true
     },
     {
-      "name": "Native screen 11 has no horizontal overflow",
+      "name": "job tab bridge reveals content",
       "passed": true
     },
     {
-      "name": "Native screen 12 has no horizontal overflow",
+      "name": "job tab bridge active state",
       "passed": true
     },
     {
-      "name": "Native screen 13 has no horizontal overflow",
+      "name": "readme tab before reveals content",
       "passed": true
     },
     {
-      "name": "Native screen 14 has no horizontal overflow",
+      "name": "readme tab before active state",
       "passed": true
     },
     {
-      "name": "Native document has no uncaught errors",
+      "name": "readme tab after reveals content",
       "passed": true
     },
     {
-      "name": "Native app makes no external requests",
+      "name": "readme tab after active state",
+      "passed": true
+    },
+    {
+      "name": "presence tab about reveals content",
+      "passed": true
+    },
+    {
+      "name": "presence tab about active state",
+      "passed": true
+    },
+    {
+      "name": "presence tab github reveals content",
+      "passed": true
+    },
+    {
+      "name": "presence tab github active state",
+      "passed": true
+    },
+    {
+      "name": "presence tab website reveals content",
+      "passed": true
+    },
+    {
+      "name": "presence tab website active state",
+      "passed": true
+    },
+    {
+      "name": "sharing tab confirmed reveals content",
+      "passed": true
+    },
+    {
+      "name": "sharing tab confirmed active state",
+      "passed": true
+    },
+    {
+      "name": "sharing tab outreach reveals content",
+      "passed": true
+    },
+    {
+      "name": "sharing tab outreach active state",
+      "passed": true
+    },
+    {
+      "name": "sharing tab post reveals content",
+      "passed": true
+    },
+    {
+      "name": "sharing tab post active state",
+      "passed": true
+    },
+    {
+      "name": "In practice opens without diagnostic",
+      "passed": true
+    },
+    {
+      "name": "Activity filter existing",
+      "passed": true
+    },
+    {
+      "name": "Activity filter showcase",
+      "passed": true
+    },
+    {
+      "name": "Activity filter all",
+      "passed": true
+    },
+    {
+      "name": "Activity filter starting",
+      "passed": true
+    },
+    {
+      "name": "Activity about has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity profile has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity readme has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity extension has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity case has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity question has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity bridge has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity practice has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity mission has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity pr has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity share has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Activity website has steps and references",
+      "passed": true
+    },
+    {
+      "name": "Markdown download contains actual outline",
+      "passed": true
+    },
+    {
+      "name": "Guide start contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide projects contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide explaining contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide github contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide platforms contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide permissions contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide writing contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide tools contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide sources contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Guide about contains readable material",
+      "passed": true
+    },
+    {
+      "name": "Embedded student PDF downloads",
+      "passed": true
+    },
+    {
+      "name": "Complete Markdown guide downloads",
+      "passed": true
+    },
+    {
+      "name": "AI prompt is text rather than a model call",
+      "passed": true
+    },
+    {
+      "name": "Source search filters results",
+      "passed": true
+    },
+    {
+      "name": "Return keeps previous slide",
+      "passed": true
+    },
+    {
+      "name": "All original portfolio selections remain",
+      "passed": true
+    },
+    {
+      "name": "Artifact Builder filter",
+      "passed": true
+    },
+    {
+      "name": "Artifact Storyteller filter",
+      "passed": true
+    },
+    {
+      "name": "Artifact Expert filter",
+      "passed": true
+    },
+    {
+      "name": "Artifact Researcher filter",
+      "passed": true
+    },
+    {
+      "name": "Artifact Analyst filter",
+      "passed": true
+    },
+    {
+      "name": "Artifact All filter",
+      "passed": true
+    },
+    {
+      "name": "Artifact search",
+      "passed": true
+    },
+    {
+      "name": "Portfolio detail opens",
+      "passed": true
+    },
+    {
+      "name": "Escape closes dialog",
+      "passed": true
+    },
+    {
+      "name": "Writing guide Builder preserved",
+      "passed": true
+    },
+    {
+      "name": "Writing guide Analyst preserved",
+      "passed": true
+    },
+    {
+      "name": "Writing guide Expert preserved",
+      "passed": true
+    },
+    {
+      "name": "Writing guide Researcher preserved",
+      "passed": true
+    },
+    {
+      "name": "Writing guide Storyteller preserved",
+      "passed": true
+    },
+    {
+      "name": "All nine reading selections remain",
+      "passed": true
+    },
+    {
+      "name": "Keyboard moves to next slide",
+      "passed": true
+    },
+    {
+      "name": "Read-all displays all 11 screens",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 1 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 1 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 2 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 2 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 3 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 3 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 4 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 4 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 5 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 5 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 6 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 6 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 7 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 7 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 8 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 8 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 9 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 9 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 10 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 10 clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px screen 11 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Projector screen 11 clears footer",
+      "passed": true
+    },
+    {
+      "name": "Projector job/bridge clears footer",
+      "passed": true
+    },
+    {
+      "name": "Projector readme/after clears footer",
+      "passed": true
+    },
+    {
+      "name": "Projector presence/github clears footer",
+      "passed": true
+    },
+    {
+      "name": "Projector presence/website clears footer",
+      "passed": true
+    },
+    {
+      "name": "Projector sharing/outreach clears footer",
+      "passed": true
+    },
+    {
+      "name": "Projector sharing/post clears footer",
+      "passed": true
+    },
+    {
+      "name": "1366px work no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1366px guide no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1366px collection no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 1 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 2 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 3 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 4 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 5 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 6 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 7 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 8 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 9 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 10 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px screen 11 no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px work no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px guide no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "375px collection no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Standalone Artifact opens collection",
+      "passed": true
+    },
+    {
+      "name": "Direct slide URL works",
+      "passed": true
+    },
+    {
+      "name": "Reload preserves slide URL",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "No automatic external requests",
       "passed": true
     }
   ],
-  "passed": 32,
-  "total": 32,
+  "passed": 145,
+  "total": 145,
   "errors": [],
   "external_requests": []
 }

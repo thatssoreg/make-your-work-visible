@@ -22,7 +22,7 @@ GitHub’s [README guidance](https://docs.github.com/en/repositories/managing-yo
 
 ### Use enough structure to help a reader find the work.
 
-The compact example below is **adapted** from [Cookiecutter Data Science’s directory conventions](https://cookiecutter-data-science.drivendata.org/) and [GitHub’s project-presentation guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume). It is not a prescribed scaffold or a technical requirement. Use only the folders your project needs, and follow any course or team conventions that apply.
+The compact example below is **adapted** from [Cookiecutter Data Science’s directory conventions](https://cookiecutter-data-science.drivendata.org/) and [GitHub’s project-presentation guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume). It is one example, not a required structure. Use only the folders your project needs, and follow any course or team conventions that apply.
 
 ```text
 my-project/
@@ -44,3 +44,12 @@ A website gives you more control over how selected work is presented. [GitHub Pa
 
 
 <button class="button secondary" data-guide="permissions">Decide what you may share</button>
+
+
+### A quick profile review
+
+Can a visitor find a short introduction, selected projects, and a way to contact you? Do project titles and descriptions say what the work is about? Have you credited team contributions and made the next click obvious?
+
+The short profile bio and optional longer profile README do different jobs. The README can link to LinkedIn and a public-safe résumé as well as to project repositories. GitHub's official [profile guidance](https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume) is a useful starting point, not a requirement to make your page look one particular way.
+
+<button class="button secondary" data-guide="platforms">Compare profile and website options</button>
