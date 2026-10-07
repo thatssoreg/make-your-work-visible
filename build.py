@@ -45,7 +45,7 @@ for s in session:
 for name,text in resources['templates'].items():(CONTENT/f'{name}-template.md').write_text(text)
 for name,text in resources['prompts'].items():(CONTENT/f'{name}-prompt.md').write_text(text)
 (CONTENT/'ARTIFACT-COLLECTION.md').write_text('# Artifact collection\n\n'+ '\n\n'.join(f"## {p['name']} · {p['lens']}\n\n{p['stage']}\n\n{p['summary']}\n\n{p['pattern']}\n\n{p['url']}\n\n{p['note']}" for p in resources['portfolios']))
-printables={f.stem:{'name':f.name,'base64':base64.b64encode(f.read_bytes()).decode()} for f in (PUBLIC/'downloads').glob('*.pdf')}
+printables={f.stem:{'name':f.name,'base64':base64.b64encode(f.read_bytes()).decode()} for f in sorted((PUBLIC/'downloads').glob('*.pdf'))}
 data=dict(printables=printables,session=session,resources=resources,sources=sources,guides=guides,fieldMarkdown=field,measurement=(CONTENT/'measurement-brief.md').read_text())
 serialized=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
 script=(ROOT/'src/app.js').read_text();style=(ROOT/'src/style.css').read_text();template=(ROOT/'src/index.template.html').read_text()
