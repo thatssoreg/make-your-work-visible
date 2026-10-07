@@ -1,0 +1,1692 @@
+{
+  "environment": "Chromium, document injection; native file/HTTP navigation blocked by browser policy",
+  "checks": [
+    {
+      "name": "Updated office name is visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Opening is the only default slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No old office name in displayed source",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Fourteen screens follow the canonical session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Arrow key moves one slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "End reaches the close",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project: same title at screen 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project: same title at screen 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project: same title at screen 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project: same title at screen 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project: router initially limits choices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "project: all ten remain accessible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "assignment: same title at screen 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "assignment: same title at screen 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "assignment: same title at screen 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "assignment: same title at screen 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "assignment: router initially limits choices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "assignment: all ten remain accessible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "job: same title at screen 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "job: same title at screen 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "job: same title at screen 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "job: same title at screen 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "job: router initially limits choices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "job: all ten remain accessible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "curiosity: same title at screen 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "curiosity: same title at screen 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "curiosity: same title at screen 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "curiosity: same title at screen 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "curiosity: router initially limits choices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "curiosity: all ten remain accessible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new: same title at screen 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new: same title at screen 9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new: same title at screen 11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new: same title at screen 12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new: router initially limits choices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new: all ten remain accessible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "New exercise defaults to task only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "State-tailored nudge is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Worked example uses other material",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Support can be removed without reset",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "object: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "object: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-fluency: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-fluency: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-fluency: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-fluency: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-legibility: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-legibility: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-legibility: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-legibility: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reach: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reach: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "work: nudge opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "work: example opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Model step 1 has a concrete explanation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Model step 2 has a concrete explanation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Model step 3 has a concrete explanation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Model step 4 has a concrete explanation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Example links to actual planning artifact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Before and after use identical criteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Improved README does not invent an experiment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Peer test removes help controls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Peer test asks for independent explanation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dialog Escape restores triggering control",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Presenter mode hides private context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide start has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide start returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide explaining has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide explaining returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide github has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide github returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide permissions has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide permissions returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide writing has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide writing returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide tools has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide tools returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide sources has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide sources returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide about has a return path",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Guide about returns to the same slide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "student-worksheet: embedded PDF download is valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "facilitator-guide: embedded PDF download is valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "run-sheet: embedded PDF download is valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All twelve original portfolios present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact Builder filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact Storyteller filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact Expert filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact Researcher filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact Analyst filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact empty search has explanation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Artifact search finds named portfolio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Portfolio details include evidence boundaries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Collection connects to corresponding writing guide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Builder: original six-part guide preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Builder: template contains placeholders, not invented results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Analyst: original six-part guide preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Analyst: template contains placeholders, not invented results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Expert: original six-part guide preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Expert: template contains placeholders, not invented results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Researcher: original six-part guide preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Researcher: template contains placeholders, not invented results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Storyteller: original six-part guide preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Storyteller: template contains placeholders, not invented results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Nine original readings retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unverified original link is labeled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route readme: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route readme: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route extension: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route extension: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route profile: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route profile: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route pr: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route pr: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route case: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route case: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route question: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route question: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route bridge: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route bridge: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route practice: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route practice: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route mission: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route mission: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route share: specific steps, output, fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Route share: outline is real text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Clipboard denial offers manual fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Markdown outline downloads",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Worksheet export keeps selected title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Worksheet says it cannot save other tools",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-fluency: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-fluency: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-fluency: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-fluency: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-fluency: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-fluency: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-legibility: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-legibility: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared-legibility: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-legibility: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-legibility: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "own-legibility: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reach: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reach: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reach: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "work: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "work: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "work: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "peer: timer runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "peer: timer pauses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "peer: timer resets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Leaving a slide pauses its timer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "45-minute plan sets eleven-minute work",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "45-minute plan sets four-minute peer review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "45-minute plan preserves closing slot",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Timer finishes once and shows revision/close",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unavailable native storage falls back to nonpersistent card",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Opt-in writes the small card only (test double)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Saved work restores across new page (test double)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Clear removes persisted card (test double)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Invalid schema is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Imported title is escaped as text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON export contains edited form values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Export does not silently commit form changes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 1 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 2 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 3 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 4 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 5 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 6 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 7 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 8 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 9 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 10 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 11 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 12 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 13 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: screen 14 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: Artifact has no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "375px: writing tables scroll within page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 1 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 2 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 3 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 4 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 5 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 6 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 7 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 8 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 9 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 10 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 11 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 12 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 13 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: screen 14 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: Artifact has no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px: writing tables scroll within page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 1 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 2 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 3 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 4 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 5 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 6 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 7 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 8 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 9 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 10 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 11 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 12 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 13 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: screen 14 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: Artifact has no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366px: writing tables scroll within page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 1 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 2 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 3 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 4 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 5 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 6 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 7 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 8 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 9 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 10 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 11 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 12 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 13 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: screen 14 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: Artifact has no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px: writing tables scroll within page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 1 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 2 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 3 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 4 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 5 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 6 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 7 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 8 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 9 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 10 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 11 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 12 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 13 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: screen 14 has no horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: Artifact has no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920px: writing tables scroll within page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Task-only desktop screens fit within viewport",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Standalone Artifact opens the collection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No uncaught runtime errors",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "No console errors in tested interactions",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "No automatic network requests",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "requests": [],
+  "layout": [
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 1,
+      "page_height": 1328
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 2,
+      "page_height": 1449
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 3,
+      "page_height": 1828
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 4,
+      "page_height": 1582
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 5,
+      "page_height": 1657
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 6,
+      "page_height": 1485
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 7,
+      "page_height": 1500
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 8,
+      "page_height": 1506
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 9,
+      "page_height": 1508
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 10,
+      "page_height": 1733
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 11,
+      "page_height": 1675
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 12,
+      "page_height": 1659
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 13,
+      "page_height": 1596
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "slide": 14,
+      "page_height": 1439
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 1,
+      "page_height": 1226
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 2,
+      "page_height": 1089
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 3,
+      "page_height": 1296
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 4,
+      "page_height": 1250
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 5,
+      "page_height": 1204
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 6,
+      "page_height": 1138
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 7,
+      "page_height": 1107
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 8,
+      "page_height": 1168
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 9,
+      "page_height": 1135
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 10,
+      "page_height": 1089
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 11,
+      "page_height": 1366
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 12,
+      "page_height": 1318
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 13,
+      "page_height": 1270
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slide": 14,
+      "page_height": 1089
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 1,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 2,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 3,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 4,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 5,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 6,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 7,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 8,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 9,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 10,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 11,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 12,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 13,
+      "page_height": 768
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "slide": 14,
+      "page_height": 768
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 1,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 2,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 3,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 4,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 5,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 6,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 7,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 8,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 9,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 10,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 11,
+      "page_height": 901
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 12,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 13,
+      "page_height": 900
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "slide": 14,
+      "page_height": 900
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 1,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 2,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 3,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 4,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 5,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 6,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 7,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 8,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 9,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 10,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 11,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 12,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 13,
+      "page_height": 1080
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "slide": 14,
+      "page_height": 1080
+    }
+  ],
+  "passed": 252,
+  "total": 252
+}

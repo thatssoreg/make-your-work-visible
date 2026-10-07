@@ -1,0 +1,65 @@
+"""Content, security, and release-shape checks. No network access required."""
+from pathlib import Path
+import json,re,hashlib,base64
+from urllib.parse import urlparse
+from bs4 import BeautifulSoup
+ROOT=Path(__file__).resolve().parents[1]
+results=[]
+def check(name,condition):
+ results.append({'name':name,'passed':bool(condition)})
+ if not condition:print('FAIL:',name)
+text=(ROOT/'public/index.html').read_text();soup=BeautifulSoup(text,'html.parser');data=json.loads(soup.select_one('#workshop-data').string)
+r=data['resources'];sc=data['session'];sources=data['sources'];ids={x['id'] for x in sources}
+check('Office name is current','SDS Career Services' in text and 'Career Connections' not in text)
+check('Exactly fourteen sequential screens',[s['number'] for s in sc]==list(range(1,15)))
+check('Core timing equals forty minutes',sum(s['minutes'] for s in sc)==40)
+check('Extended timing equals forty-five minutes',sum(s['minutes'] for s in sc)+4+1==45)
+check('No planned teaching burst exceeds four minutes',all(s['minutes']<=4 for s in sc if s['kind'] in ['Orient','Watch']))
+active=sum(s['minutes'] for s in sc if s['kind'] not in ['Orient','Watch','Reflect'])
+check('Planned active blocks exceed forty percent',active/40>=.4)
+check('Same object reused at four application screens',all(soup.select_one(f'[data-scene="{n}"] [data-own-work]') for n in [6,9,11,12]))
+check('Five starting conditions',len(r['starts'])==5)
+check('Initial routing narrows to three choices',all(len(s['routes'])==3 for s in r['starts']))
+check('All ten work options retained',len(r['routes'])==10)
+check('Every router reference resolves',all(i in {x['id'] for x in r['routes']} for s in r['starts'] for i in s['routes']))
+check('Seven scaffolded exercises',len(r['help'])==7)
+for k,h in r['help'].items():check('Scaffold '+k+' has task, nudge, and example',bool(h['task']) and len(h['nudge'])>=2 and len(h['example'])>60)
+check('Peer test is unscaffolded',not soup.select('[data-scene="13"] [data-help]'))
+check('Eight timer controls',len(soup.select('[data-timer]'))==8)
+check('Twelve original Artifact selections',len(r['portfolios'])==12)
+check('Five original writing guides',len(r['writing_guides'])==5)
+check('All five guides have six parts',all(len(g['rows'])==6 for g in r['writing_guides']))
+check('Nine original reading examples',len(r['readings'])==9)
+check('Unverified reading stays labeled',sum('could not' in a['status'] for a in r['readings'])==1)
+check('Template claims use placeholders',all('50GB' not in g['template'] and '99.1%' not in g['template'] for g in r['writing_guides']))
+check('No Gemini embed',not soup.select('iframe') and 'gemini.google.com/share' not in text)
+check('No external runtime scripts',not soup.select('script[src]'))
+check('No remote stylesheets or fonts',not soup.select('link[rel=stylesheet]') and '@import' not in text and '@font-face' not in text)
+script=[s for s in soup.find_all('script') if not s.get('type')][0].string
+check('No runtime model/API connection',not re.search(r'\b(fetch|XMLHttpRequest|WebSocket|EventSource)\s*\(',script))
+check('No analytics or tracking bootstrap',not any(x in script.lower() for x in ['google-analytics','gtag(','mixpanel','posthog']))
+meta=soup.select_one('meta[http-equiv="Content-Security-Policy"]')['content']
+check('CSP denies network connections',"connect-src 'none'" in meta)
+check('CSP denies forms, objects, and base URL changes',all(x in meta for x in ["form-action 'none'","object-src 'none'","base-uri 'none'"]))
+sha=base64.b64encode(hashlib.sha256(script.encode()).digest()).decode()
+check('CSP permits only the actual executable script',f"'sha256-{sha}'" in meta)
+check('All source IDs unique',len(ids)==len(sources))
+for a in soup.select('[data-source-link]'):check('Contextual source '+a['data-source-link']+' resolves',a['data-source-link'] in ids)
+check('All route source references resolve',all(x in ids for r0 in r['routes'] for x in r0['refs']))
+check('Source links use HTTPS',all(urlparse(x['url']).scheme=='https' for x in sources))
+check('Guide includes no API credentials',not re.search(r'sk-(?:proj-)?[A-Za-z0-9]{24,}',text))
+check('No job-board workbook published',not list((ROOT/'public').rglob('*.xlsx')))
+check('No font files distributed',not [f for f in ROOT.rglob('*') if f.suffix.lower() in ['.ttf','.otf','.woff','.woff2']])
+check('No project editor was reintroduced',not soup.select('textarea.mainnotes') and 'work-title' in script)
+check('Work-card import validates size and schema','32768' in script and 'x.schema!==1' in script and 'validateWork' in script)
+check('Student-controlled input is escaped in markup','esc(S.work.title)' in script and 'esc(workLabel())' in script)
+check('README comparison keeps identical criteria',len(r['criteria'])==3 and all(len(r['readme'][v]['checks'])==3 for v in ['before','after']))
+check('Example brief explicitly distinguishes plans from results','No usage data has been collected' in data['measurement'])
+check('Printable PDFs exist',all((ROOT/'public/downloads'/x).exists() for x in ['facilitator-guide.pdf','run-sheet.pdf','student-worksheet.pdf']))
+check('Standalone Artifact is built from shared sources',(ROOT/'public/artifact.html').exists())
+check('Source includes reduced-motion handling','prefers-reduced-motion' in text)
+check('Source includes print styles','@media print' in text)
+check('No forbidden motivational slogans in live copy',not any(x in ''.join((ROOT/'content'/s['file']).read_text() for s in sc).lower() for x in ['one useful move','not a gate','a link is a location']))
+report={'checks':results,'passed':sum(x['passed'] for x in results),'total':len(results),'planned_active_minutes':active,'note':'Instructional contract checks are not observed participant-learning outcomes.'}
+(ROOT/'docs/BUILD-TEST-RESULTS.json').write_text(json.dumps(report,indent=2));print(f"{report['passed']} / {report['total']} checks passed; planned active blocks {active}/40 minutes.")
+if report['passed']!=report['total']:raise SystemExit(1)

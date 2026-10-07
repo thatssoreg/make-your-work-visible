@@ -1,0 +1,137 @@
+{
+  "environment": "Native Chromium over a temporary local HTTP server; real browser storage and reload, not a storage mock",
+  "checks": [
+    {
+      "name": "Real HTTP document loads",
+      "passed": true
+    },
+    {
+      "name": "Opt-in card survives real reload",
+      "passed": true
+    },
+    {
+      "name": "Real help reveal works",
+      "passed": true
+    },
+    {
+      "name": "Real clock counts down",
+      "passed": true
+    },
+    {
+      "name": "Real Markdown download contains chosen title",
+      "passed": true
+    },
+    {
+      "name": "student-worksheet: embedded PDF downloads as PDF",
+      "passed": true
+    },
+    {
+      "name": "facilitator-guide: embedded PDF downloads as PDF",
+      "passed": true
+    },
+    {
+      "name": "run-sheet: embedded PDF downloads as PDF",
+      "passed": true
+    },
+    {
+      "name": "Native return preserves prior slide",
+      "passed": true
+    },
+    {
+      "name": "Native clear removes stored context",
+      "passed": true
+    },
+    {
+      "name": "Native Artifact entry point loads twelve selections",
+      "passed": true
+    },
+    {
+      "name": "Native collection filter works",
+      "passed": true
+    },
+    {
+      "name": "Native writing kit retains six sections",
+      "passed": true
+    },
+    {
+      "name": "Direct slide hash works",
+      "passed": true
+    },
+    {
+      "name": "Native keyboard navigation works",
+      "passed": true
+    },
+    {
+      "name": "Narrow native viewport has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 1 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 2 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 3 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 4 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 5 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 6 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 7 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 8 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 9 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 10 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 11 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 12 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 13 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native screen 14 has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Native document has no uncaught errors",
+      "passed": true
+    },
+    {
+      "name": "Native app makes no external requests",
+      "passed": true
+    }
+  ],
+  "passed": 32,
+  "total": 32,
+  "errors": [],
+  "external_requests": []
+}

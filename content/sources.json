@@ -1,0 +1,641 @@
+[
+  {
+    "id": "gh-profile",
+    "publisher": "GitHub Docs",
+    "title": "Using your GitHub profile to enhance your resume",
+    "url": "https://docs.github.com/en/account-and-profile/tutorials/using-your-github-profile-to-enhance-your-resume",
+    "note": "Practical guidance on curation and project documentation. Not evidence that every employer reviews repositories.",
+    "kind": "practice",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-readme",
+    "publisher": "GitHub Docs",
+    "title": "About READMEs",
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+    "note": "README purpose, navigation, and helping another person understand and use a project.",
+    "kind": "practice",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-front",
+    "publisher": "GitHub Docs",
+    "title": "Managing your profile README",
+    "url": "https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme",
+    "note": "A public repository matching your username can supply your profile README.",
+    "kind": "technical",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-hello",
+    "publisher": "GitHub Docs",
+    "title": "Hello World",
+    "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+    "note": "Browser-based introduction to repositories, branches, commits, and pull requests.",
+    "kind": "technical",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-pages",
+    "publisher": "GitHub Docs",
+    "title": "What is GitHub Pages?",
+    "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+    "note": "Static site hosting is separate from a profile README. A website is optional for this workshop.",
+    "kind": "technical",
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "gh-secrets",
+    "publisher": "GitHub Docs",
+    "title": "Removing sensitive data from a repository",
+    "url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository",
+    "note": "Deleting a file is not sufficient to remove historical exposure. Exposed credentials need revocation or rotation.",
+    "kind": "safety",
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "gh-pack",
+    "publisher": "GitHub Education",
+    "title": "Student Developer Pack",
+    "url": "https://education.github.com/pack",
+    "note": "Verified student benefits include GitHub Pro. Individual partner offers and activation conditions differ.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-plans",
+    "publisher": "GitHub Docs",
+    "title": "Plans for GitHub Copilot",
+    "url": "https://docs.github.com/en/copilot/get-started/plans",
+    "note": "The current student benefit is named Copilot Student, with its own limits. It is not identical to paid Copilot Pro.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "oai-github",
+    "publisher": "OpenAI Help Center",
+    "title": "Connecting GitHub to ChatGPT",
+    "url": "https://help.openai.com/en/articles/11145903-connecting-github-to-chatgpt",
+    "note": "The native GitHub app reads repository context. Availability varies by plan, workspace and surface; use Codex for an editing workflow.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "oai-codex",
+    "publisher": "OpenAI Help Center",
+    "title": "Using Codex with your ChatGPT plan",
+    "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+    "note": "Codex includes Free-plan access, but Codex Cloud requires an eligible paid or institutional plan. Limits vary.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "oai-student",
+    "publisher": "OpenAI Help Center",
+    "title": "Codex credits for students: terms",
+    "url": "https://help.openai.com/en/articles/20001147-codex-credits-for-students-terms-of-service",
+    "note": "Official offer: $100 in Codex credits for eligible verified university students enrolled and residing in the US or Canada. Credits are not an API balance or a subscription; current terms govern.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "claude-context",
+    "publisher": "Claude Help Center",
+    "title": "Use the GitHub integration",
+    "url": "https://support.claude.com/en/articles/10167454-use-the-github-integration",
+    "note": "Selected repository files provide context, with a refresh/sync action. This is not documented as two-way repository editing.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "claude-code",
+    "publisher": "Anthropic",
+    "title": "Use Claude Code in the cloud",
+    "url": "https://code.claude.com/docs/en/claude-code-on-the-web",
+    "note": "Eligible plans can clone authorized repositories, including private repositories, modify code, push branches, and create pull requests.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "hs-missions",
+    "publisher": "Handshake Help Center",
+    "title": "How do I complete a mission in AI Skills Studio?",
+    "url": "https://support.joinhandshake.com/hc/en-us/articles/43389166936599-How-do-I-complete-a-mission-in-AI-Skills-Studio",
+    "note": "Missions typically take 20–60 minutes, with account-dependent beta access. Progress can resume; submission requires desktop.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "hs-offers",
+    "publisher": "Handshake Help Center",
+    "title": "Partner offers in AI Skills Studio",
+    "url": "https://support.joinhandshake.com/hc/en-us/articles/43488979012503-Partner-Offers-in-AI-Skills-Studio",
+    "note": "Offers depend on mission and eligibility. Some require payment-card verification; inspect terms rather than promise universal free subscriptions.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "hs-github",
+    "publisher": "Handshake",
+    "title": "Create Your First Website and Share It on GitHub",
+    "url": "https://joinhandshake.com/learn/create-your-first-website-and-share-it-on-github-b03d6708/",
+    "note": "Public listing for a 25-minute mission using v0 and a public GitHub repository. Begin one objective in the sprint; use shareable material and verify account access.",
+    "kind": "learning",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "linkedin",
+    "publisher": "LinkedIn Help",
+    "title": "Manage featured samples of your work",
+    "url": "https://www.linkedin.com/help/linkedin/answer/a550399/manage-featured-samples-of-your-work-on-your-linkedin-profile",
+    "note": "Featured can display external links and work samples. It is a distribution surface, not a replacement for the underlying evidence.",
+    "kind": "technical",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "active",
+    "publisher": "Freeman et al. · PNAS · 2014",
+    "title": "Active learning increases student performance in science, engineering, and mathematics",
+    "url": "https://doi.org/10.1073/pnas.1319030111",
+    "note": "Meta-analysis of undergraduate STEM courses supports active participation. It does not establish outcomes for this single career workshop.",
+    "kind": "research",
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "explain",
+    "publisher": "Chi et al. · Cognitive Science · 1994",
+    "title": "Eliciting self-explanations improves understanding",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1207/s15516709cog1803_3",
+    "note": "Evidence for self-explanation in a different learning context; the README and interview applications here are instructional adaptations.",
+    "kind": "research",
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "udl",
+    "publisher": "CAST",
+    "title": "Universal Design for Learning Guidelines",
+    "url": "https://udlguidelines.cast.org/",
+    "note": "Design guidance for agency, meaningful choice, and varied ways to engage and demonstrate learning.",
+    "kind": "research",
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "agency",
+    "publisher": "Simon & Schuster · 2026",
+    "title": "Agency · Martin E. P. Seligman",
+    "url": "https://www.simonandschuster.com/books/Agency/Martin-E-P-Seligman/9781982190644",
+    "note": "Efficacy, optimism, and imagination are a conceptual lens, not proof that a portfolio workshop improves hiring.",
+    "kind": "research",
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "brand",
+    "publisher": "UVA Brand",
+    "title": "Accessible type color combinations",
+    "url": "https://brand.virginia.edu/design-assets/colors/accessible-type-color-combinations",
+    "note": "UVA palette and readable combinations inform the visual treatment. This artifact is not an officially approved brand template.",
+    "kind": "design",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "cookiecutter",
+    "publisher": "DrivenData",
+    "title": "Cookiecutter Data Science",
+    "url": "https://cookiecutter-data-science.drivendata.org/",
+    "note": "A reference for orderly and reproducible data projects. Do not require the full scaffold for a small student artifact.",
+    "kind": "learning",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "tidy",
+    "publisher": "Data Science Learning Community",
+    "title": "TidyTuesday",
+    "url": "https://github.com/rfordatascience/tidytuesday",
+    "note": "Recurring datasets and community examples, with provenance links and cautions about causal claims.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "datagov",
+    "publisher": "US General Services Administration",
+    "title": "Data.gov",
+    "url": "https://data.gov/",
+    "note": "A discovery catalog. Inspect the source agency, documentation, coverage, and usage terms of each dataset.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "kaggle",
+    "publisher": "Kaggle",
+    "title": "Datasets",
+    "url": "https://www.kaggle.com/datasets",
+    "note": "Dataset catalog. The live page required client rendering in this check; inspect the license and provenance of any selected dataset.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "lee",
+    "publisher": "Lee Yin Shen",
+    "title": "Data Engineering Portfolio",
+    "url": "https://leeyinshen0818.github.io/ePortfolio/",
+    "note": "Student self-description and curated projects. Useful distinction between selected work and a larger academic archive. Not an execution or credential audit.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "joao",
+    "publisher": "João Lousada",
+    "title": "Data Science Portfolio",
+    "url": "https://jlousada315.github.io/",
+    "note": "Graduate-era example connecting project context and goals to work. Current employment status and impact claims were not independently verified.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-skills",
+    "publisher": "GitHub Skills",
+    "title": "Introduction to GitHub",
+    "url": "https://github.com/skills/introduction-to-github",
+    "note": "A guided exercise using branches, commits and pull requests. Published estimate is under one hour, not a promise of completing it in the workshop.",
+    "kind": "learning",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "gh-diagram",
+    "publisher": "GitHub Docs",
+    "title": "Creating diagrams",
+    "url": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams",
+    "note": "Mermaid diagrams can be rendered in supported Markdown files. Start with a simple input → process → output drawing.",
+    "kind": "technical",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "sqlbolt",
+    "publisher": "SQLBolt",
+    "title": "Interactive SQL lessons",
+    "url": "https://sqlbolt.com/",
+    "note": "Browser exercises, including joins and aggregation. Take a query out of tutorial mode by explaining and testing your own variation.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "sql-mystery",
+    "publisher": "Northwestern Knight Lab",
+    "title": "SQL Murder Mystery",
+    "url": "https://mystery.knightlab.com/",
+    "note": "SQLite-based mystery and beginner walkthrough. Practice resource, not enterprise work experience.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "duckdb",
+    "publisher": "DuckDB",
+    "title": "DuckDB Wasm and web shell",
+    "url": "https://duckdb.org/docs/current/clients/wasm/overview",
+    "note": "A SQL engine in the browser. The workshop SQL fixture uses compatible basic SQL. Save your script outside a temporary shell.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "weather",
+    "publisher": "Open-Meteo",
+    "title": "Weather API documentation",
+    "url": "https://open-meteo.com/en/docs",
+    "note": "Interactive request builder, variable definitions and units. Useful for a first API request; read usage terms and distinguish forecast from observation.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "zoom-project",
+    "publisher": "DataTalks.Club",
+    "title": "Data Engineering Zoomcamp: final project",
+    "url": "https://datatalksclub.github.io/docs/courses/data-engineering-zoomcamp/project/",
+    "note": "Open-ended pipeline and dashboard project brief. Borrow one small task, not its entire multi-week scope.",
+    "kind": "discovery",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "sukhman",
+    "publisher": "Sukhman Singh",
+    "title": "Data Science Projects",
+    "url": "https://github.com/SUKHMAN-SINGH-1612/Data-Science-Projects",
+    "note": "Public project collection with descriptions and model comparisons. Career stage and reported model performance not independently verified.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "sajal",
+    "publisher": "Sajal Sharma",
+    "title": "Early-career data science portfolio",
+    "url": "https://github.com/sajal2692/data-science-portfolio",
+    "note": "Author explicitly identifies the original projects as early-career work, around 2016, with later maintenance. Do not describe the author as currently entry-level.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "yan",
+    "publisher": "Yan Holtz",
+    "title": "Interactive data visualization portfolio",
+    "url": "https://www.yan-holtz.com/",
+    "note": "Established practitioner example. Study a single presentation pattern rather than treating the whole collection as a student baseline.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "peter",
+    "publisher": "Peter Bloem",
+    "title": "Transformers from scratch",
+    "url": "https://peterbloem.nl/blog/transformers",
+    "note": "A technical explanation with code and conceptual progression. An established researcher example, not student peer work.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "peter-bio",
+    "publisher": "Peter Bloem",
+    "title": "Author biography",
+    "url": "https://peterbloem.nl/",
+    "note": "Author identifies himself as an assistant professor. Used to correct the pilot’s peer-example grouping.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "hs-overview",
+    "publisher": "Handshake Help Center",
+    "title": "What is AI Skills Studio?",
+    "url": "https://support.joinhandshake.com/hc/en-us/articles/43389121455255-What-is-AI-Skills-Studio",
+    "note": "Free missions with beta/account availability. Third-party tools can have separate access conditions.",
+    "kind": "access",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "job-figma",
+    "publisher": "Figma",
+    "title": "Data Science Intern (2027)",
+    "url": "https://job-boards.greenhouse.io/figma/jobs/6178857004",
+    "note": "Application form visible on October 6, 2026. Listed on the supplied SDS board. Suggested student projects are workshop adaptations, not employer assignments.",
+    "kind": "opportunity",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "job-csis",
+    "publisher": "CSIS",
+    "title": "Data Visualization Design Intern",
+    "url": "https://job-boards.greenhouse.io/centerforstrategicandinternationalstudiesinc/jobs/4390739009",
+    "note": "Application form visible on October 6, 2026. Listed on the supplied SDS board. No summer term is specified on the inspected employer page.",
+    "kind": "opportunity",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "board",
+    "publisher": "UVA School of Data Science",
+    "title": "SDS Job & Internship Opportunities Board",
+    "url": "https://docs.google.com/spreadsheets/d/1ZvqS41CV-JMLrdSUb2KL5kzCaB09tv_dinSuUwv6WX4/edit?gid=0#gid=0",
+    "note": "The uploaded workbook supplied the Figma and CSIS links. The online board may require authorized access. No copy of the full workbook is included in this site.",
+    "kind": "opportunity",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "datalemur",
+    "publisher": "DataLemur",
+    "title": "SQL & Data Interview Questions",
+    "url": "https://datalemur.com/questions",
+    "note": "An external practice option with difficulty and category filters. Some content requires an account or paid access. This workshop does not provide or assess a technical solution.",
+    "kind": "practice",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "ckalib-profile",
+    "publisher": "Ckalib S. Nelson",
+    "title": "GitHub profile README",
+    "url": "https://github.com/ckalibsnelson",
+    "note": "Read through the GitHub connector on October 6, 2026. A contrasting profile example, not a template to copy wholesale.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reggie-profile",
+    "publisher": "Reggie Leonard",
+    "title": "GitHub profile",
+    "url": "https://github.com/thatssoreg",
+    "note": "A visual, cross-disciplinary profile example supplied by the presenter. Verify linked project permissions separately.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "cookie-structure",
+    "publisher": "DrivenData",
+    "title": "Cookiecutter Data Science: directory structure",
+    "url": "https://cookiecutter-data-science.drivendata.org/",
+    "note": "The compact directory example in this guide adapts selected conventions from this larger template. It is not a verbatim GitHub requirement.",
+    "kind": "practice",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "vercel-git",
+    "publisher": "Vercel",
+    "title": "Deploying Git repositories",
+    "url": "https://vercel.com/docs/git",
+    "note": "Source for private-repository integration and deployment setup. A public site still exposes its served HTML, CSS, JavaScript and data.",
+    "kind": "hosting",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "vercel-fair",
+    "publisher": "Vercel",
+    "title": "Fair Use Guidelines",
+    "url": "https://vercel.com/docs/limits/fair-use-guidelines",
+    "note": "Hobby is limited to non-commercial personal use. Do not assume a work-related UVA deployment qualifies.",
+    "kind": "hosting",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-aleksandr-nikitin",
+    "publisher": "Aleksandr Nikitin",
+    "title": "Portfolio / project collection",
+    "url": "https://github.com/nktnlx/data_analysis_portfolio",
+    "note": "The original pilot named a heart-disease app and wine-quality pipeline. Those specific descriptions and deployment implications are not carried forward as verified claims.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-sukhman-singh",
+    "publisher": "Sukhman Singh",
+    "title": "Portfolio / project collection",
+    "url": "https://github.com/SUKHMAN-SINGH-1612/Data-Science-Projects",
+    "note": "Original accuracy claims are omitted; this workshop has not evaluated the models or their test design.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-naledi-hollbruegge",
+    "publisher": "Naledi Hollbruegge",
+    "title": "Portfolio / project collection",
+    "url": "https://naledi.co.uk/",
+    "note": "Examples of professional work, not a required entry-level scale.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-yan-holtz",
+    "publisher": "Yan Holtz",
+    "title": "Portfolio / project collection",
+    "url": "https://www.yan-holtz.com/",
+    "note": "Teaching resources and tools are reference examples, not proof of an individual learner’s competence.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-ger-inberg",
+    "publisher": "Ger Inberg",
+    "title": "Portfolio / project collection",
+    "url": "https://gerinberg.com/",
+    "note": "Project titles are grounded in the portfolio; no customer impact is inferred.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-nana-safo-duker",
+    "publisher": "Nana Safo-Duker",
+    "title": "Portfolio / project collection",
+    "url": "https://github.com/Nana-Safo-Duker",
+    "note": "The pilot’s specific diabetes/genomics descriptions were not independently verified for this edition.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-edd-webster",
+    "publisher": "Edd Webster",
+    "title": "Portfolio / project collection",
+    "url": "https://eddwebster.com/",
+    "note": "No claim is made that one portfolio caused a particular job outcome.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-giannis-tolios",
+    "publisher": "Giannis Tolios",
+    "title": "Portfolio / project collection",
+    "url": "https://giannis.io",
+    "note": "The pilot’s Renewcast and climate-visualization project descriptions were not confirmed on the reviewed landing page.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-zihao-xu",
+    "publisher": "Zihao Xu",
+    "title": "Portfolio / project collection",
+    "url": "https://github.com/zihaoxu/My_Portfolio",
+    "note": "Treat this as an archived graduate-era example, not a claim about current student status.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-julia-bieniewska",
+    "publisher": "Julia Bieniewska",
+    "title": "Portfolio / project collection",
+    "url": "https://juliabieniewska.github.io/",
+    "note": "Career-stage wording describes the portfolio’s framing, not a verified present role.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-kelly-j-adams",
+    "publisher": "Kelly J. Adams",
+    "title": "Portfolio / project collection",
+    "url": "https://www.kellyjadams.com/portfolio",
+    "note": "The original Spotify-pipeline description was not confirmed; currently visible projects are used instead.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "portfolio-tianna-parris",
+    "publisher": "Tianna Parris",
+    "title": "Portfolio / project collection",
+    "url": "https://tiannaparris.github.io/TiannaTheAnalyst/",
+    "note": "Tool labels do not establish proficiency in every tool or a hiring outcome.",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-1",
+    "publisher": "Original Artifact reading selection",
+    "title": "How I Built my First Data Pipeline (As a Student)",
+    "url": "https://medium.com/@meddrazin12/how-i-built-my-first-data-pipeline-with-airflow-docker-and-postgresql-as-a-student-0492fdb4d6a4",
+    "note": "A student-authored account that separates what was built from possible next steps. Study the explanation rather than copying the scale or claiming the work. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-2",
+    "publisher": "Original Artifact reading selection",
+    "title": "My First Data Pipeline Project (COVID API)",
+    "url": "https://dev.to/mohhddhassan/my-first-data-pipeline-project-using-airflow-docker-postgres-covid-api-edition-39a5",
+    "note": "An internship-era project account. Look for how the author introduces the data flow, setup, and lessons learned. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-3",
+    "publisher": "Original Artifact reading selection",
+    "title": "Data Analysis using F1 Telemetry",
+    "url": "https://medium.com/@samyak.bhansali.201559/data-analysis-using-f1-telemetry-462da3af6b17",
+    "note": "A focused sports-analysis question. Notice how a specific comparison gives the write-up a purpose. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-4",
+    "publisher": "Original Artifact reading selection",
+    "title": "Formula 1 Telemetry Analysis in Python and Tableau",
+    "url": "https://www.thedataschool.co.uk/dan-wade/formula-1-telemetry-analysis-in-python-and-tableau/",
+    "note": "A connected Python-and-Tableau explanation. Look for transitions from data preparation to interpretation. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-5",
+    "publisher": "Original Artifact reading selection",
+    "title": "Transformers from Scratch",
+    "url": "https://peterbloem.nl/blog/transformers",
+    "note": "An established academic’s technical explanation, not an entry-level benchmark. Notice how intuition precedes implementation. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-6",
+    "publisher": "Original Artifact reading selection",
+    "title": "Transformers from Scratch in PyTorch",
+    "url": "https://medium.com/the-dl/transformers-from-scratch-in-pytorch-8777e346ca51",
+    "note": "A practitioner’s incremental technical explanation. The linked code is material to inspect, not something this workshop has validated. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-7",
+    "publisher": "Original Artifact reading selection",
+    "title": "Reproduce, Rerun, Repeat",
+    "url": "https://blog.chameleoncloud.org/posts/reproduce-rerun-repeat-the-fun-way-to-learn-machine-learning/",
+    "note": "A research-learning account about replication, assumptions, and constraints. A missing detail can become something worth documenting. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  },
+  {
+    "id": "reading-8",
+    "publisher": "Original Artifact reading selection",
+    "title": "The Portfolio that Got Me a Job",
+    "url": "https://towardsdatascience.com/the-portfolio-that-got-me-a-data-scientist-job-513cc821bfe4/",
+    "note": "A personal portfolio account from the original collection. Its contents are not treated as verified guidance in this edition. Original link retained; page could not be rechecked",
+    "kind": "example",
+    "checked": "Not reverified"
+  },
+  {
+    "id": "reading-9",
+    "publisher": "Original Artifact reading selection",
+    "title": "3 Data Science Projects That Got Me 12 Interviews",
+    "url": "https://medium.com/pipeline-a-data-engineering-resource/3-data-science-projects-that-got-me-12-interviews-and-1-that-got-me-in-trouble-f376682b4e21",
+    "note": "A personal account of portfolio projects and interviews. The title reports the author’s experience; it is not a promised outcome. Reviewed October 6, 2026",
+    "kind": "example",
+    "checked": "2026-10-06"
+  }
+]

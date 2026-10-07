@@ -1,0 +1,908 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-06",
+  "office": "SDS Career Services",
+  "starts": [
+    {
+      "id": "project",
+      "label": "I have a project or repository.",
+      "first": "Choose one explanation, result, or decision that you could improve.",
+      "routes": [
+        "readme",
+        "extension",
+        "share"
+      ]
+    },
+    {
+      "id": "assignment",
+      "label": "I have an assignment I could extend.",
+      "first": "Identify something you rushed, omitted, or would like to investigate further.",
+      "routes": [
+        "extension",
+        "readme",
+        "case"
+      ]
+    },
+    {
+      "id": "job",
+      "label": "I found a job task I want to practice.",
+      "first": "Keep the task beside you and reduce its scope until you have a manageable first step.",
+      "routes": [
+        "bridge",
+        "question",
+        "practice"
+      ]
+    },
+    {
+      "id": "curiosity",
+      "label": "I have a question, but no project yet.",
+      "first": "Choose one part of the question and identify evidence you could reasonably access.",
+      "routes": [
+        "question",
+        "bridge",
+        "practice"
+      ]
+    },
+    {
+      "id": "new",
+      "label": "I would like help finding a starting point.",
+      "first": "Borrow one of the example questions below. You can change it as you learn.",
+      "routes": [
+        "question",
+        "practice",
+        "mission"
+      ]
+    }
+  ],
+  "help": {
+    "object": {
+      "task": "Choose one assignment, project, question, or job task and keep it beside you.",
+      "nudge": [
+        "Which assignment did you submit before you had time to explain it well?",
+        "What is one question you have asked recently about an app, an activity, or something you noticed?",
+        "You may adapt an example rather than start from a blank page."
+      ],
+      "example": "A student interested in music chooses: “How could I tell whether an app’s recommendations are useful?” That question can become a small planning document before any coding begins."
+    },
+    "shared-fluency": {
+      "task": "As a table, propose a small way to practice the employer task and explain the scope.",
+      "nudge": [
+        "What do students already have access to?",
+        "What could someone else look at when the first attempt is finished?",
+        "Which part requires technical feedback from a course resource or colleague?"
+      ],
+      "example": "We would revise one chart from a permitted class assignment. A new reader would tell us what question the chart answers. This is manageable because the analysis already exists; we are practicing communication, not rebuilding the whole study."
+    },
+    "own-fluency": {
+      "task": "Use your chosen work to describe your current experience, what you want to understand next, and a first action.",
+      "nudge": [
+        "What have you already done that gives you a place to start?",
+        "What is one question or decision you do not yet understand?",
+        "What could you investigate, compare, revise, or try with the time and access you have?"
+      ],
+      "example": "I have made charts for class, but I have not asked a reader outside the course to interpret one. I want to learn how my labels affect the conclusion someone draws. I will revise the title and caption of one permitted chart, then ask a classmate what they understand."
+    },
+    "shared-legibility": {
+      "task": "Ask the writer for missing information. Do not invent a better result.",
+      "nudge": [
+        "What question was the chart supposed to answer?",
+        "Which parts did this student contribute, and why did the group choose that approach?",
+        "What did the chart show, and what could it not establish?"
+      ],
+      "example": "“What question were you trying to answer?” and “Which part did you contribute?” are useful questions. “You discovered a strong trend and improved decisions” is an invented answer, not feedback."
+    },
+    "own-legibility": {
+      "task": "Explain your selected work using the problem, approach and contribution, and result or current progress.",
+      "nudge": [
+        "Start with the question, not a list of tools.",
+        "Describe what you personally did or plan to do. Give collaborators credit.",
+        "Connect the explanation to something inspectable, and say whether it is planned, attempted, or observed."
+      ],
+      "example": "I am investigating whether the labels on a class-project chart make its conclusion clear to someone new to the topic. I have written two alternative captions and will compare them with a classmate. I have not collected that feedback yet, so the document currently contains a plan rather than a finding."
+    },
+    "reach": {
+      "task": "Write two sentences introducing your work to a plausible person or situation.",
+      "nudge": [
+        "Why are you contacting this person, rather than anyone with a similar job title?",
+        "Which single question, document, or result is relevant to that connection?",
+        "Are you asking for a conversation, one piece of feedback, or simply providing context for an agreed meeting?"
+      ],
+      "example": "Thank you for agreeing to speak with me on Thursday. I have been working on a short brief about how to evaluate music recommendations, and I thought it might provide useful context for my questions about your product-analytics work."
+    },
+    "work": {
+      "task": "Continue with the same work in your own file or tool. Choose a finish line that fits the time.",
+      "nudge": [
+        "What would make this explanation, plan, or project more useful right now?",
+        "Can you complete that change in the remaining time?",
+        "What should you ask a technical resource or another person to check afterward?"
+      ],
+      "example": "Rather than starting an entire application, I will improve the opening of my existing README and add a link to the figure it explains. I will bring that paragraph to the reader test."
+    }
+  },
+  "state_nudges": {
+    "project": [
+      "Find one claim that needs clearer evidence or explanation.",
+      "Name one decision you would like to understand or justify better.",
+      "Choose a revision or investigation small enough to begin now."
+    ],
+    "assignment": [
+      "What did you simplify or omit to meet the deadline?",
+      "Which part was your contribution, and which part belonged to collaborators?",
+      "Choose one extension that permission and time allow."
+    ],
+    "job": [
+      "Underline a verb and its object in the task, such as “communicate findings.”",
+      "What part could you practice without the employer’s private data?",
+      "Describe an investigation, comparison, or small document you could begin."
+    ],
+    "curiosity": [
+      "Narrow the question to one place, period, comparison, or decision.",
+      "Which evidence could you access without exposing sensitive information?",
+      "What would help you decide whether to investigate further?"
+    ],
+    "new": [
+      "Try the music-recommendation question from our example or a question from your table.",
+      "Choose whether you would prefer to compare, explain, or investigate something.",
+      "For today, a question and a first action are enough to start."
+    ]
+  },
+  "model": [
+    {
+      "title": "Read the task",
+      "heading": "Notice what the work asks someone to do.",
+      "body": "Figma’s posting connects product-use analysis with defining success and making recommendations. The learning opportunity is not simply “learn Python.” It is deciding what evidence would help someone judge a product feature.",
+      "detail": "Employer task → Choose measures that relate to a product decision."
+    },
+    {
+      "title": "Reduce the scope",
+      "heading": "Use a product you already know.",
+      "body": "Our example asks how a music app could evaluate its recommendation feature. Instead of rebuilding a recommendation system, a student can compare possible measures in a short brief.",
+      "detail": "Current experience: using music apps and class analysis. Desired experience: choosing and explaining product measures."
+    },
+    {
+      "title": "Identify the learning",
+      "heading": "Ask what the measures would actually tell you.",
+      "body": "A play might indicate interest, habit, or autoplay. Saving a recommended song might mean something different. Choosing measures creates questions about definitions, data access, and interpretation.",
+      "detail": "First action: propose three measures and describe what each would and would not establish."
+    },
+    {
+      "title": "Make it inspectable",
+      "heading": "A planning document is a real piece of work.",
+      "body": "The example brief contains a question, three candidate measures, their limitations, and the data that would be needed. It does not claim that an experiment ran or that a product improved.",
+      "detail": "We will use this same brief when we write the README and introduce the project to someone else."
+    }
+  ],
+  "criteria": [
+    "Problem or question",
+    "Approach + contribution",
+    "Result + meaning"
+  ],
+  "readme": {
+    "before": {
+      "title": "Music recommendation project",
+      "paragraphs": [
+        "I researched music recommendations and looked at some metrics. This project helped me learn product analytics. It was successful."
+      ],
+      "checks": [
+        "What decision is the project supposed to help someone make?",
+        "What did the author actually produce or decide?",
+        "What does “successful” mean, and what can I inspect?"
+      ]
+    },
+    "after": {
+      "title": "How could a music app evaluate its recommendations?",
+      "paragraphs": [
+        "This planning brief asks how a music app could judge whether its recommendations are useful, beyond counting plays.",
+        "I proposed three candidate measures, described the data each would require, and recorded limitations that could change their interpretation. The brief explains why a play, a save, and a later return are not interchangeable.",
+        "The output is a measurement plan, not a completed user study. I have not collected usage data or run an experiment. My next step would be to ask a product-analytics practitioner which assumptions need revision."
+      ],
+      "checks": [
+        "The question is evaluating recommendation usefulness, not “using analytics.”",
+        "The author wrote a brief, selected measures, and explained data needs and limitations.",
+        "The document exists; its claims stop at planning. No usage result is invented."
+      ]
+    }
+  },
+  "messages": {
+    "confirmed": {
+      "title": "Before a confirmed informational interview",
+      "text": "Thank you for agreeing to speak with me on Thursday. I have been working on a short brief about how a music app could evaluate its recommendations, and I thought it might provide context for my questions about product analytics.\n\nThe brief compares three possible measures and the assumptions behind them. There is no need to read it beforehand, but here is the link in case it is useful: [project link].",
+      "framework": "Include the real meeting context, one sentence about the project, and an optional link. Use this version only after the conversation has been agreed."
+    },
+    "outreach": {
+      "title": "When you notice a genuine connection",
+      "text": "I noticed that you work in product analytics for music, and I have been exploring how an app could tell whether its recommendations are useful. I am a data science student, and I recently wrote a brief comparing possible measures.\n\nI would value hearing how someone doing this work approaches those choices. Would you be open to a short conversation about what that looks like in practice?",
+      "framework": "State the genuine connection, describe the work accurately, and make a specific, considerate request. The person’s role and your project must be real."
+    }
+  },
+  "portfolios": [
+    {
+      "id": "aleksandr-nikitin",
+      "name": "Aleksandr Nikitin",
+      "lens": "Builder",
+      "url": "https://github.com/nktnlx/data_analysis_portfolio",
+      "stage": "Project collection; career stage not independently established",
+      "summary": "A collection separates study work from portfolio projects and links to code, write-ups, and presentations.",
+      "pattern": "Notice how project summaries connect the task, methods, and inspectable work. Distinguishing study exercises from selected portfolio projects helps a reader understand their context.",
+      "projects": [
+        "MLDev Predictive Healthcare Service",
+        "MLOps Wine Quality Prediction Project"
+      ],
+      "note": "The projects are described by their author. This workshop has not established clinical suitability, deployment scale, or the validity of their models.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "sukhman-singh",
+      "name": "Sukhman Singh",
+      "lens": "Builder",
+      "url": "https://github.com/SUKHMAN-SINGH-1612/Data-Science-Projects",
+      "stage": "Project collection; career stage not independently established",
+      "summary": "Projects organized by topic, with folders for room-occupancy detection and diamond-price prediction.",
+      "pattern": "Look for descriptive project names, navigable folders, and links that let you inspect an individual analysis. A large collection is not a required target.",
+      "projects": [
+        "Room Occupancy Detection",
+        "Diamond Price Prediction"
+      ],
+      "note": "Original accuracy claims are omitted; this workshop has not evaluated the models or their test design.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "naledi-hollbruegge",
+      "name": "Naledi Hollbruegge",
+      "lens": "Storyteller",
+      "url": "https://naledi.co.uk/",
+      "stage": "Established visualization practitioner",
+      "summary": "Data work presented through questions, audience, and visual communication.",
+      "pattern": "Notice how the site connects analysis and design to a purpose. Borrow the habit of introducing the question before admiring the finished graphic.",
+      "projects": [
+        "Migrant-deaths visualization",
+        "Animated climate communication"
+      ],
+      "note": "Examples of professional work, not a required entry-level scale.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "yan-holtz",
+      "name": "Yan Holtz",
+      "lens": "Storyteller",
+      "url": "https://www.yan-holtz.com/",
+      "stage": "Established visualization practitioner",
+      "summary": "A collection of visualization tools, teaching resources, and project examples.",
+      "pattern": "Notice how examples and explanations give someone a reason to return. Teaching a small technique is also a way to make work useful.",
+      "projects": [
+        "Data to Viz",
+        "Graph galleries"
+      ],
+      "note": "Teaching resources and tools are reference examples, not proof of an individual learner’s competence.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "ger-inberg",
+      "name": "Ger Inberg",
+      "lens": "Storyteller",
+      "url": "https://gerinberg.com/",
+      "stage": "Established data practitioner",
+      "summary": "Dashboard and analysis projects presented around practical uses.",
+      "pattern": "Inspect what the project is for, what the reader can try, and how the explanation relates to the interface.",
+      "projects": [
+        "Data quality dashboard",
+        "Winter Olympics speed-skating analysis"
+      ],
+      "note": "Project titles are grounded in the portfolio; no customer impact is inferred.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "nana-safo-duker",
+      "name": "Nana Safo-Duker",
+      "lens": "Expert",
+      "url": "https://github.com/Nana-Safo-Duker",
+      "stage": "Profile selection; career stage not independently established",
+      "summary": "A domain-focused profile links bioinformatics, clinical analytics, and predictive-analysis collections.",
+      "pattern": "Notice how domain-specific questions organize the profile. Inspect the repository explanations rather than treating a healthcare label as clinical validation.",
+      "projects": [
+        "Clinical data science and health analytics",
+        "AI/ML bioinformatics and precision medicine"
+      ],
+      "note": "The linked profile supports the domain framing. Current employment and the original pilot’s specific performance claims are not independently established.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "edd-webster",
+      "name": "Edd Webster",
+      "lens": "Expert",
+      "url": "https://eddwebster.com/",
+      "stage": "Established football-analytics practitioner",
+      "summary": "Football analysis connects a specific domain with methods and project documentation.",
+      "pattern": "Notice how a domain gives analytical questions context. You can start with an interest without claiming the scale or access of a professional team.",
+      "projects": [
+        "Player-recruitment analysis",
+        "Expected-goals and pitch-control work"
+      ],
+      "note": "No claim is made that one portfolio caused a particular job outcome.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "giannis-tolios",
+      "name": "Giannis Tolios",
+      "lens": "Expert",
+      "url": "https://giannis.io",
+      "stage": "Established data practitioner",
+      "summary": "A personal site connecting data work, climate interests, and a machine-learning book.",
+      "pattern": "Notice the relationship between subject interests, writing, and linked work. A short landing page can direct readers to deeper evidence.",
+      "projects": [
+        "Simplifying Machine Learning with PyCaret",
+        "Linked GitHub work"
+      ],
+      "note": "The pilot’s Renewcast and climate-visualization project descriptions were not confirmed on the reviewed landing page.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "zihao-xu",
+      "name": "Zihao Xu",
+      "lens": "Researcher",
+      "url": "https://github.com/zihaoxu/My_Portfolio",
+      "stage": "Graduate-era portfolio",
+      "summary": "Research and analysis projects use several evidence forms, including write-ups and code.",
+      "pattern": "Look for the distinction between a completed artifact and work in progress. Research context and open questions can be made explicit.",
+      "projects": [
+        "FLORABERT project",
+        "Bag of Little Random Forests"
+      ],
+      "note": "Treat this as an archived graduate-era example, not a claim about current student status.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "julia-bieniewska",
+      "name": "Julia Bieniewska",
+      "lens": "Researcher",
+      "url": "https://juliabieniewska.github.io/",
+      "stage": "Student-era portfolio",
+      "summary": "A physics background is connected with data analysis and new research questions.",
+      "pattern": "Notice how individual projects introduce a question and link to fuller explanations. Prior disciplinary experience can be relevant material.",
+      "projects": [
+        "Parliamentary-speech generation",
+        "Indie-game market analysis"
+      ],
+      "note": "Career-stage wording describes the portfolio’s framing, not a verified present role.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "kelly-j-adams",
+      "name": "Kelly J. Adams",
+      "lens": "Analyst",
+      "url": "https://www.kellyjadams.com/portfolio",
+      "stage": "Practitioner project collection",
+      "summary": "Project pages connect written explanations with repository evidence.",
+      "pattern": "Compare what the write-up explains with what the repository lets you inspect. A reader should not have to guess how the two relate.",
+      "projects": [
+        "Churn Predictive Model",
+        "Python Weekly Report"
+      ],
+      "note": "The original Spotify-pipeline description was not confirmed; currently visible projects are used instead.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    },
+    {
+      "id": "tianna-parris",
+      "name": "Tianna Parris",
+      "lens": "Analyst",
+      "url": "https://tiannaparris.github.io/TiannaTheAnalyst/",
+      "stage": "Portfolio collection; career stage not independently established",
+      "summary": "A portfolio organized around familiar tools and forms of analysis.",
+      "pattern": "Tool categories can help navigation. Look inside a project for a question and contribution rather than treating the category alone as evidence.",
+      "projects": [
+        "Python and R categories",
+        "SQL and visualization categories"
+      ],
+      "note": "Tool labels do not establish proficiency in every tool or a hiring outcome.",
+      "checked": "2026-10-06",
+      "origin": "Original Artifact selection; annotation reviewed for this release."
+    }
+  ],
+  "writing_guides": [
+    {
+      "lens": "Builder",
+      "title": "Explain how the system works",
+      "audience": "A technical teammate or reviewer",
+      "description": "Help a reader follow the structure, a consequential choice, and what you checked.",
+      "rows": [
+        {
+          "section": "Problem and constraints",
+          "include": "What were you trying to make possible, and what limited the approach?",
+          "reason": "The reader needs to understand the task before the tool choices."
+        },
+        {
+          "section": "Structure",
+          "include": "Describe the main parts; add a diagram when it clarifies their relationship.",
+          "reason": "A reader can see how inputs become outputs."
+        },
+        {
+          "section": "A technical decision",
+          "include": "Compare one choice with an alternative you considered.",
+          "reason": "This gives the reader evidence of reasoning rather than a tool list."
+        },
+        {
+          "section": "Implementation",
+          "include": "Link to the relevant code or configuration and explain your contribution.",
+          "reason": "The explanation points to something a reader can inspect."
+        },
+        {
+          "section": "A problem and a check",
+          "include": "Describe an actual obstacle and how you investigated it.",
+          "reason": "Small debugging stories are useful when they are specific and accurate."
+        },
+        {
+          "section": "Limits and next steps",
+          "include": "Explain what remains untested or unfinished.",
+          "reason": "A reader can distinguish a working part from a future plan."
+        }
+      ],
+      "template": "# [Your project or question]\n\n**Status:** [Planned / in progress / completed, with date]\n\n## Problem and constraints\n[What were you trying to make possible, and what limited the approach?]\n\n## Structure\n[Describe the main parts; add a diagram when it clarifies their relationship.]\n\n## A technical decision\n[Compare one choice with an alternative you considered.]\n\n## Implementation\n[Link to the relevant code or configuration and explain your contribution.]\n\n## A problem and a check\n[Describe an actual obstacle and how you investigated it.]\n\n## Limits and next steps\n[Explain what remains untested or unfinished.]\n\n## Contribution and acknowledgments\n[State your contribution and credit collaborators, data, code, templates, and assistance where relevant.]\n",
+      "origin": "Adapted from the corresponding six-part guide in Reggie’s original Artifact HTML. Specific fictional results and unfinished code were replaced with prompts."
+    },
+    {
+      "lens": "Analyst",
+      "title": "Explain an analysis and its implications",
+      "audience": "Someone who needs to make a decision",
+      "description": "Connect the question, evidence, and interpretation without inventing business impact.",
+      "rows": [
+        {
+          "section": "Question",
+          "include": "What decision or uncertainty motivated the analysis?",
+          "reason": "It establishes why the work matters."
+        },
+        {
+          "section": "Scope and data",
+          "include": "Describe the source, unit of analysis, period, and exclusions.",
+          "reason": "The reader can see what the analysis includes."
+        },
+        {
+          "section": "Approach",
+          "include": "Explain the methods that matter to the question.",
+          "reason": "Methods are understandable in context."
+        },
+        {
+          "section": "Findings",
+          "include": "Report what you actually observed, with a figure or result when available.",
+          "reason": "A claim can be connected to evidence."
+        },
+        {
+          "section": "Meaning",
+          "include": "Explain what the result supports and what it does not.",
+          "reason": "An observation is not automatically a causal answer."
+        },
+        {
+          "section": "Next decision",
+          "include": "Propose a next action, information need, or follow-up analysis.",
+          "reason": "Separate recommendations and estimates from measured outcomes."
+        }
+      ],
+      "template": "# [Your project or question]\n\n**Status:** [Planned / in progress / completed, with date]\n\n## Question\n[What decision or uncertainty motivated the analysis?]\n\n## Scope and data\n[Describe the source, unit of analysis, period, and exclusions.]\n\n## Approach\n[Explain the methods that matter to the question.]\n\n## Findings\n[Report what you actually observed, with a figure or result when available.]\n\n## Meaning\n[Explain what the result supports and what it does not.]\n\n## Next decision\n[Propose a next action, information need, or follow-up analysis.]\n\n## Contribution and acknowledgments\n[State your contribution and credit collaborators, data, code, templates, and assistance where relevant.]\n",
+      "origin": "Adapted from the corresponding six-part guide in Reggie’s original Artifact HTML. Specific fictional results and unfinished code were replaced with prompts."
+    },
+    {
+      "lens": "Expert",
+      "title": "Explain a concept in its domain",
+      "audience": "A peer or a reader new to the topic",
+      "description": "Make the knowledge accessible while being clear about prerequisites and limits.",
+      "rows": [
+        {
+          "section": "Reader and prerequisites",
+          "include": "Who is the explanation for, and what should they already know?",
+          "reason": "The starting assumptions become explicit."
+        },
+        {
+          "section": "Concept and relevance",
+          "include": "Explain the concept and why it matters in this setting.",
+          "reason": "Domain context gives terminology meaning."
+        },
+        {
+          "section": "A concrete example",
+          "include": "Work through a small example in a way a reader can follow.",
+          "reason": "Examples connect abstraction with use."
+        },
+        {
+          "section": "Your reasoning",
+          "include": "Explain the choices in the example, including technical details when needed.",
+          "reason": "The reader can follow why the steps were chosen."
+        },
+        {
+          "section": "Limits",
+          "include": "Describe where the example stops or the explanation needs qualification.",
+          "reason": "A small example is not a universal rule."
+        },
+        {
+          "section": "Sources and next learning",
+          "include": "Link to the original documentation or research you used.",
+          "reason": "Readers can check and extend the explanation."
+        }
+      ],
+      "template": "# [Your project or question]\n\n**Status:** [Planned / in progress / completed, with date]\n\n## Reader and prerequisites\n[Who is the explanation for, and what should they already know?]\n\n## Concept and relevance\n[Explain the concept and why it matters in this setting.]\n\n## A concrete example\n[Work through a small example in a way a reader can follow.]\n\n## Your reasoning\n[Explain the choices in the example, including technical details when needed.]\n\n## Limits\n[Describe where the example stops or the explanation needs qualification.]\n\n## Sources and next learning\n[Link to the original documentation or research you used.]\n\n## Contribution and acknowledgments\n[State your contribution and credit collaborators, data, code, templates, and assistance where relevant.]\n",
+      "origin": "Adapted from the corresponding six-part guide in Reggie’s original Artifact HTML. Specific fictional results and unfinished code were replaced with prompts."
+    },
+    {
+      "lens": "Researcher",
+      "title": "Document an investigation or reproduction",
+      "audience": "A research peer, supervisor, or interested practitioner",
+      "description": "Make assumptions, methods, and results traceable, including inconclusive outcomes.",
+      "rows": [
+        {
+          "section": "Question or claim",
+          "include": "Name the question you investigate or the published claim you examine.",
+          "reason": "The scope of inquiry is clear."
+        },
+        {
+          "section": "Setup",
+          "include": "Document the data, procedure, and relevant conditions.",
+          "reason": "Someone can understand what was actually attempted."
+        },
+        {
+          "section": "Unspecified choices",
+          "include": "Record gaps in the instructions and how you resolved them.",
+          "reason": "Assumptions become visible rather than hidden."
+        },
+        {
+          "section": "Results",
+          "include": "Compare actual observations with the reference on comparable terms.",
+          "reason": "A difference is described without inventing its cause."
+        },
+        {
+          "section": "Interpretation",
+          "include": "Discuss uncertainty and plausible explanations that remain to be tested.",
+          "reason": "Inconclusive and negative results still deserve careful explanation."
+        },
+        {
+          "section": "Evidence",
+          "include": "Link to the paper, code version, logs, or records that support the account.",
+          "reason": "The report has a traceable basis."
+        }
+      ],
+      "template": "# [Your project or question]\n\n**Status:** [Planned / in progress / completed, with date]\n\n## Question or claim\n[Name the question you investigate or the published claim you examine.]\n\n## Setup\n[Document the data, procedure, and relevant conditions.]\n\n## Unspecified choices\n[Record gaps in the instructions and how you resolved them.]\n\n## Results\n[Compare actual observations with the reference on comparable terms.]\n\n## Interpretation\n[Discuss uncertainty and plausible explanations that remain to be tested.]\n\n## Evidence\n[Link to the paper, code version, logs, or records that support the account.]\n\n## Contribution and acknowledgments\n[State your contribution and credit collaborators, data, code, templates, and assistance where relevant.]\n",
+      "origin": "Adapted from the corresponding six-part guide in Reggie’s original Artifact HTML. Specific fictional results and unfinished code were replaced with prompts."
+    },
+    {
+      "lens": "Storyteller",
+      "title": "Write a data story someone can follow",
+      "audience": "A reader who needs context rather than every implementation detail",
+      "description": "Guide the reader through a real question and the evidence that informs it.",
+      "rows": [
+        {
+          "section": "Opening question",
+          "include": "Introduce an observation, question, or documented finding.",
+          "reason": "The reader knows why the story exists."
+        },
+        {
+          "section": "Context",
+          "include": "Explain the setting and where the data came from.",
+          "reason": "The evidence is not detached from its source."
+        },
+        {
+          "section": "Visual explanation",
+          "include": "Choose figures that each do a particular explanatory job.",
+          "reason": "A chart should answer something, not simply decorate the page."
+        },
+        {
+          "section": "Interpretation",
+          "include": "Write what each figure supports and where uncertainty remains.",
+          "reason": "Captions and text help the reader avoid overreading the image."
+        },
+        {
+          "section": "Main takeaway",
+          "include": "State the conclusion at the scale the evidence supports.",
+          "reason": "The story does not need a dramatic claim to be useful."
+        },
+        {
+          "section": "What follows",
+          "include": "Suggest a question, implication, or further source.",
+          "reason": "A reader knows what to think about next."
+        }
+      ],
+      "template": "# [Your project or question]\n\n**Status:** [Planned / in progress / completed, with date]\n\n## Opening question\n[Introduce an observation, question, or documented finding.]\n\n## Context\n[Explain the setting and where the data came from.]\n\n## Visual explanation\n[Choose figures that each do a particular explanatory job.]\n\n## Interpretation\n[Write what each figure supports and where uncertainty remains.]\n\n## Main takeaway\n[State the conclusion at the scale the evidence supports.]\n\n## What follows\n[Suggest a question, implication, or further source.]\n\n## Contribution and acknowledgments\n[State your contribution and credit collaborators, data, code, templates, and assistance where relevant.]\n",
+      "origin": "Adapted from the corresponding six-part guide in Reggie’s original Artifact HTML. Specific fictional results and unfinished code were replaced with prompts."
+    }
+  ],
+  "readings": [
+    {
+      "title": "How I Built my First Data Pipeline (As a Student)",
+      "url": "https://medium.com/@meddrazin12/how-i-built-my-first-data-pipeline-with-airflow-docker-and-postgresql-as-a-student-0492fdb4d6a4",
+      "lens": "Builder",
+      "status": "Reviewed October 6, 2026",
+      "note": "A student-authored account that separates what was built from possible next steps. Study the explanation rather than copying the scale or claiming the work."
+    },
+    {
+      "title": "My First Data Pipeline Project (COVID API)",
+      "url": "https://dev.to/mohhddhassan/my-first-data-pipeline-project-using-airflow-docker-postgres-covid-api-edition-39a5",
+      "lens": "Builder",
+      "status": "Reviewed October 6, 2026",
+      "note": "An internship-era project account. Look for how the author introduces the data flow, setup, and lessons learned."
+    },
+    {
+      "title": "Data Analysis using F1 Telemetry",
+      "url": "https://medium.com/@samyak.bhansali.201559/data-analysis-using-f1-telemetry-462da3af6b17",
+      "lens": "Analyst",
+      "status": "Reviewed October 6, 2026",
+      "note": "A focused sports-analysis question. Notice how a specific comparison gives the write-up a purpose."
+    },
+    {
+      "title": "Formula 1 Telemetry Analysis in Python and Tableau",
+      "url": "https://www.thedataschool.co.uk/dan-wade/formula-1-telemetry-analysis-in-python-and-tableau/",
+      "lens": "Analyst",
+      "status": "Reviewed October 6, 2026",
+      "note": "A connected Python-and-Tableau explanation. Look for transitions from data preparation to interpretation."
+    },
+    {
+      "title": "Transformers from Scratch",
+      "url": "https://peterbloem.nl/blog/transformers",
+      "lens": "Expert",
+      "status": "Reviewed October 6, 2026",
+      "note": "An established academic’s technical explanation, not an entry-level benchmark. Notice how intuition precedes implementation."
+    },
+    {
+      "title": "Transformers from Scratch in PyTorch",
+      "url": "https://medium.com/the-dl/transformers-from-scratch-in-pytorch-8777e346ca51",
+      "lens": "Expert",
+      "status": "Reviewed October 6, 2026",
+      "note": "A practitioner’s incremental technical explanation. The linked code is material to inspect, not something this workshop has validated."
+    },
+    {
+      "title": "Reproduce, Rerun, Repeat",
+      "url": "https://blog.chameleoncloud.org/posts/reproduce-rerun-repeat-the-fun-way-to-learn-machine-learning/",
+      "lens": "Researcher",
+      "status": "Reviewed October 6, 2026",
+      "note": "A research-learning account about replication, assumptions, and constraints. A missing detail can become something worth documenting."
+    },
+    {
+      "title": "The Portfolio that Got Me a Job",
+      "url": "https://towardsdatascience.com/the-portfolio-that-got-me-a-data-scientist-job-513cc821bfe4/",
+      "lens": "Storyteller",
+      "status": "Original link retained; page could not be rechecked",
+      "note": "A personal portfolio account from the original collection. Its contents are not treated as verified guidance in this edition."
+    },
+    {
+      "title": "3 Data Science Projects That Got Me 12 Interviews",
+      "url": "https://medium.com/pipeline-a-data-engineering-resource/3-data-science-projects-that-got-me-12-interviews-and-1-that-got-me-in-trouble-f376682b4e21",
+      "lens": "Storyteller",
+      "status": "Reviewed October 6, 2026",
+      "note": "A personal account of portfolio projects and interviews. The title reports the author’s experience; it is not a promised outcome."
+    }
+  ],
+  "routes": [
+    {
+      "id": "readme",
+      "group": "existing",
+      "title": "Explain a project in your README",
+      "why": "Use the three-question framework to help someone understand work you have already done.",
+      "where": "Your existing project README, or a document you can paste into it later.",
+      "steps": [
+        "Use the work you selected and write the problem or question in language a classmate outside the course could understand.",
+        "Describe your technical approach and your contribution. Explain one decision instead of listing every tool.",
+        "Add the result or current progress, a link to evidence, and one limitation. Ask a partner what is still unclear."
+      ],
+      "done": "You have a revised opening and know which evidence it should link to.",
+      "fallback": "Work from an assignment description and draft only the problem and your actual contribution.",
+      "refs": [
+        "gh-readme",
+        "gh-profile"
+      ],
+      "prompt": "legibility",
+      "template": "readme"
+    },
+    {
+      "id": "extension",
+      "group": "existing",
+      "title": "Extend an assignment you already finished",
+      "why": "Return to a part you rushed or a question the assignment did not require you to explore.",
+      "where": "The original notebook, project, chart, or a short planning document.",
+      "steps": [
+        "Identify one specific change: a clearer chart, a more careful explanation, a code review request, or a question you left open.",
+        "Make a change you understand and can explain. For technical uncertainty, use your course resources or ask a technical peer.",
+        "Record what changed and why. If implementation needs more time, save an issue that describes the next action."
+      ],
+      "done": "You have a small revision or a well-defined next step, with a reason for it.",
+      "fallback": "Write the question and the first thing you need to inspect rather than starting a large rebuild.",
+      "refs": [
+        "gh-readme",
+        "cookiecutter"
+      ],
+      "prompt": "fluency",
+      "template": "extension"
+    },
+    {
+      "id": "profile",
+      "group": "existing",
+      "title": "Create or revise your profile README",
+      "why": "Introduce your interests and selected work in a way that reflects you. A plain-text introduction is a valid starting point.",
+      "where": "Your username-matching repository, following GitHub’s official steps.",
+      "steps": [
+        "Compare Reggie’s and Ckalib’s profiles. Choose one organizational idea you would use differently.",
+        "Follow the official profile README instructions. If the repository already exists, edit it rather than creating another.",
+        "Write a short introduction and explain one project you may share. Check that the project link works for the intended reader."
+      ],
+      "done": "Your profile has a clearer introduction or one more useful project description.",
+      "fallback": "Draft the introduction locally while you resolve account access later.",
+      "refs": [
+        "gh-front",
+        "ckalib-profile",
+        "reggie-profile"
+      ],
+      "prompt": "legibility",
+      "template": "profile"
+    },
+    {
+      "id": "pr",
+      "group": "existing",
+      "title": "Practice collaboration with a small change",
+      "why": "Use official GitHub guidance to propose and review a change, such as improving a README.",
+      "where": "A repository you own or may contribute to; alternatively GitHub Skills.",
+      "steps": [
+        "Agree on a small change with a classmate. Describe what needs improving before editing.",
+        "Follow GitHub’s browser-based branch, commit, and pull-request instructions.",
+        "Ask the reviewer a specific question about the change, then respond to their feedback."
+      ],
+      "done": "You have a documented proposal or a pull request with a meaningful review question.",
+      "fallback": "Use the official introductory exercise rather than experimenting in someone else’s repository.",
+      "refs": [
+        "gh-hello",
+        "gh-skills"
+      ],
+      "prompt": "legibility",
+      "template": "pr"
+    },
+    {
+      "id": "case",
+      "group": "existing",
+      "title": "Explain work you cannot publish in full",
+      "why": "Find out what you may share before writing a public project description.",
+      "where": "A private note until permission is clear.",
+      "steps": [
+        "Check the assignment, internship, employer, data, and collaborator restrictions.",
+        "Draft only the problem, your role, and an approach or lesson you are permitted to discuss. Leave out identifying or proprietary details.",
+        "List any approval still needed. Ask the relevant person before publishing."
+      ],
+      "done": "You have a permitted explanation or a clear approval request.",
+      "fallback": "Work with a separate public-data example, or keep the note private.",
+      "refs": [
+        "gh-secrets"
+      ],
+      "prompt": "legibility",
+      "template": "case"
+    },
+    {
+      "id": "question",
+      "group": "starting",
+      "title": "Borrow a dataset and find a question",
+      "why": "Explore an existing source without treating every available column as a project requirement.",
+      "where": "A dataset page, spreadsheet, notebook, or your notes.",
+      "steps": [
+        "Open Data.gov, Kaggle, TidyTuesday, or another source relevant to your interests.",
+        "Inspect the description and a few fields. Write one question the data might help answer, and one they probably cannot.",
+        "Save the source link, access conditions, and a first inspection you can realistically make."
+      ],
+      "done": "You have a specific question tied to a source you have actually inspected.",
+      "fallback": "Read a project in the collection and note the question you would ask differently.",
+      "refs": [
+        "datagov",
+        "kaggle",
+        "tidy",
+        "weather"
+      ],
+      "prompt": "fluency",
+      "template": "question"
+    },
+    {
+      "id": "bridge",
+      "group": "starting",
+      "title": "Build a bridge from a job description",
+      "why": "Use a task in a role you want to identify something worthwhile to practice next.",
+      "where": "The SDS board or one of the employer examples, plus a note.",
+      "steps": [
+        "Open a posting and identify a task expressed as an action, not only a skill or tool name.",
+        "Write what you can already demonstrate and what you would like to practice. Use the bridge examples for scale.",
+        "Choose a small investigation, comparison, explanation, or project extension. Record the first action and what you hope to learn."
+      ],
+      "done": "You have a realistic next experience connected to a task that interests you.",
+      "fallback": "Use the Figma or CSIS task excerpt saved in the workshop if the live posting closes or access fails.",
+      "refs": [
+        "board",
+        "job-figma",
+        "job-csis"
+      ],
+      "prompt": "bridge",
+      "template": "bridge"
+    },
+    {
+      "id": "practice",
+      "group": "starting",
+      "title": "Practice with an external learning resource",
+      "why": "Use a provider-authored exercise to investigate the learning gap you identified.",
+      "where": "DataLemur, SQLBolt, or GitHub Skills.",
+      "steps": [
+        "Pick one question or lesson at a level you can reasonably attempt today. Check whether it requires an account or paid access.",
+        "Work in the resource’s own interface. Use its explanations and your course resources when you need technical help.",
+        "Write a brief note about your approach, an unfamiliar concept, or where you got stuck. Credit the resource."
+      ],
+      "done": "You attempted a relevant step and can name what you learned or where you need help.",
+      "fallback": "Read the question and outline your approach without needing to finish a technical solution.",
+      "refs": [
+        "datalemur",
+        "sqlbolt",
+        "gh-skills"
+      ],
+      "prompt": "fluency",
+      "template": "practice"
+    },
+    {
+      "id": "mission",
+      "group": "starting",
+      "title": "Start a Handshake mission",
+      "why": "Follow Handshake’s guided activity using access that is already available to you.",
+      "where": "Handshake AI Skills Studio in your own account.",
+      "steps": [
+        "Open the website-and-GitHub mission and review its requirements. It uses v0 and a public GitHub repository.",
+        "Choose material you are allowed to publish. Begin a step that fits today’s remaining time.",
+        "Save your progress and note the next step. A mission listed as 25 minutes may take longer with setup."
+      ],
+      "done": "You have started one relevant step or saved a plan to continue. Completing a badge is not the finish line for this short work period.",
+      "fallback": "After two minutes of access trouble, choose a local README or project-bridge activity.",
+      "refs": [
+        "hs-github",
+        "hs-missions",
+        "hs-offers"
+      ],
+      "prompt": "fluency",
+      "template": "mission"
+    },
+    {
+      "id": "share",
+      "group": "showcase",
+      "title": "Showcase one piece of your work",
+      "why": "Give a particular reader enough context to understand why you are sharing the project.",
+      "where": "A draft post, email, message, technical outline, or LinkedIn Featured description.",
+      "steps": [
+        "Choose a situation: an informational interview, a genuine shared interest, a public post, or a technical explanation.",
+        "Use the writing kit to explain the relevant project, your contribution, its current status, and a reasonable question or request.",
+        "Ask a partner whether the connection is clear. Check permission and link access before you decide whether to send or publish."
+      ],
+      "done": "You have a draft written for a real situation, not a generic request to review your whole portfolio.",
+      "fallback": "Share a question you are exploring rather than describing a finished project you do not have.",
+      "refs": [
+        "linkedin",
+        "gh-profile"
+      ],
+      "prompt": "reach",
+      "template": "share"
+    }
+  ],
+  "prompts": {
+    "fluency": "Help me develop a small project that I will understand well enough to explain and extend.\n\nStart by asking for: an assignment or question that interests me; what I have already done; what I know how to do; the time I can realistically spend; and the data or tools I can access. Ask no more than three questions at a time.\n\nOffer three possible next steps, not three full applications. At least one should extend work I already have. For each, explain the question, the first action, what I might learn, and what would be enough for this round. Do not assume I want to build software. A comparison, explanation, interview, or investigation may be more useful.\n\nAfter I choose, help me work through one step at a time. Ask me to predict what I expect before I run an analysis. Explain unfamiliar terms in the context of my task. When suggesting code, explain what it changes and how I could check it. Do not claim you ran anything unless you actually did, and distinguish my observations from your suggestions.\n\nAt the end, ask me: What changed? Why? What would I try next? Help me document what I can now explain, along with questions I still have. Do not turn plans into completed accomplishments.",
+    "legibility": "Help me explain one project using the same three questions throughout:\n1. What problem or question was I working on?\n2. How did I approach it technically, and what was my contribution?\n3. What happened, what evidence supports it, and what remains uncertain?\n\nBefore drafting, ask for my notes or existing README, the intended reader, whether this is individual or group work, and the actual status. Use only material I am allowed to share. Ask what is missing before you rewrite anything.\n\nReview the existing explanation against those three questions. Separate missing information from weak writing. Do not invent numbers, results, business impact, tests, or responsibilities. Keep my individual contribution distinct from the team's work.\n\nDraft an opening of roughly 120–180 words in complete, natural sentences. Preserve my voice. Include relevant tools where they explain the approach, not as an unexplained keyword list. If the project is unfinished, say what I have done and what I will examine next.\n\nThen suggest where a result, figure, code file, or setup instruction should be linked. Use placeholders for evidence I have not supplied. Ask me to check the accuracy and explain one important decision without relying on the draft.",
+    "reach": "Help me share one project in a way that is relevant to another person.\n\nAsk for the actual project or question, my contribution and its current status, the person or audience, and why the connection is genuine. Find out whether this is a public post, an initial outreach note, a confirmed informational interview, or a technical write-up. Do not assume a conversation has already happened.\n\nFor a short post, help me explain what interested me, what I tried, what I learned or still wonder about, and where someone can see the work.\nFor an initial note, connect a specific part of the person's publicly described work to a genuine interest or project of mine, then make one reasonable request.\nFor a confirmed conversation, thank them and offer an optional project link as context, explicitly without giving them homework.\nFor a technical write-up, outline the problem, approach, a decision or difficulty, evidence, and what I learned.\n\nWrite complete sentences, avoid marketing language and inflated claims, and do not say that public writing guarantees interviews. Do not invent familiarity or flatter someone based on unsupported information. Preserve the difference between an idea, a prototype, and a finished result. Give me one draft and two questions to help me improve it. Do not post or send anything.",
+    "bridge": "Help me identify a small project that connects what I can do now with work I would like to do.\n\nI will provide a job or internship description (with its URL and date), examples of my current work, my interests, and my available time. Do not evaluate my overall employability or give me a match score.\n\nFirst, extract up to three tasks from the description. Quote the task accurately and separate it from tool names, credentials, and years of experience. Do not assume that every listed requirement is essential or that the employer will accept a project in place of a qualification.\n\nFor each task, ask: What can I already demonstrate? What have I not yet had the chance to practice or explain? What would a small, realistic next experience look like?\n\nSuggest a few alternatives: extending an assignment, comparing two approaches, practicing with an external exercise, using a public dataset, writing an explanation for a nontechnical reader, or discussing the work with a practitioner. Avoid assuming that every option must be an app or require proprietary data.\n\nSeparate the employer's actual task from your proposed learning activity. Identify a first step that fits the time I have today, any access restrictions, a possible output or insight, and a way to learn whether I am making progress. Be honest when data availability is unknown.\n\nHelp me finish one of these statements:\n- I can already ___. To get closer to ___, I will practice ___ using ___.\n- I want to understand ___. I will compare ___ and ___, then explain what I notice.\n- I have not worked with ___ yet. My next step is ___, and I will document what I learn.\n\nAsk me to choose before expanding the plan.",
+    "pulse": "Help me check my understanding of my own work. I will provide a permitted project explanation or code excerpt. Ask one question at a time about the problem, my decisions, what changed, why, and what comes next. Ask me to predict what would happen under a small change before giving the answer. Do not grade my employability or equate confident language with understanding. If I cannot explain a decision, offer a hint and help me identify documentation, a course resource, or a technical person who could help. End with the gaps I identified, not a fabricated mastery score.",
+    "coach": "I am working on [my selected project, assignment, job task, or question]. My current experience is [what I have actually done]. I have [time] and access to [permitted materials]. Help me choose a manageable next learning step. Ask one question at a time. Do not propose a complete project until you understand my question and constraints. Start by asking what I want to understand. Distinguish missing evidence from missing ability. Offer a hint before a worked example, and then ask me to make the next decision. Do not invent results, access to employer data, or a claim that the project qualifies me for a role.",
+    "critic": "Read the project explanation I provide. Do not rewrite it yet. Tell me what a reader can and cannot establish under the same three questions: (1) What problem or question? (2) What approach and personal contribution? (3) What result or current progress, and what does it mean? Quote the relevant sentence when you identify a gap. Ask for missing facts instead of supplying them. Label plans as plans. When I answer, help me revise using only that evidence and keep my voice.",
+    "coding": "I am trying to [bounded task] in my own project. Here is the relevant code, error, and what I expected: [only material I am allowed to share]. Help me investigate before replacing the code. Ask what I tried and explain unfamiliar concepts. Propose the smallest relevant change and a way to check it using the applicable documentation. State assumptions and do not claim a test ran unless it did. Then ask me to explain: What changed? Why? What should I try next? Pause for my answer."
+  },
+  "templates": {
+    "readme": "# [Project title]\n\n## Problem or question\n[What were you trying to understand or improve, and for whom?]\n\n## Technical approach and my contribution\n[What did you do? Explain an important choice and distinguish your contribution from collaborators' work.]\n\n## Results and what they mean\n[What happened? Link to evidence. If unfinished, describe current progress and the next question rather than inventing a result.]\n\n## How to explore the work\n[Link to a chart, report, notebook, code, or demonstration. Add dependencies and run instructions when needed.]\n\n## Limitations and credits\n[What does the work not establish? Name collaborators, data sources, and any starter material.]\n",
+    "bridge": "# A project bridge\n\nPosting title, organization, URL, and date checked:\n\nThe task I noticed:\n\nWhat I can already demonstrate:\n\nWhat I would like to practice or understand:\n\nA small next experience (an extension, comparison, analysis, explanation, or conversation):\n\nData or materials I can actually access:\n\nMy first action today:\n\nWhat I hope to learn, produce, or be able to explain:\n\nQuestions for an instructor, classmate, or practitioner:\n\nThis is a proposed learning activity, not an employer assignment or a completed accomplishment.\n",
+    "extension": "# Revisiting an assignment\n\nOriginal assignment and my contribution:\n\nWhat I rushed, left unexplored, or would like to explain better:\n\nOne change I will make today:\n\nWhere I will make the change:\n\nWhat changed, and why:\n\nWhat I still want to explore:\n\nCourse sharing rules and collaborators to credit:\n",
+    "profile": "# Hi, I'm [name]\n\n[Introduce yourself in a few sentences. What kinds of questions or work interest you?]\n\n## A few projects\n\n### [Project title]\n[What was the question, what did you contribute, and what can someone inspect?]\n[Link to the permitted project or explanation]\n\n## What I am learning\n[Name something you are currently investigating or practicing.]\n\n## Contact\n[Include only contact details you want to make public.]\n",
+    "question": "# A question to explore\n\nSomething I noticed or wondered about:\n\nA more specific question:\n\nA possible dataset or source, including its URL:\n\nWhat the data actually contain:\n\nAccess conditions, license, and limitations:\n\nMy first inspection, comparison, or conversation:\n\nWhat I do not yet know:\n\nWhat would make this worth exploring further:\n",
+    "share": "# Sharing one piece of work\n\nThe project or question:\n\nWho might be interested, and why:\n\nFormat: short post / initial outreach / confirmed informational interview / technical write-up\n\nWhat I can accurately say I did:\n\nA relevant result, question, or unfinished idea:\n\nThe link or example I may share:\n\nMy draft:\n\nA reasonable question or request:\n\nBefore sending: Is the context real? Can the recipient open the link? Am I asking for a reasonable amount of their time? Is the material mine to share?\n",
+    "practice": "# What I learned from an external practice question\n\nPlatform, question title, and link:\n\nThe task in my own words:\n\nWhat I tried:\n\nWhat happened or where I got stuck:\n\nA concept I understand better now:\n\nWhat I would ask a classmate or instructor:\n\nCredit the exercise and follow its sharing rules. This note is about your learning, not a claim that you designed the question.\n",
+    "pr": "# A small collaboration practice\n\nRepository and permission to contribute:\n\n## Proposed change\n[Describe a small documentation improvement or another change the team agrees on.]\n\n## Why it is useful\n[What will a reader or collaborator understand more easily?]\n\n## What changed\n[List only changes actually made.]\n\n## Review request\n[Ask a classmate one specific question.]\n\n## Attribution\n[Credit collaborators. Follow the repository's contribution instructions.]\n",
+    "mission": "# Handshake mission checkpoint\n\nMission title and link:\n\nWhat the mission asks me to do:\n\nAccess and publishing requirements:\n\nThe first step I completed:\n\nWhat I saved, with its location:\n\nWhat I understand and want to revisit:\n\nMy next step:\n\nDo not claim a badge or completion until the platform confirms it.\n",
+    "case": "# A permitted project explanation\n\nPermission or policy I checked:\n\nWhat can be discussed publicly:\n\nThe general problem, without confidential details:\n\nMy role and contribution:\n\nAn approach or decision I may explain:\n\nA result or lesson I am allowed to describe:\n\nWhat I have intentionally left out:\n\nApproval still needed before publishing:\n"
+  }
+}

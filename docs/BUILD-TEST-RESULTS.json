@@ -1,0 +1,244 @@
+{
+  "checks": [
+    {
+      "name": "Office name is current",
+      "passed": true
+    },
+    {
+      "name": "Exactly fourteen sequential screens",
+      "passed": true
+    },
+    {
+      "name": "Core timing equals forty minutes",
+      "passed": true
+    },
+    {
+      "name": "Extended timing equals forty-five minutes",
+      "passed": true
+    },
+    {
+      "name": "No planned teaching burst exceeds four minutes",
+      "passed": true
+    },
+    {
+      "name": "Planned active blocks exceed forty percent",
+      "passed": true
+    },
+    {
+      "name": "Same object reused at four application screens",
+      "passed": true
+    },
+    {
+      "name": "Five starting conditions",
+      "passed": true
+    },
+    {
+      "name": "Initial routing narrows to three choices",
+      "passed": true
+    },
+    {
+      "name": "All ten work options retained",
+      "passed": true
+    },
+    {
+      "name": "Every router reference resolves",
+      "passed": true
+    },
+    {
+      "name": "Seven scaffolded exercises",
+      "passed": true
+    },
+    {
+      "name": "Scaffold object has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Scaffold shared-fluency has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Scaffold own-fluency has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Scaffold shared-legibility has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Scaffold own-legibility has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Scaffold reach has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Scaffold work has task, nudge, and example",
+      "passed": true
+    },
+    {
+      "name": "Peer test is unscaffolded",
+      "passed": true
+    },
+    {
+      "name": "Eight timer controls",
+      "passed": true
+    },
+    {
+      "name": "Twelve original Artifact selections",
+      "passed": true
+    },
+    {
+      "name": "Five original writing guides",
+      "passed": true
+    },
+    {
+      "name": "All five guides have six parts",
+      "passed": true
+    },
+    {
+      "name": "Nine original reading examples",
+      "passed": true
+    },
+    {
+      "name": "Unverified reading stays labeled",
+      "passed": true
+    },
+    {
+      "name": "Template claims use placeholders",
+      "passed": true
+    },
+    {
+      "name": "No Gemini embed",
+      "passed": true
+    },
+    {
+      "name": "No external runtime scripts",
+      "passed": true
+    },
+    {
+      "name": "No remote stylesheets or fonts",
+      "passed": true
+    },
+    {
+      "name": "No runtime model/API connection",
+      "passed": true
+    },
+    {
+      "name": "No analytics or tracking bootstrap",
+      "passed": true
+    },
+    {
+      "name": "CSP denies network connections",
+      "passed": true
+    },
+    {
+      "name": "CSP denies forms, objects, and base URL changes",
+      "passed": true
+    },
+    {
+      "name": "CSP permits only the actual executable script",
+      "passed": true
+    },
+    {
+      "name": "All source IDs unique",
+      "passed": true
+    },
+    {
+      "name": "Contextual source job-figma resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source job-csis resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source gh-readme resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source ckalib-profile resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source reggie-profile resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source gh-front resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source gh-profile resolves",
+      "passed": true
+    },
+    {
+      "name": "Contextual source cookiecutter resolves",
+      "passed": true
+    },
+    {
+      "name": "All route source references resolve",
+      "passed": true
+    },
+    {
+      "name": "Source links use HTTPS",
+      "passed": true
+    },
+    {
+      "name": "Guide includes no API credentials",
+      "passed": true
+    },
+    {
+      "name": "No job-board workbook published",
+      "passed": true
+    },
+    {
+      "name": "No font files distributed",
+      "passed": true
+    },
+    {
+      "name": "No project editor was reintroduced",
+      "passed": true
+    },
+    {
+      "name": "Work-card import validates size and schema",
+      "passed": true
+    },
+    {
+      "name": "Student-controlled input is escaped in markup",
+      "passed": true
+    },
+    {
+      "name": "README comparison keeps identical criteria",
+      "passed": true
+    },
+    {
+      "name": "Example brief explicitly distinguishes plans from results",
+      "passed": true
+    },
+    {
+      "name": "Printable PDFs exist",
+      "passed": true
+    },
+    {
+      "name": "Standalone Artifact is built from shared sources",
+      "passed": true
+    },
+    {
+      "name": "Source includes reduced-motion handling",
+      "passed": true
+    },
+    {
+      "name": "Source includes print styles",
+      "passed": true
+    },
+    {
+      "name": "No forbidden motivational slogans in live copy",
+      "passed": true
+    }
+  ],
+  "passed": 59,
+  "total": 59,
+  "planned_active_minutes": 28,
+  "note": "Instructional contract checks are not observed participant-learning outcomes."
+}
