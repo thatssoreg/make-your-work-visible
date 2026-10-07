@@ -1,0 +1,7 @@
+{
+  "format": "xz-compressed tar encoded as ordered base64 text parts",
+  "sha256": "7e364d8247a52ebb70583384baae02d61740ffb556ecaa62d929e7b2e35f1b81",
+  "parts": ["01", "02", "03", "04", "05", "06", "07", "08"],
+  "source_files": 65,
+  "release": "1.0.0"
+}
