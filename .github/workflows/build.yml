@@ -1,0 +1,71 @@
+name: Build and verify workshop
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.release/READY.json'
+      - 'src/**'
+      - 'content/**'
+      - 'tests/**'
+      - 'build.py'
+      - 'build_print.py'
+      - 'requirements*.txt'
+permissions:
+  contents: write
+concurrency:
+  group: workshop-release
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - name: Restore verified source on first import
+        run: |
+          python3 - <<'PY'
+          import base64, hashlib, io, json, pathlib, tarfile
+          root = pathlib.Path('.')
+          if not (root / 'src/app.js').exists():
+              manifest = json.loads((root / '.release/READY.json').read_text())
+              chunks = []
+              for name in manifest['parts']:
+                  assert name.isdigit(), 'Unexpected part name'
+                  chunks.append((root / '.release/parts' / (name + '.b64')).read_text().strip())
+              raw = base64.b64decode(''.join(chunks), validate=True)
+              assert hashlib.sha256(raw).hexdigest() == manifest['sha256'], 'Source checksum mismatch'
+              allowed = {'src', 'content', 'docs', 'tests'}
+              allowed_files = {'README.md', '.gitignore', 'build.py', 'build_print.py', 'requirements-build.txt', 'requirements-test.txt'}
+              with tarfile.open(fileobj=io.BytesIO(raw), mode='r:gz') as archive:
+                  members = archive.getmembers()
+                  for member in members:
+                      path = pathlib.PurePosixPath(member.name)
+                      assert member.isfile() and not path.is_absolute() and '..' not in path.parts
+                      assert (path.parts[0] in allowed or member.name in allowed_files), member.name
+                      assert member.size <= 1000000, 'Oversized source member'
+                  for member in members:
+                      data = archive.extractfile(member).read()
+                      path = root / member.name
+                      path.parent.mkdir(parents=True, exist_ok=True)
+                      path.write_bytes(data)
+          PY
+      - name: Install build and browser test dependencies
+        run: |
+          python3 -m pip install -r requirements-test.txt
+          python3 -m playwright install --with-deps chromium
+      - name: Build and check source contracts
+        run: |
+          python3 build.py
+          python3 tests/test_build.py
+      - name: Check native browser behavior
+        run: python3 tests/test_native.py
+      - name: Commit reviewed source and generated release
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md .gitignore src content docs tests build.py build_print.py requirements-build.txt requirements-test.txt index.html artifact.html public
+          if ! git diff --cached --quiet; then
+            git commit -m 'Build and verify approved scaffolded workshop release'
+            git push origin HEAD:main
+          fi
