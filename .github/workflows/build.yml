@@ -37,7 +37,7 @@ jobs:
               assert hashlib.sha256(raw).hexdigest() == manifest['sha256'], 'Source checksum mismatch'
               allowed = {'src', 'content', 'docs', 'tests'}
               allowed_files = {'README.md', '.gitignore', 'build.py', 'build_print.py', 'requirements-build.txt', 'requirements-test.txt'}
-              with tarfile.open(fileobj=io.BytesIO(raw), mode='r:gz') as archive:
+              with tarfile.open(fileobj=io.BytesIO(raw), mode='r:*') as archive:
                   members = archive.getmembers()
                   for member in members:
                       path = pathlib.PurePosixPath(member.name)
