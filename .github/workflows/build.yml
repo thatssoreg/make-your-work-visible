@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '.release/READY.json'
+      - '.release/practical/manifest.json'
       - 'src/**'
       - 'content/**'
       - 'tests/**'
@@ -22,33 +22,45 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
-      - name: Restore verified source on first import
+      - name: Apply reviewed practical revision once
         run: |
           python3 - <<'PY'
-          import base64, hashlib, io, json, pathlib, tarfile
-          root = pathlib.Path('.')
-          if not (root / 'src/app.js').exists():
-              manifest = json.loads((root / '.release/READY.json').read_text())
-              chunks = []
-              for name in manifest['parts']:
-                  assert name.isdigit(), 'Unexpected part name'
-                  chunks.append((root / '.release/parts' / (name + '.b64')).read_text().strip())
-              raw = base64.b64decode(''.join(chunks), validate=True)
-              assert hashlib.sha256(raw).hexdigest() == manifest['sha256'], 'Source checksum mismatch'
-              allowed = {'src', 'content', 'docs', 'tests'}
-              allowed_files = {'README.md', '.gitignore', 'build.py', 'build_print.py', 'requirements-build.txt', 'requirements-test.txt'}
-              with tarfile.open(fileobj=io.BytesIO(raw), mode='r:*') as archive:
-                  members = archive.getmembers()
-                  for member in members:
-                      path = pathlib.PurePosixPath(member.name)
-                      assert member.isfile() and not path.is_absolute() and '..' not in path.parts
-                      assert (path.parts[0] in allowed or member.name in allowed_files), member.name
-                      assert member.size <= 1000000, 'Oversized source member'
-                  for member in members:
-                      data = archive.extractfile(member).read()
-                      path = root / member.name
-                      path.parent.mkdir(parents=True, exist_ok=True)
-                      path.write_bytes(data)
+          import base64,hashlib,json,lzma,pathlib
+          root=pathlib.Path('.').resolve();folder=root/'.release/practical'
+          m=json.loads((folder/'manifest.json').read_text());applied=folder/'APPLIED'
+          if not applied.exists() or applied.read_text().strip()!=m['sha256']:
+              assert m['format']=='line-delta-xz-base64'
+              chunks=[]
+              for name in m['parts']:
+                  assert name.isdigit()
+                  chunks.append((folder/(name+'.b64')).read_text().strip())
+              raw=base64.b64decode(''.join(chunks),validate=True)
+              assert hashlib.sha256(raw).hexdigest()==m['sha256'],'Transport checksum mismatch'
+              changes=json.loads(lzma.decompress(raw));assert set(changes)==set(m['paths'])
+              def safe(rel):
+                  p=pathlib.PurePosixPath(rel)
+                  assert not p.is_absolute() and '..' not in p.parts and len(p.parts)>0
+                  assert p.parts[0] in {'src','content','docs','tests'} or rel in {'README.md','build.py','build_print.py','requirements-build.txt','requirements-test.txt'}
+                  target=root/rel;assert target.resolve().is_relative_to(root) and not target.is_symlink()
+                  return target
+              for rel,digest in m['expected'].items():
+                  p=safe(rel)
+                  assert (hashlib.sha256(p.read_bytes()).hexdigest() if p.exists() else None)==digest,'Source changed: '+rel
+              ready={}
+              for rel,ops in changes.items():
+                  p=safe(rel);lines=p.read_text().splitlines(keepends=True) if p.exists() else [];output=[]
+                  for op in ops:
+                      if isinstance(op,str):output.append(op)
+                      else:
+                          assert isinstance(op,list) and len(op)==2 and all(type(i) is int for i in op)
+                          assert 0<=op[0]<=op[1]<=len(lines)
+                          output.append(''.join(lines[op[0]:op[1]]))
+                  text=''.join(output);assert hashlib.sha256(text.encode()).hexdigest()==m['result'][rel],'Result checksum mismatch: '+rel
+                  ready[p]=text
+              for p,text in ready.items():p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text)
+              for rel in m['deletes']:safe(rel).unlink()
+              applied.write_text(m['sha256']+'\n')
+              print('Applied reviewed source changes:',len(ready))
           PY
       - name: Install build and browser test dependencies
         run: |
@@ -60,12 +72,12 @@ jobs:
           python3 tests/test_build.py
       - name: Check native browser behavior
         run: python3 tests/test_native.py
-      - name: Commit reviewed source and generated release
+      - name: Commit validated source and generated release
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md .gitignore src content docs tests build.py build_print.py requirements-build.txt requirements-test.txt index.html artifact.html public
+          git add -A -- README.md .gitignore src content docs tests build.py build_print.py requirements-build.txt requirements-test.txt index.html artifact.html public .release/practical/APPLIED
           if ! git diff --cached --quiet; then
-            git commit -m 'Build and verify approved scaffolded workshop release'
+            git commit -m 'Release practical GitHub workshop with student-facing simplicity'
             git push origin HEAD:main
           fi
