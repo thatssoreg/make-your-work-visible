@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.release/practical/manifest.json'
+      - '.github/workflows/build.yml'
       - 'src/**'
       - 'content/**'
       - 'tests/**'
