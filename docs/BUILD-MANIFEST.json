@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "built_from": "src + content",
   "files": {
-    "public/index.html": "4cd50a6c1f18de48d124e2ef4f2f3c63a4b0a59766c272f62ab8d0659b5e8472",
-    "public/artifact.html": "b02b928887c5bd5e28280e678192fac5b254974e439c51a996615c48197ba4f8",
+    "public/index.html": "48c31e05ee7e8e09fe49ddb2f3aed72ac66941a836ee5fbc6a4af97a3349ae27",
+    "public/artifact.html": "30bab3b9f2443ca33578d1958e687cf0fe8e9c9b3f2fa5d37ce911be68cba967",
     "docs/STUDENT-FIELD-GUIDE.md": "c39ac57612ee25deb77759b2f687b9deb7bf6fa8d4c03ad2f7cd615c697b6d90",
     "docs/SPEAKER-NOTES.md": "3b8b342b4c8c23c6fec2453b3151e0ff2c4fb6fa87a9e049553accbb1438744f"
   }
